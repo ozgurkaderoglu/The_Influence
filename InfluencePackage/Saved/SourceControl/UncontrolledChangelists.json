@@ -5,7 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"d:/The influence/The_Influence/InfluencePackage/Content/influence/maps/Island.umap"
+				"d:/The influence/The_Influence/InfluencePackage/Content/influence/maps/Island.umap",
+				"d:/The influence/The_Influence/InfluencePackage/Content/90s_Style_Graphics/DemoContent/Materials/Instances/Objects/Crate.uasset"
 			]
 		}
 	]
