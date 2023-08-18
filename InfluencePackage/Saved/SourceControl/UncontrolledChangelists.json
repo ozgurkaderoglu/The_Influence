@@ -6,7 +6,18 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"d:/The influence/The_Influence/InfluencePackage/Content/influence/maps/Island.umap",
-				"d:/The influence/The_Influence/InfluencePackage/Content/90s_Style_Graphics/DemoContent/Materials/Instances/Objects/Crate.uasset"
+				"d:/The influence/The_Influence/InfluencePackage/Content/90s_Style_Graphics/DemoContent/Materials/Instances/Objects/Crate.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/Master_Material.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/concrete_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/grass__BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/water_1__BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/dusty_wood_high_rez_2_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/grass_with_dirt_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/grass_with_less_dirt_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/sand_with_moss_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/sand_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/rocks_BaseColor.uasset",
+				"d:/The influence/The_Influence/InfluencePackage/Content/OG_Textures/MasterM_instance.uasset"
 			]
 		}
 	]
