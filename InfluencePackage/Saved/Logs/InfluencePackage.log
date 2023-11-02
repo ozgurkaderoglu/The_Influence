@@ -4572,3 +4572,809 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.02-00.19.21:390][686]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main.Enemy_Main
 [2023.11.02-00.19.21:390][686]LogContentValidation: Display: Validating /Script/Engine.World /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan
 [2023.11.02-00.19.21:390][686]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.IF_Character
+[2023.11.02-00.21.34:688][441]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.21.34:742][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.02-00.21.35:675][537]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.21.35:682][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.21.35:682][537]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:21:35)
+[2023.11.02-00.21.35:682][537]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.21.35:683][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001957s)
+[2023.11.02-00.21.35:683][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001977s)
+[2023.11.02-00.21.35:684][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.21.35:684][537]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.21.35:684][537]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2023.11.02-00.21.35:715][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.11.02-00.21.35:718][537]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.21.35:718][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.21.35:718][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.21.35:719][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.21.35:719][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.21.35:719][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.21.35:720][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.21.35:732][537]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.21.35:732][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.21.35:732][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.21.35:732][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.21.35:732][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2023.11.02-00.21.35:732][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2023.11.02-00.21.35:734][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2023.11.02-00.21.35:734][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2023.11.02-00.21.35:734][537]LogInit: FAudioDevice initialized.
+[2023.11.02-00.21.35:734][537]LogAudio: Display: Audio Device (ID: 58) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.21.35:761][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.21.35:761][537]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.21.35:763][537]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.21.35
+[2023.11.02-00.21.35:763][537]LogWorld: Bringing up level for play took: 0.001331
+[2023.11.02-00.21.35:765][537]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.11.02-00.21.35:769][537]PIE: Server logged in
+[2023.11.02-00.21.35:771][537]PIE: Play in editor total start time 0,09 seconds.
+[2023.11.02-00.21.35:789][537]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.21.52:804][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.21.52:804][566]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.21.52:804][566]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.21.52:809][566]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.21.52:809][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.21.52:812][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.21.52:819][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.21.52:848][566]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-00.21.52:848][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.11.02-00.21.52:850][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.11.02-00.21.52:855][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.11.02-00.21.52:911][567]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.11.02-00.21.59:018][267]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.21.59:023][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.21.59:023][267]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:21:59)
+[2023.11.02-00.21.59:023][267]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.21.59:026][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002060s)
+[2023.11.02-00.21.59:026][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.002079s)
+[2023.11.02-00.21.59:026][267]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.21.59:027][267]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.21.59:027][267]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2023.11.02-00.21.59:058][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.02-00.21.59:061][267]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.21.59:061][267]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.21.59:061][267]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.21.59:062][267]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.21.59:062][267]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.21.59:062][267]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.21.59:064][267]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.21.59:074][267]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.21.59:075][267]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.21.59:075][267]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.21.59:075][267]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.21.59:075][267]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2023.11.02-00.21.59:075][267]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2023.11.02-00.21.59:076][267]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2023.11.02-00.21.59:076][267]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2023.11.02-00.21.59:076][267]LogInit: FAudioDevice initialized.
+[2023.11.02-00.21.59:076][267]LogAudio: Display: Audio Device (ID: 59) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.21.59:104][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.21.59:104][267]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.21.59:106][267]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.21.59
+[2023.11.02-00.21.59:106][267]LogWorld: Bringing up level for play took: 0.001380
+[2023.11.02-00.21.59:107][267]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.11.02-00.21.59:112][267]PIE: Server logged in
+[2023.11.02-00.21.59:113][267]PIE: Play in editor total start time 0,09 seconds.
+[2023.11.02-00.21.59:131][267]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.22.20:273][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.22.20:273][795]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.22.20:273][795]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.22.20:279][795]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.22.20:280][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.22.20:283][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.22.20:289][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.22.20:319][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.11.02-00.22.20:321][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.11.02-00.22.20:326][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.02-00.22.20:383][796]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.11.02-00.23.25:108][414]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.23.25:165][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.02-00.24.21:742][ 90]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.24.21:801][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.02-00.24.37:018][871]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.24.37:079][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.02-00.24.37:362][893]LogViewport: Scene viewport resized to 859x541, mode Windowed.
+[2023.11.02-00.27.31:441][261]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.27.31:541][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.11.02-00.27.37:241][920]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.27.37:315][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.02-00.27.40:130][241]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.27.40:135][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.27.40:136][241]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:27:40)
+[2023.11.02-00.27.40:136][241]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.27.40:138][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002082s)
+[2023.11.02-00.27.40:138][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.002103s)
+[2023.11.02-00.27.40:138][241]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.27.40:138][241]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.27.40:138][241]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2023.11.02-00.27.40:169][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.02-00.27.40:176][241]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.27.40:176][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.27.40:176][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.27.40:176][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.27.40:176][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.27.40:176][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.27.40:178][241]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.27.40:189][241]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.27.40:189][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.27.40:189][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.27.40:189][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.27.40:190][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2023.11.02-00.27.40:190][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2023.11.02-00.27.40:191][241]LogInit: FAudioDevice initialized.
+[2023.11.02-00.27.40:191][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2023.11.02-00.27.40:191][241]LogAudio: Display: Audio Device (ID: 60) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.27.40:191][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2023.11.02-00.27.40:219][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.27.40:220][241]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.27.40:221][241]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.27.40
+[2023.11.02-00.27.40:221][241]LogWorld: Bringing up level for play took: 0.001255
+[2023.11.02-00.27.40:222][241]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2023.11.02-00.27.40:226][241]PIE: Server logged in
+[2023.11.02-00.27.40:227][241]PIE: Play in editor total start time 0,091 seconds.
+[2023.11.02-00.27.40:244][241]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.27.49:384][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.27.49:384][331]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.27.49:384][331]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.27.49:390][331]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.27.49:390][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.27.49:397][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.27.49:403][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.27.49:433][331]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-00.27.49:434][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.11.02-00.27.49:435][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.11.02-00.27.49:440][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.02-00.27.49:509][332]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.11.02-00.27.54:133][872]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.27.54:205][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.02-00.27.55:048][957]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.27.55:054][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.27.55:054][957]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:27:55)
+[2023.11.02-00.27.55:054][957]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.27.55:056][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002086s)
+[2023.11.02-00.27.55:056][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.002106s)
+[2023.11.02-00.27.55:056][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.27.55:056][957]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.27.55:056][957]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2023.11.02-00.27.55:087][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.02-00.27.55:095][957]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.27.55:095][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.27.55:095][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.27.55:095][957]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.27.55:095][957]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.27.55:095][957]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.27.55:097][957]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.27.55:108][957]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.27.55:108][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.27.55:108][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.27.55:108][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.27.55:109][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2023.11.02-00.27.55:109][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2023.11.02-00.27.55:110][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2023.11.02-00.27.55:110][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2023.11.02-00.27.55:110][957]LogInit: FAudioDevice initialized.
+[2023.11.02-00.27.55:110][957]LogAudio: Display: Audio Device (ID: 61) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.27.55:131][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.27.55:131][957]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.27.55:132][957]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.27.55
+[2023.11.02-00.27.55:132][957]LogWorld: Bringing up level for play took: 0.001230
+[2023.11.02-00.27.55:133][957]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2023.11.02-00.27.55:137][957]PIE: Server logged in
+[2023.11.02-00.27.55:138][957]PIE: Play in editor total start time 0,085 seconds.
+[2023.11.02-00.27.55:157][957]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.28.02:665][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.28.02:665][851]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.28.02:665][851]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.28.02:670][851]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.28.02:671][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.28.02:677][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.28.02:683][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.28.02:712][851]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-00.28.02:713][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.11.02-00.28.02:713][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.11.02-00.28.02:719][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.02-00.28.02:788][852]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.11.02-00.29.05:572][159]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.29.05:574][159]LogBlueprint: Error: [AssetLog] D:\Unreal\The_Influence\InfluencePackage\Content\influence\AdriaanDevPlace\NewInfuence_Coree\Enemy\Enemy_Main.uasset: [Compiler] The current value of the ' Accessor ' pin is invalid: 'Accessor' in action 'Set Disable Collision' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.11.02-00.29.05:646][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.02-00.29.17:604][522]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.29.17:606][522]LogBlueprint: Error: [AssetLog] D:\Unreal\The_Influence\InfluencePackage\Content\influence\AdriaanDevPlace\NewInfuence_Coree\Enemy\Enemy_Main.uasset: [Compiler] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2023.11.02-00.29.17:676][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.02-00.29.24:569][277]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.29.24:643][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.02-00.31.27:067][606]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UPrimitiveComponent::SetCollisionProfileName' [The specified module could not be found.]
+[2023.11.02-00.31.34:972][509]BlueprintLog: New page: Compile Enemy_Main
+[2023.11.02-00.31.35:068][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.11.02-00.31.36:471][659]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.31.36:478][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.31.36:478][659]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:31:36)
+[2023.11.02-00.31.36:478][659]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.31.36:480][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001869s)
+[2023.11.02-00.31.36:480][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001889s)
+[2023.11.02-00.31.36:480][659]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.31.36:480][659]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.31.36:481][659]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2023.11.02-00.31.36:512][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.11.02-00.31.36:518][659]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.31.36:518][659]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.31.36:518][659]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.31.36:518][659]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.31.36:518][659]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.31.36:518][659]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.31.36:520][659]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.31.36:531][659]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.31.36:531][659]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.31.36:531][659]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.31.36:531][659]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.31.36:531][659]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2023.11.02-00.31.36:531][659]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2023.11.02-00.31.36:532][659]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2023.11.02-00.31.36:532][659]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2023.11.02-00.31.36:532][659]LogInit: FAudioDevice initialized.
+[2023.11.02-00.31.36:532][659]LogAudio: Display: Audio Device (ID: 62) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.31.36:558][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.31.36:558][659]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.31.36:559][659]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.31.36
+[2023.11.02-00.31.36:559][659]LogWorld: Bringing up level for play took: 0.001393
+[2023.11.02-00.31.36:560][659]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2023.11.02-00.31.36:563][659]PIE: Server logged in
+[2023.11.02-00.31.36:565][659]PIE: Play in editor total start time 0,088 seconds.
+[2023.11.02-00.31.36:584][659]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.31.44:081][554]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2023.11.02-00.32.03:554][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.32.03:554][885]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.32.03:554][885]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.32.03:560][885]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.32.03:560][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.32.03:570][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.32.03:576][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.32.03:605][885]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-00.32.03:606][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2023.11.02-00.32.03:607][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2023.11.02-00.32.03:612][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.11.02-00.32.03:679][886]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2023.11.02-00.33.42:158][470]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.33.42:161][470]LogBlueprint: Error: [AssetLog] D:\Unreal\The_Influence\InfluencePackage\Content\influence\AdriaanDevPlace\NewInfuence_Coree\Char\IF_Character.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.11.02-00.33.42:214][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.02-00.34.15:415][376]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.02-00.34.15:428][376]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.02-00.34.15:435][377]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.02-00.34.17:713][651]LogContentBrowser: Attempting asset rename: NewFolder -> Widgets
+[2023.11.02-00.34.17:714][651]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.02-00.34.19:781][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-00.34.19:825][894]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character
+[2023.11.02-00.34.19:826][894]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/IF_CharacterE866E01D40FD2A1B66D08F946B89721B.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.uasset'
+[2023.11.02-00.34.19:831][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 335 ms)
+[2023.11.02-00.34.19:841][894]AssetCheck: New page: Asset Save: IF_Character
+[2023.11.02-00.34.19:841][894]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.IF_Character
+[2023.11.02-00.34.28:001][791]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.34.28:001][791]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.34.28:001][791]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.34.30:554][791]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.11.02-00.34.30:567][791]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.02-00.34.30:574][791]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.02-00.34.30:596][793]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.02-00.34.51:982][342]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WGT_Inventory
+[2023.11.02-00.34.51:987][342]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.02-00.34.55:005][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.02-00.35.03:930][706]LogContentBrowser: Attempting asset rename: WGT_Inventory_2 -> WGT_WeaponWheel
+[2023.11.02-00.35.03:985][706]LogMetaData: Removing '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.SKEL_WGT_WeaponWheel_C' ref from Metadata '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory_2.PackageMetaData'
+[2023.11.02-00.35.03:985][706]LogMetaData: Removing '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel_C' ref from Metadata '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory_2.PackageMetaData'
+[2023.11.02-00.35.03:985][706]LogMetaData: Removing '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.SKEL_WGT_WeaponWheel_C:PreConstruct' ref from Metadata '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory_2.PackageMetaData'
+[2023.11.02-00.35.03:985][706]LogMetaData: Removing '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.SKEL_WGT_WeaponWheel_C:Construct' ref from Metadata '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory_2.PackageMetaData'
+[2023.11.02-00.35.03:985][706]LogMetaData: Removing '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.SKEL_WGT_WeaponWheel_C:Tick' ref from Metadata '/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory_2.PackageMetaData'
+[2023.11.02-00.35.03:988][706]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-00.35.04:023][706]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel
+[2023.11.02-00.35.04:023][706]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_WeaponWheel6E3F1EB647A204DCA62D41B5C32FF437.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.uasset'
+[2023.11.02-00.35.04:034][706]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 381 ms)
+[2023.11.02-00.35.04:070][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.02-00.35.04:096][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.02-00.35.04:121][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.02-00.35.04:128][706]AssetCheck: New page: Asset Save: WGT_WeaponWheel
+[2023.11.02-00.35.04:128][706]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel
+[2023.11.02-00.35.10:115][402]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.35.10:118][402]LogBlueprint: Error: [AssetLog] D:\Unreal\The_Influence\InfluencePackage\Content\influence\AdriaanDevPlace\NewInfuence_Coree\Char\IF_Character.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.11.02-00.35.10:172][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.11.02-00.35.11:332][526]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.35.11:332][526]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.35.11:332][526]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.35.19:834][527]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.35.19:892][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.11.02-00.36.36:274][443]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.36.36:274][443]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.36.36:274][443]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-00.37.48:633][876]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.37.48:697][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.02-00.37.51:530][166]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory.WGT_Inventory
+[2023.11.02-00.37.51:530][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.37.51:534][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.37.51:539][166]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.11.02-00.37.51:848][166]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.02-00.37.51:848][166]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.02-00.37.52:025][166]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.11.02-00.37.52:027][166]LogSlate: Took 0.000817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.11.02-00.37.54:520][426]BlueprintLog: New page: Compile WGT_Inventory
+[2023.11.02-00.37.54:652][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.11.02-00.38.40:694][567]BlueprintLog: New page: Compile WGT_Inventory
+[2023.11.02-00.38.40:760][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.11.02-00.38.48:853][523]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel
+[2023.11.02-00.38.48:853][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.38.48:857][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.38.49:192][523]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.02-00.38.49:192][523]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.11.02-00.39.42:911][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.02-00.39.42:921][975]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan_Auto6
+[2023.11.02-00.39.42:921][975]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/DevMapAdriaan_Auto6C864D5DA47021DD60DDF22B40E444C5D.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan_Auto6.umap'
+[2023.11.02-00.39.42:927][975]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan' took 0.061
+[2023.11.02-00.39.42:927][975]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2023.11.02-00.39.42:927][975]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character] ([2] browsable assets)...
+[2023.11.02-00.39.42:974][975]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.IF_Character]
+[2023.11.02-00.39.42:974][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character]
+[2023.11.02-00.39.42:993][975]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character_Auto6
+[2023.11.02-00.39.42:993][975]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/IF_Character_Auto622BBA1B9468FF642A68605A0A04F8C5F.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character_Auto6.uasset'
+[2023.11.02-00.39.42:999][975]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main] ([2] browsable assets)...
+[2023.11.02-00.39.43:017][975]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main.Enemy_Main]
+[2023.11.02-00.39.43:017][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main]
+[2023.11.02-00.39.43:021][975]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main_Auto6
+[2023.11.02-00.39.43:021][975]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/Enemy_Main_Auto67361EB104185832A881C18BD740DA009.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main_Auto6.uasset'
+[2023.11.02-00.39.43:021][975]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel] ([2] browsable assets)...
+[2023.11.02-00.39.43:027][975]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel]
+[2023.11.02-00.39.43:027][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel]
+[2023.11.02-00.39.43:028][975]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel_Auto6
+[2023.11.02-00.39.43:028][975]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_WeaponWheel_Auto618120A764BA25AC40C0233911FC0FA03.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel_Auto6.uasset'
+[2023.11.02-00.39.43:029][975]LogFileHelpers: Auto-saving content packages took 0.102
+[2023.11.02-00.46.32:936][889]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.02-00.46.32:951][889]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.02-00.46.32:959][890]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.02-00.46.34:544][ 81]LogContentBrowser: Attempting asset rename: NewFolder -> IMG
+[2023.11.02-00.46.34:545][ 81]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.02-00.46.42:857][466]LogInterchangeEngine: [Pending] Importing
+[2023.11.02-00.46.42:872][467]LogInterchangeEngine: [Pending] Importing
+[2023.11.02-00.46.42:873][467]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.11.02-00.46.43:185][467]LogTexture: Display: Building textures: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel.Weapon_Wheel (TFO_AutoDXT, 800x800 x1x1x1) (Required Memory Estimate: 106.481761 MB), EncodeSpeed: Fast
+[2023.11.02-00.46.43:199][467]LogInterchangeEngine: [Success] Import Done
+[2023.11.02-00.46.43:232][468]LogInterchangeEngine: [Success] Import Done
+[2023.11.02-00.47.31:346][455]BlueprintLog: New page: Compile WGT_WeaponWheel
+[2023.11.02-00.47.31:408][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.11.02-00.47.32:643][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-00.47.32:675][582]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel
+[2023.11.02-00.47.32:676][582]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_WeaponWheel2B7F4DF64D636A9F25D675877C2BA8D1.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.uasset'
+[2023.11.02-00.47.32:681][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 419 ms)
+[2023.11.02-00.47.32:692][582]AssetCheck: New page: Asset Save: WGT_WeaponWheel
+[2023.11.02-00.47.32:692][582]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel
+[2023.11.02-00.48.43:848][597]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.48.43:923][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.11.02-00.48.45:263][736]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.48.45:269][736]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.02-00.48.45:311][736]LogPlayLevel: [PlayLevel] Compiling Enemy_Main before play...
+[2023.11.02-00.48.45:427][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.11.02-00.48.45:430][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (1 blueprints)
+[2023.11.02-00.48.45:431][736]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:48:45)
+[2023.11.02-00.48.45:431][736]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.48.45:433][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001928s)
+[2023.11.02-00.48.45:433][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001949s)
+[2023.11.02-00.48.45:433][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.48.45:433][736]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.48.45:433][736]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2023.11.02-00.48.45:473][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.02-00.48.45:475][736]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.48.45:475][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.48.45:475][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.48.45:475][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.48.45:475][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.48.45:475][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.48.45:477][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.48.45:489][736]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.48.45:490][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.48.45:490][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.48.45:490][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.48.45:491][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2023.11.02-00.48.45:491][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2023.11.02-00.48.45:492][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2023.11.02-00.48.45:492][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2023.11.02-00.48.45:492][736]LogInit: FAudioDevice initialized.
+[2023.11.02-00.48.45:492][736]LogAudio: Display: Audio Device (ID: 63) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.48.45:519][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.48.45:519][736]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.48.45:520][736]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.48.45
+[2023.11.02-00.48.45:520][736]LogWorld: Bringing up level for play took: 0.001245
+[2023.11.02-00.48.45:521][736]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2023.11.02-00.48.45:525][736]PIE: Server logged in
+[2023.11.02-00.48.45:528][736]PIE: Play in editor total start time 0,258 seconds.
+[2023.11.02-00.48.45:598][736]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.49.01:724][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.49.01:724][660]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.49.01:724][660]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.49.01:730][660]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.49.01:730][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.49.01:731][660]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.49.01:740][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.49.01:786][660]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2023.11.02-00.49.01:787][660]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2023.11.02-00.49.01:792][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.11.02-00.49.01:846][661]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2023.11.02-00.50.40:962][730]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.51.15:705][832]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.51.27:395][210]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.51.42:751][ 27]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.51.48:756][733]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.52.05:571][725]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.52.12:800][577]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.02-00.54.44:457][245]BlueprintLog: New page: Compile WGT_WeaponWheel
+[2023.11.02-00.54.44:558][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.11.02-00.56.52:267][ 67]LogBlueprint: Warning: [AssetLog] D:\Unreal\The_Influence\InfluencePackage\Content\influence\AdriaanDevPlace\NewInfuence_Coree\Char\IF_Character.uasset: [Compiler] Pasted node  CustomEvent   conflicted with  Show mouse curser  and was replaced as a Custom Event!
+[2023.11.02-00.57.11:492][242]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.57.11:578][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.02-00.57.28:064][161]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UGameplayStatics::GetPlayerController' [The specified module could not be found.]
+[2023.11.02-00.58.07:456][680]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.58.07:532][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.11.02-00.58.53:301][963]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-00.58.53:379][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.11.02-00.58.54:517][ 74]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-00.58.54:524][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-00.58.54:524][ 74]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 02:58:54)
+[2023.11.02-00.58.54:524][ 74]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.58.54:526][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002079s)
+[2023.11.02-00.58.54:526][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.002099s)
+[2023.11.02-00.58.54:526][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-00.58.54:526][ 74]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-00.58.54:526][ 74]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2023.11.02-00.58.54:570][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.11.02-00.58.54:578][ 74]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-00.58.54:578][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-00.58.54:578][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-00.58.54:578][ 74]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-00.58.54:578][ 74]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-00.58.54:578][ 74]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-00.58.54:579][ 74]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2023.11.02-00.58.54:592][ 74]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2023.11.02-00.58.54:593][ 74]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2023.11.02-00.58.54:593][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2023.11.02-00.58.54:593][ 74]LogInit: FAudioDevice initialized.
+[2023.11.02-00.58.54:593][ 74]LogAudio: Display: Audio Device (ID: 64) registered with world 'DevMapAdriaan'.
+[2023.11.02-00.58.54:621][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.58.54:621][ 74]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-00.58.54:623][ 74]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-01.58.54
+[2023.11.02-00.58.54:623][ 74]LogWorld: Bringing up level for play took: 0.001272
+[2023.11.02-00.58.54:624][ 74]LogOnline: OSS: Created online subsystem instance for: :Context_79
+[2023.11.02-00.58.54:631][ 74]PIE: Server logged in
+[2023.11.02-00.58.54:634][ 74]PIE: Play in editor total start time 0,11 seconds.
+[2023.11.02-00.58.54:655][ 74]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-00.58.55:362][157]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(917)]!
+[2023.11.02-00.58.55:362][157]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-00.58.55:362][157]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.11.02-00.58.58:874][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-00.58.58:874][575]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-00.58.58:874][575]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-00.58.58:879][575]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-00.58.58:880][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.58.58:882][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-00.58.58:890][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-00.58.58:932][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.11.02-00.58.58:933][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.11.02-00.58.58:939][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.11.02-00.58.58:990][576]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2023.11.02-00.59.38:708][292]LogEditorTransaction: Undo Delete current selection
+[2023.11.02-00.59.38:852][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.02-01.00.26:346][685]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-01.00.26:424][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.02-01.00.27:178][751]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-01.00.27:184][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-01.00.27:184][751]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 03:00:27)
+[2023.11.02-01.00.27:184][751]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.00.27:187][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001849s)
+[2023.11.02-01.00.27:187][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001867s)
+[2023.11.02-01.00.27:187][751]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-01.00.27:187][751]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-01.00.27:187][751]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2023.11.02-01.00.27:231][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.02-01.00.27:238][751]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-01.00.27:238][751]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-01.00.27:238][751]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-01.00.27:238][751]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-01.00.27:238][751]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-01.00.27:238][751]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-01.00.27:240][751]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-01.00.27:252][751]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-01.00.27:252][751]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-01.00.27:252][751]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-01.00.27:252][751]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-01.00.27:252][751]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2023.11.02-01.00.27:252][751]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2023.11.02-01.00.27:253][751]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2023.11.02-01.00.27:253][751]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2023.11.02-01.00.27:253][751]LogInit: FAudioDevice initialized.
+[2023.11.02-01.00.27:253][751]LogAudio: Display: Audio Device (ID: 65) registered with world 'DevMapAdriaan'.
+[2023.11.02-01.00.27:282][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.00.27:283][751]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-01.00.27:284][751]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-02.00.27
+[2023.11.02-01.00.27:284][751]LogWorld: Bringing up level for play took: 0.001319
+[2023.11.02-01.00.27:285][751]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2023.11.02-01.00.27:291][751]PIE: Server logged in
+[2023.11.02-01.00.27:294][751]PIE: Play in editor total start time 0,11 seconds.
+[2023.11.02-01.00.27:315][751]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-01.00.28:038][836]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-01.00.28:038][836]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.02-01.00.32:245][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.00.32:245][336]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.00.32:245][336]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-01.00.32:251][336]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-01.00.32:251][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.00.32:253][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-01.00.32:259][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.00.32:303][336]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-01.00.32:303][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.11.02-01.00.32:304][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.11.02-01.00.32:311][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.02-01.00.32:360][337]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2023.11.02-01.00.37:469][921]BlueprintLog: New page: Compile IF_Character
+[2023.11.02-01.00.37:540][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.11.02-01.00.38:530][ 17]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-01.00.38:536][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-01.00.38:536][ 17]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 03:00:38)
+[2023.11.02-01.00.38:536][ 17]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.00.38:538][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001856s)
+[2023.11.02-01.00.38:538][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001873s)
+[2023.11.02-01.00.38:538][ 17]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-01.00.38:539][ 17]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-01.00.38:539][ 17]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2023.11.02-01.00.38:583][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.11.02-01.00.38:590][ 17]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-01.00.38:590][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-01.00.38:590][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-01.00.38:590][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-01.00.38:590][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-01.00.38:590][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-01.00.38:592][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-01.00.38:603][ 17]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-01.00.38:603][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-01.00.38:603][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-01.00.38:603][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-01.00.38:604][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2023.11.02-01.00.38:604][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2023.11.02-01.00.38:605][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2023.11.02-01.00.38:605][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2023.11.02-01.00.38:605][ 17]LogInit: FAudioDevice initialized.
+[2023.11.02-01.00.38:605][ 17]LogAudio: Display: Audio Device (ID: 66) registered with world 'DevMapAdriaan'.
+[2023.11.02-01.00.38:634][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.00.38:634][ 17]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-01.00.38:635][ 17]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-02.00.38
+[2023.11.02-01.00.38:635][ 17]LogWorld: Bringing up level for play took: 0.001229
+[2023.11.02-01.00.38:636][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_81
+[2023.11.02-01.00.38:641][ 17]PIE: Server logged in
+[2023.11.02-01.00.38:645][ 17]PIE: Play in editor total start time 0,109 seconds.
+[2023.11.02-01.00.38:664][ 17]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-01.00.39:323][ 94]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-01.00.39:323][ 94]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.02-01.00.49:164][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.00.49:164][272]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.00.49:164][272]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-01.00.49:170][272]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-01.00.49:170][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.00.49:171][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-01.00.49:180][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.00.49:221][272]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-01.00.49:221][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2023.11.02-01.00.49:224][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2023.11.02-01.00.49:229][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.11.02-01.00.49:278][273]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2023.11.02-01.01.08:107][ 91]BlueprintLog: New page: Compile WGT_WeaponWheel
+[2023.11.02-01.01.08:210][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.02-01.01.09:909][263]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-01.01.09:916][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-01.01.09:916][263]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 03:01:09)
+[2023.11.02-01.01.09:916][263]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.01.09:918][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002307s)
+[2023.11.02-01.01.09:918][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.002325s)
+[2023.11.02-01.01.09:918][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-01.01.09:919][263]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-01.01.09:919][263]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2023.11.02-01.01.09:962][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.02-01.01.09:967][263]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-01.01.09:967][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-01.01.09:967][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-01.01.09:967][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-01.01.09:967][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-01.01.09:967][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-01.01.09:969][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-01.01.09:980][263]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-01.01.09:980][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-01.01.09:980][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-01.01.09:980][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-01.01.09:980][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2023.11.02-01.01.09:980][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2023.11.02-01.01.09:981][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2023.11.02-01.01.09:981][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2023.11.02-01.01.09:981][263]LogInit: FAudioDevice initialized.
+[2023.11.02-01.01.09:981][263]LogAudio: Display: Audio Device (ID: 67) registered with world 'DevMapAdriaan'.
+[2023.11.02-01.01.10:007][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.01.10:008][263]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-01.01.10:009][263]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-02.01.10
+[2023.11.02-01.01.10:009][263]LogWorld: Bringing up level for play took: 0.001261
+[2023.11.02-01.01.10:010][263]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2023.11.02-01.01.10:015][263]PIE: Server logged in
+[2023.11.02-01.01.10:017][263]PIE: Play in editor total start time 0,101 seconds.
+[2023.11.02-01.01.10:036][263]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-01.01.10:896][364]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-01.01.10:896][364]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.02-01.02.02:484][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.02.02:484][243]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.02.02:484][243]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-01.02.02:490][243]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-01.02.02:491][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.02.02:492][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-01.02.02:501][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.02.02:547][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.02-01.02.02:547][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.11.02-01.02.02:548][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.11.02-01.02.02:554][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.11.02-01.02.02:777][244]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2023.11.02-01.02.24:012][134]LogSlate: Window 'Message Log' being destroyed
+[2023.11.02-01.02.24:018][134]LogSlate: Window 'Message Log' being destroyed
+[2023.11.02-01.02.28:563][596]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.11.02-01.02.28:569][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.02-01.02.28:569][596]PIE: New page: PIE session: DevMapAdriaan (2 nov. 2023 03:02:28)
+[2023.11.02-01.02.28:569][596]LogPlayLevel: Creating play world package: /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.02.28:571][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001907s)
+[2023.11.02-01.02.28:571][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan to /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan (0.001926s)
+[2023.11.02-01.02.28:571][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-01.02.28:571][596]LogAIModule: Creating AISystem for world DevMapAdriaan
+[2023.11.02-01.02.28:572][596]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2023.11.02-01.02.28:617][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.02-01.02.28:623][596]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-01.02.28:623][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-01.02.28:623][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-01.02.28:623][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-01.02.28:623][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-01.02.28:623][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-01.02.28:624][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-01.02.28:636][596]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2023.11.02-01.02.28:636][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-01.02.28:636][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-01.02.28:636][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-01.02.28:636][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2023.11.02-01.02.28:636][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2023.11.02-01.02.28:637][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2023.11.02-01.02.28:637][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2023.11.02-01.02.28:637][596]LogInit: FAudioDevice initialized.
+[2023.11.02-01.02.28:637][596]LogAudio: Display: Audio Device (ID: 68) registered with world 'DevMapAdriaan'.
+[2023.11.02-01.02.28:666][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.02.28:666][596]LogLoad: Game class is 'IF_Gamemode_C'
+[2023.11.02-01.02.28:667][596]LogWorld: Bringing World /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan.DevMapAdriaan up for play (max tick rate 0) at 2023.11.02-02.02.28
+[2023.11.02-01.02.28:667][596]LogWorld: Bringing up level for play took: 0.001291
+[2023.11.02-01.02.28:669][596]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2023.11.02-01.02.28:673][596]PIE: Server logged in
+[2023.11.02-01.02.28:674][596]PIE: Play in editor total start time 0,106 seconds.
+[2023.11.02-01.02.28:690][596]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2023.11.02-01.02.31:330][911]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-01.02.31:330][911]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.02-01.02.50:704][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-01.02.50:704][226]LogWorld: BeginTearingDown for /Game/influence/AdriaanDevPlace/MAP/UEDPIE_0_DevMapAdriaan
+[2023.11.02-01.02.50:704][226]LogSlate: Window 'Horror Engine Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.11.02-01.02.50:710][226]LogWorld: UWorld::CleanupWorld for DevMapAdriaan, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-01.02.50:710][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.02.50:713][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-01.02.50:721][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-01.02.50:766][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.11.02-01.02.50:767][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.11.02-01.02.50:773][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.11.02-01.02.50:803][227]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2023.11.02-01.03.27:216][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.11.02-01.03.27:228][448]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan_Auto7
+[2023.11.02-01.03.27:228][448]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/DevMapAdriaan_Auto703C843304C6EB21D631C07AD7F3CF923.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan_Auto7.umap'
+[2023.11.02-01.03.27:233][448]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan' took 0.064
+[2023.11.02-01.03.27:233][448]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.064
+[2023.11.02-01.03.27:233][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character] ([2] browsable assets)...
+[2023.11.02-01.03.27:280][448]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.IF_Character]
+[2023.11.02-01.03.27:280][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character]
+[2023.11.02-01.03.27:301][448]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character_Auto7
+[2023.11.02-01.03.27:301][448]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/IF_Character_Auto7204386EE4D5DA1005DCBA1BF4DEF97C4.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character_Auto7.uasset'
+[2023.11.02-01.03.27:302][448]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel] ([2] browsable assets)...
+[2023.11.02-01.03.27:307][448]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel]
+[2023.11.02-01.03.27:307][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel]
+[2023.11.02-01.03.27:311][448]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel_Auto7
+[2023.11.02-01.03.27:311][448]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_WeaponWheel_Auto7DC191377419958CCE3776E96D3171F4E.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel_Auto7.uasset'
+[2023.11.02-01.03.27:311][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel] ([1] browsable assets)...
+[2023.11.02-01.03.27:313][448]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel.Weapon_Wheel]
+[2023.11.02-01.03.27:313][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel]
+[2023.11.02-01.03.27:314][448]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel_Auto7
+[2023.11.02-01.03.27:314][448]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/Weapon_Wheel_Auto7B08976A4448EE195804D8782E5909CA9.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel_Auto7.uasset'
+[2023.11.02-01.03.27:314][448]LogFileHelpers: Auto-saving content packages took 0.081
+[2023.11.02-01.04.40:470][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.11.02-01.04.42:435][908]LogSlate: Window 'Save Content' being destroyed
+[2023.11.02-01.04.44:407][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.11.02-01.04.44:411][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-01.04.44:481][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.11.02-01.04.44:490][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan
+[2023.11.02-01.04.44:492][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/DevMapAdriaan0C11AC2341F84A86BCE5A8BBC8986088.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/MAP/DevMapAdriaan.umap'
+[2023.11.02-01.04.44:502][131]LogFileHelpers: Saving map 'DevMapAdriaan' took 0.063
+[2023.11.02-01.04.44:523][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character
+[2023.11.02-01.04.44:523][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/IF_Character3C6BFF4E41B98DED9F26FF8AE9A69C50.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.uasset'
+[2023.11.02-01.04.44:542][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main
+[2023.11.02-01.04.44:543][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/Enemy_MainDFF52BF245A711EA4320B4902EC16F57.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main.uasset'
+[2023.11.02-01.04.44:546][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory
+[2023.11.02-01.04.44:546][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_Inventory8FEF99374852F98A616D24A77539F9FB.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory.uasset'
+[2023.11.02-01.04.44:549][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel
+[2023.11.02-01.04.44:549][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/WGT_WeaponWheelA93214B644DA86FFB9AC1AB44F63B4FF.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.uasset'
+[2023.11.02-01.04.44:559][131]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel
+[2023.11.02-01.04.44:559][131]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/Weapon_WheelA3FFAF4D4933045B40A5469E702F99A3.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel.uasset'
+[2023.11.02-01.04.44:565][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 573 ms)
+[2023.11.02-01.04.44:580][131]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_WeaponWheel.WGT_WeaponWheel
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/WGT_Inventory.WGT_Inventory
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Enemy_Main.Enemy_Main
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/Engine.World /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/IF_Character.IF_Character
+[2023.11.02-01.04.44:581][131]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Widgets/IMG/Weapon_Wheel.Weapon_Wheel
+[2023.11.02-01.05.31:450][461]LogDerivedDataCache: C:/Users/bhdli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:59.194 and deleted 0 files with total size 0 MiB. Scanned 30610 files in 29264 folders with total size 4454 MiB.
