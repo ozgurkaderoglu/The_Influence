@@ -4208,3 +4208,13 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.05-15.32.51:804][803]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2023.11.05-15.32.53:169][965]LogSlate: Window 'Message Log' being destroyed
 [2023.11.05-15.32.53:175][965]LogSlate: Window 'Message Log' being destroyed
+[2023.11.05-15.33.28:716][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-15.33.28:752][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.11.05-15.33.28:758][273]LogPackageLocalizationCache: Processed 42 localized package path(s) for 1 prioritized culture(s) in 0.004582 seconds
+[2023.11.05-15.33.28:763][273]LogSerialization: UsePackageTrailer: 'true'
+[2023.11.05-15.33.28:769][273]LogSavePackage: Moving output files for package: /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan
+[2023.11.05-15.33.28:770][273]LogSavePackage: Moving '../../../../Unreal/The_Influence/InfluencePackage/Saved/DevMapAdriaan7F90DF1B4B1626D2D8B5E8B653F1E54D.tmp' to '../../../../Unreal/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/MAP/DevMapAdriaan.umap'
+[2023.11.05-15.33.28:779][273]LogFileHelpers: Saving map 'DevMapAdriaan' took 0.034
+[2023.11.05-15.33.28:788][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms
+[2023.11.05-15.33.28:791][273]AssetCheck: New page: Asset Save: DevMapAdriaan
+[2023.11.05-15.33.28:791][273]LogContentValidation: Display: Validating /Script/Engine.World /Game/influence/AdriaanDevPlace/MAP/DevMapAdriaan.DevMapAdriaan
