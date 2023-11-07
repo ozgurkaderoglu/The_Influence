@@ -1269,3 +1269,9 @@ Please see Output Log for details.
 [2023.11.07-17.59.54:297][424]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Charger/Enemy_Charger_PhysicsAsset_Auto1
 [2023.11.07-17.59.54:297][424]LogSavePackage: Moving 'D:/InfluenceGame/The_Influence/InfluencePackage/Saved/Enemy_Charger_PhysicsAsset_Auto11719765641C6CBEEAAD6BAB8B83A0126.tmp' to 'D:/InfluenceGame/The_Influence/InfluencePackage/Saved/Autosaves/Game/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Charger/Enemy_Charger_PhysicsAsset_Auto1.uasset'
 [2023.11.07-17.59.54:299][424]LogFileHelpers: Auto-saving content packages took 0.149
+[2023.11.07-18.00.18:196][497]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (2- USB Audio Device), InstanceID=1
+[2023.11.07-18.00.18:350][497]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24840
+[2023.11.07-18.00.18:685][498]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{1bb8eeb5-1a81-475f-b321-5a10464065b4}, Name=Speakers (2- USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=161.90
+[2023.11.07-18.00.18:685][498]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.07-18.00.18:687][498]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.07-18.05.26:288][175]LogViewport: Scene viewport resized to 1022x592, mode Windowed.
