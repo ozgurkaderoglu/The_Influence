@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Inv_Items/keys/key1_2.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Inv_Items/keys/key1.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/Health.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/Medkit.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Inv_Items/MedicalItams/Medkit.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Char/Inv_Items/MedicalItams/Bandige.uasset",
+				"E:/Unreal engines/Projects/The_Influence/InfluencePackage/Content/influence/maps/Island.umap",
 				"C:/Users/EmperorMinilla/Desktop/Influence_Backup/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Kronen_Male_001/Kronen_Model_01.uasset",
 				"C:/Users/EmperorMinilla/Desktop/Influence_Backup/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Kronen_Male_001/Kronen_Model_01_PhysicsAsset.uasset",
 				"C:/Users/EmperorMinilla/Desktop/Influence_Backup/The_Influence/InfluencePackage/Content/influence/AdriaanDevPlace/NewInfuence_Coree/Enemy/Kronen_Male_001/Kronen_Model_01_Skeleton.uasset",
