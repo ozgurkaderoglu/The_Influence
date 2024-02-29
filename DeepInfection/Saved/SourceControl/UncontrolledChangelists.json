@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Player/IF_Character.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/NewInstancedStaticMeshFoliage.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/Plant.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/NewInstancedStaticMeshFoliage.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/Plant.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/Foilige/Plant.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/Foilige/NewInstancedStaticMeshFoliage.uasset"
+			]
+		}
+	]
+}
