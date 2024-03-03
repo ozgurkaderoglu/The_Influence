@@ -72,5 +72,3 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-DeepInfection/Saved/Autosaves/Game/_Core/_Player/IF_Character_Auto6.uasset
-*.log
