@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal engines\\Projects\\The_Influence\\DeepInfection\\Intermediate\\Source\\DeepInfection.Build.cs",
+		"E:\\Unreal engines\\Projects\\The_Influence\\DeepInfection\\Intermediate\\Source\\DeepInfection.Target.cs",
+		"E:\\Unreal engines\\Projects\\The_Influence\\DeepInfection\\Intermediate\\Source\\DeepInfectionClient.Target.cs",
+		"E:\\Unreal engines\\Projects\\The_Influence\\DeepInfection\\Intermediate\\Source\\DeepInfectionEditor.Target.cs",
+		"E:\\Unreal engines\\Projects\\The_Influence\\DeepInfection\\Intermediate\\Source\\DeepInfectionServer.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
