@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Core/_Player/_PlayerAnimations/_Animations/Hurt/Carpenter_KnockedOver.uasset",
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Core/_Enemies/_Charger/Enemy_Charger_Death.uasset",
 				"E:/ZeroToDeath/DeefInfection/Content/_Level/DemoMap.umap",
 				"E:/ZeroToDeath/DeefInfection/Content/_Core/_Player/_MainMenu/Boat.uasset",
 				"E:/ZeroToDeath/DeefInfection/Content/_Core/_Weapons/AmmoToSpawn/BullitShot.uasset",
