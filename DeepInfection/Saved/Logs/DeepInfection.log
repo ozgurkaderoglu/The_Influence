@@ -2732,3 +2732,1010 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.20-11.08.47:174][760]LogHttp: Warning: 00000A2F9D17EB00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.20-11.08.47:174][760]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
 [2024.03.20-11.09.25:529][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.20-11.10.33:400][543]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive.Bp_Knive
+[2024.03.20-11.10.33:400][543]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.10.33:400][543]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.10.47:031][153]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Level/_Blueprints/woodBP.woodBP
+[2024.03.20-11.10.47:031][153]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.10.47:031][153]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.11.07:687][ 84]LogSlate: Took 0.000067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.20-11.11.52:088][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.12.01:505][473]BlueprintLog: New page: Compile woodBP
+[2024.03.20-11.12.01:589][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.20-11.12.09:533][819]BlueprintLog: New page: Compile woodBP
+[2024.03.20-11.12.09:614][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.20-11.12.10:580][856]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.20-11.12.10:597][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.12.10:597][856]PIE: New page: PIE session: Island (20 Mar 2024, 13:12:10)
+[2024.03.20-11.12.10:597][856]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.12.10:949][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.350928s)
+[2024.03.20-11.12.10:949][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.350953s)
+[2024.03.20-11.12.10:960][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.20-11.12.10:965][856]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.12.10:965][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.12.10:965][856]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.12.10:965][856]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2024.03.20-11.12.10:966][856]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.12.10:966][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.12.10:966][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.12.10:966][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.12.10:966][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.12.10:966][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.12.10:967][856]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.12.10:982][856]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.12.10:982][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.12.10:982][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.12.10:982][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.12.10:982][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.20-11.12.10:982][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.20-11.12.10:983][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.20-11.12.10:983][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.20-11.12.10:983][856]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.20-11.12.10:983][856]LogAudio: Display: Audio Device (ID: 9) registered with world 'Island'.
+[2024.03.20-11.12.10:983][856]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.20-11.12.10:989][856]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.12.11:027][856]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.12.11:131][856]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.12.11:131][856]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.12.11:132][856]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.12.11
+[2024.03.20-11.12.11:134][856]LogWorld: Bringing up level for play took: 0.145328
+[2024.03.20-11.12.11:136][856]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.03.20-11.12.11:142][856]PIE: Server logged in
+[2024.03.20-11.12.11:142][856]PIE: Play in editor total start time 0.545 seconds.
+[2024.03.20-11.12.13:536][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.12.13:536][  3]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.12.13:537][  3]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.12.13:579][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.12.13:582][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.12.13:590][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.12.13:606][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.12.13:607][  3]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.20-11.12.13:607][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.20-11.12.13:608][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.20-11.12.13:695][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.03.20-11.12.13:750][  4]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.03.20-11.12.14:863][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.12.14:863][105]PIE: New page: PIE session: Island (20 Mar 2024, 13:12:14)
+[2024.03.20-11.12.14:863][105]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.12.15:208][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.345165s)
+[2024.03.20-11.12.15:208][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.345191s)
+[2024.03.20-11.12.15:220][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.20-11.12.15:222][105]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.12.15:222][105]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.12.15:222][105]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.12.15:223][105]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2024.03.20-11.12.15:223][105]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.12.15:223][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.12.15:223][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.12.15:223][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.12.15:223][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.12.15:223][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.12.15:226][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.12.15:238][105]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.12.15:238][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.12.15:238][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.12.15:238][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.12.15:239][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.20-11.12.15:239][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.20-11.12.15:239][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.20-11.12.15:239][105]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.20-11.12.15:239][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.20-11.12.15:239][105]LogAudio: Display: Audio Device (ID: 10) registered with world 'Island'.
+[2024.03.20-11.12.15:239][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.20-11.12.15:263][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.12.15:263][105]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.12.15:301][105]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.12.15:402][105]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.12.15:402][105]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.12.15:403][105]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.12.15
+[2024.03.20-11.12.15:405][105]LogWorld: Bringing up level for play took: 0.141809
+[2024.03.20-11.12.15:407][105]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.03.20-11.12.15:415][105]PIE: Server logged in
+[2024.03.20-11.12.15:417][105]PIE: Play in editor total start time 0.554 seconds.
+[2024.03.20-11.12.15:489][105]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: ================================================
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: Total job queries 118, among them cache hits 88 (74.58%)
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: Tracking 30 distinct input hashes that result in 26 distinct outputs (86.67%)
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: RAM used: 683.52 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.20-11.12.28:373][695]LogShaderCompilers: Display: ================================================
+[2024.03.20-11.12.37:438][ 68]LogCharacterMovement: BP_Kronen_C_17 is stuck and failed to move! Velocity: X=-14.67 Y=299.64 Z=0.00 Location: X=-5690.59 Y=-5394.36 Z=2610.19 Normal: X=-0.10 Y=-0.80 Z=-0.59 PenetrationDepth:17.240 Actor:BP_Kronen_C_18 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.03.20-11.12.37:596][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.12.37:596][ 73]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.12.37:597][ 73]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.12.37:602][ 73]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.12.37:642][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.12.37:645][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.12.37:652][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.12.37:714][ 73]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.20-11.12.37:714][ 73]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.20-11.12.37:715][ 73]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.20-11.12.37:752][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.20-11.12.37:806][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 0 (Found bundle for host: 0xa2eef1503c0 [serially])
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 9 (  Trying 34.194.193.176:443...)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.194.193.176) port 443)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: 00000A2FB727AF00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.12.47:149][641]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.13.49:790][923]BlueprintLog: New page: Compile Bp_Knive
+[2024.03.20-11.13.49:847][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.20-11.13.50:829][963]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.13.50:845][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.13.50:845][963]PIE: New page: PIE session: Island (20 Mar 2024, 13:13:50)
+[2024.03.20-11.13.50:845][963]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.13.51:204][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.358877s)
+[2024.03.20-11.13.51:204][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.358904s)
+[2024.03.20-11.13.51:216][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.20-11.13.51:217][963]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.13.51:217][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.13.51:218][963]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.13.51:218][963]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2024.03.20-11.13.51:218][963]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.13.51:218][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.13.51:218][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.13.51:220][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.13.51:220][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.13.51:220][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.13.51:221][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.13.51:235][963]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.13.51:235][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.13.51:235][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.13.51:235][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.13.51:235][963]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.20-11.13.51:235][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.20-11.13.51:236][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.20-11.13.51:236][963]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.20-11.13.51:236][963]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.20-11.13.51:236][963]LogAudio: Display: Audio Device (ID: 11) registered with world 'Island'.
+[2024.03.20-11.13.51:236][963]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.20-11.13.51:251][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.13.51:251][963]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.13.51:287][963]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.13.51:390][963]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.13.51:390][963]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.13.51:392][963]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.13.51
+[2024.03.20-11.13.51:394][963]LogWorld: Bringing up level for play took: 0.143263
+[2024.03.20-11.13.51:396][963]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.03.20-11.13.51:404][963]PIE: Server logged in
+[2024.03.20-11.13.51:406][963]PIE: Play in editor total start time 0.561 seconds.
+[2024.03.20-11.13.51:471][963]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.14.04:060][548]LogBlueprintUserMessages: [BP_Kronen_C_17] 10.0
+[2024.03.20-11.14.04:060][548]LogScript: Warning: UGameplayStatics::SpawnNiagaraEmitterAttached: NULL AttachComponent specified!
+[2024.03.20-11.14.08:024][715]LogCharacterMovement: IF_Character_C_0 is stuck and failed to move! Velocity: X=0.00 Y=600.00 Z=0.00 Location: X=-6508.75 Y=-4879.79 Z=2592.43 Normal: X=0.95 Y=-0.10 Z=-0.31 PenetrationDepth:4.554 Actor:BP_Kronen_C_17 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.03.20-11.14.10:065][800]LogCharacterMovement: IF_Character_C_0 is stuck and failed to move! Velocity: X=-351.92 Y=-485.95 Z=0.00 Location: X=-5909.94 Y=-5003.42 Z=2592.37 Normal: X=0.92 Y=-0.10 Z=-0.37 PenetrationDepth:7.430 Actor:BP_Kronen_C_17 Component:CharacterMesh0 BoneName:Bone_036_L (5 other events since notify)
+[2024.03.20-11.14.11:849][875]LogBlueprintUserMessages: [BP_Kronen_C_17] -90.0
+[2024.03.20-11.14.11:849][875]LogScript: Warning: UGameplayStatics::SpawnNiagaraEmitterAttached: NULL AttachComponent specified!
+[2024.03.20-11.14.19:572][196]LogBlueprintUserMessages: [BP_Kronen_C_18] 0.0
+[2024.03.20-11.14.19:572][196]LogScript: Warning: UGameplayStatics::SpawnNiagaraEmitterAttached: NULL AttachComponent specified!
+[2024.03.20-11.14.20:936][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.14.20:936][252]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.14.20:936][252]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.14.20:942][252]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.14.20:980][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.14.20:984][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.14.20:991][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.14.21:054][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.20-11.14.21:054][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.20-11.14.21:056][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.20-11.14.21:095][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.20-11.14.21:150][253]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.03.20-11.14.50:869][480]BlueprintLog: New page: Compile Bp_Knive
+[2024.03.20-11.14.50:926][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.20-11.14.51:504][508]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.14.51:521][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.14.51:521][508]PIE: New page: PIE session: Island (20 Mar 2024, 13:14:51)
+[2024.03.20-11.14.51:521][508]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.14.51:870][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.350160s)
+[2024.03.20-11.14.51:870][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.350187s)
+[2024.03.20-11.14.51:881][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.20-11.14.51:885][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.14.51:885][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.14.51:885][508]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.14.51:885][508]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2024.03.20-11.14.51:885][508]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.14.51:886][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.14.51:886][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.14.51:886][508]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.14.51:886][508]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.14.51:886][508]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.14.51:887][508]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.14.51:899][508]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.14.51:899][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.14.51:899][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.14.51:899][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.14.51:901][508]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.20-11.14.51:901][508]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.20-11.14.51:902][508]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.20-11.14.51:902][508]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.20-11.14.51:902][508]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.20-11.14.51:902][508]LogAudio: Display: Audio Device (ID: 12) registered with world 'Island'.
+[2024.03.20-11.14.51:902][508]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.20-11.14.51:919][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.14.51:919][508]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.14.51:957][508]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.14.52:060][508]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.14.52:060][508]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.14.52:061][508]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.14.52
+[2024.03.20-11.14.52:063][508]LogWorld: Bringing up level for play took: 0.142325
+[2024.03.20-11.14.52:065][508]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.03.20-11.14.52:073][508]PIE: Server logged in
+[2024.03.20-11.14.52:075][508]PIE: Play in editor total start time 0.555 seconds.
+[2024.03.20-11.14.52:140][508]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.15.06:912][197]LogBlueprintUserMessages: [BP_Kronen_C_17] 10.0
+[2024.03.20-11.15.09:203][299]LogCharacterMovement: IF_Character_C_0 is stuck and failed to move! Velocity: X=13.80 Y=74.88 Z=0.00 Location: X=-6011.19 Y=-4022.11 Z=2592.91 Normal: X=-0.00 Y=-0.78 Z=-0.63 PenetrationDepth:14.626 Actor:BP_Kronen_C_17 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.03.20-11.15.11:673][407]LogBlueprintUserMessages: [BP_Kronen_C_17] -80.0
+[2024.03.20-11.15.15:362][569]LogBlueprintUserMessages: [BP_Kronen_C_18] 10.0
+[2024.03.20-11.15.18:107][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.15.18:107][688]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.15.18:107][688]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.15.18:113][688]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.15.18:152][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.15.18:155][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.15.18:164][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.15.18:223][688]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.20-11.15.18:224][688]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.20-11.15.18:224][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.20-11.15.18:225][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.20-11.15.18:267][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.20-11.15.18:322][689]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.03.20-11.15.27:390][452]BlueprintLog: New page: Compile Bp_Knive
+[2024.03.20-11.15.27:445][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.20-11.15.28:224][488]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.15.28:242][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.15.28:242][488]PIE: New page: PIE session: Island (20 Mar 2024, 13:15:28)
+[2024.03.20-11.15.28:242][488]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.15.28:592][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.350776s)
+[2024.03.20-11.15.28:592][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.350802s)
+[2024.03.20-11.15.28:603][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.20-11.15.28:605][488]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.15.28:605][488]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.15.28:606][488]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.15.28:606][488]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2024.03.20-11.15.28:606][488]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.15.28:607][488]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.15.28:607][488]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.15.28:607][488]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.15.28:607][488]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.15.28:607][488]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.15.28:609][488]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.15.28:621][488]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.15.28:621][488]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.15.28:621][488]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.15.28:621][488]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.15.28:621][488]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.03.20-11.15.28:621][488]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.03.20-11.15.28:622][488]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.20-11.15.28:622][488]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.20-11.15.28:622][488]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.03.20-11.15.28:622][488]LogAudio: Display: Audio Device (ID: 13) registered with world 'Island'.
+[2024.03.20-11.15.28:622][488]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.20-11.15.28:643][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.15.28:643][488]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.15.28:680][488]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.15.28:783][488]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.15.28:783][488]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.15.28:784][488]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.15.28
+[2024.03.20-11.15.28:787][488]LogWorld: Bringing up level for play took: 0.142801
+[2024.03.20-11.15.28:789][488]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.03.20-11.15.28:797][488]PIE: Server logged in
+[2024.03.20-11.15.28:800][488]PIE: Play in editor total start time 0.559 seconds.
+[2024.03.20-11.15.28:871][488]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.15.36:011][826]LogBlueprintUserMessages: [BP_Kronen_C_18] 10.0
+[2024.03.20-11.15.41:594][ 84]LogBlueprintUserMessages: [BP_Kronen_C_17] 10.0
+[2024.03.20-11.15.43:192][154]LogBlueprintUserMessages: [BP_Kronen_C_17] -80.0
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 0 (Found bundle for host: 0xa2eef1507e0 [serially])
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 9 (  Trying 3.221.151.99:443...)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.221.151.99) port 443)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: 00000A2FB09A2D00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.15.47:161][326]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.15.49:116][411]LogBlueprintUserMessages: [BP_Kronen_C_18] -80.0
+[2024.03.20-11.15.51:976][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.15.51:976][533]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.15.51:977][533]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.15.51:983][533]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.15.52:026][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.15.52:028][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.15.52:036][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.15.52:097][533]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.20-11.15.52:097][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.20-11.15.52:098][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.20-11.15.52:136][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.03.20-11.15.52:190][534]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.03.20-11.16.44:799][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.20-11.16.44:806][758]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 0.017
+[2024.03.20-11.16.44:806][758]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Core/_Player/IF_Character] ([2] browsable assets)...
+[2024.03.20-11.16.44:806][758]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.16.44:971][758]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/_Core/_Player/IF_Character.IF_Character_C]
+[2024.03.20-11.16.45:011][758]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Core/_Player/IF_Character.IF_Character]
+[2024.03.20-11.16.45:011][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Player/IF_Character]
+[2024.03.20-11.16.45:120][758]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Player/IF_Character_Auto2
+[2024.03.20-11.16.45:120][758]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/IF_Character_Auto25F157A934F990BC7E3F56FBA9F3FB4A3.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Player/IF_Character_Auto2.uasset'
+[2024.03.20-11.16.45:120][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive] ([2] browsable assets)...
+[2024.03.20-11.16.45:120][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive]
+[2024.03.20-11.16.45:126][758]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive_Auto2
+[2024.03.20-11.16.45:126][758]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Bp_Knive_Auto2674504CC4E38B406161BF197E24B5DE6.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive_Auto2.uasset'
+[2024.03.20-11.16.45:132][758]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Level/_Blueprints/woodBP] ([2] browsable assets)...
+[2024.03.20-11.16.45:133][758]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.16.45:151][758]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Level/_Blueprints/woodBP.woodBP]
+[2024.03.20-11.16.45:151][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Level/_Blueprints/woodBP]
+[2024.03.20-11.16.45:154][758]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Level/_Blueprints/woodBP_Auto2
+[2024.03.20-11.16.45:154][758]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/woodBP_Auto2B256A96F4D48C3312BCEEEB41424CE4E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Level/_Blueprints/woodBP_Auto2.uasset'
+[2024.03.20-11.16.45:155][758]LogFileHelpers: Auto-saving content packages took 0.349
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 0 (Found bundle for host: 0xa2eef1507e0 [serially])
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 9 (  Trying 3.217.3.240:443...)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.217.3.240) port 443)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.18.47:532][127]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.21.29:793][613]LogDerivedDataCache: C:/Users/Adriaan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:58.074 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 100388 files in 82945 folders with total size 6199 MiB.
+[2024.03.20-11.23.47:558][ 27]LogHttp: Warning: 00000A2FC501AA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 0 (Found bundle for host: 0xa2eef1503c0 [serially])
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 9 (  Trying 18.215.78.52:443...)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (18.215.78.52) port 443)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.23.47:559][ 27]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 0 (Found bundle for host: 0xa2eef150390 [serially])
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 9 (  Trying 52.7.26.145:443...)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.7.26.145) port 443)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: 00000A2FC501AA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.27.47:576][747]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 0 (Found bundle for host: 0xa2eef150b40 [serially])
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 9 (  Trying 34.194.194.155:443...)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.194.194.155) port 443)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: 00000A2FC345C300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.31.47:380][525]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.31.51:420][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.20-11.31.51:424][536]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 0.015
+[2024.03.20-11.31.51:424][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Core/_Player/IF_Character] ([2] browsable assets)...
+[2024.03.20-11.31.51:424][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Player/IF_Character]
+[2024.03.20-11.31.51:531][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Player/IF_Character_Auto3
+[2024.03.20-11.31.51:531][536]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/IF_Character_Auto37727781045C8C991BE976E87850D3F84.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Player/IF_Character_Auto3.uasset'
+[2024.03.20-11.31.51:531][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive] ([2] browsable assets)...
+[2024.03.20-11.31.51:531][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive]
+[2024.03.20-11.31.51:537][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive_Auto3
+[2024.03.20-11.31.51:537][536]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Bp_Knive_Auto3F7718A9E4E5D2E1C5924668AB9DF6000.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive_Auto3.uasset'
+[2024.03.20-11.31.51:537][536]LogFileHelpers: Auto-saving content packages took 0.113
+[2024.03.20-11.35.10:614][561]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.35.10:631][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.35.10:631][561]PIE: New page: PIE session: Island (20 Mar 2024, 13:35:10)
+[2024.03.20-11.35.10:631][561]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.35.10:970][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.339729s)
+[2024.03.20-11.35.10:971][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.339755s)
+[2024.03.20-11.35.10:982][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.20-11.35.10:985][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.35.10:985][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.35.10:985][561]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.35.10:985][561]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2024.03.20-11.35.10:986][561]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.35.10:986][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.35.10:986][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.35.10:986][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.35.10:986][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.35.10:986][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.35.10:988][561]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.35.11:000][561]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.35.11:001][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.35.11:001][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.35.11:001][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.35.11:001][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.03.20-11.35.11:001][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.03.20-11.35.11:002][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.20-11.35.11:002][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.03.20-11.35.11:002][561]LogInit: FAudioDevice initialized with ID 14.
+[2024.03.20-11.35.11:002][561]LogAudio: Display: Audio Device (ID: 14) registered with world 'Island'.
+[2024.03.20-11.35.11:002][561]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.20-11.35.11:019][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.35.11:019][561]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.35.11:057][561]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.35.11:154][561]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.35.11:154][561]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.35.11:155][561]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.35.11
+[2024.03.20-11.35.11:156][561]LogWorld: Bringing up level for play took: 0.137334
+[2024.03.20-11.35.11:158][561]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.03.20-11.35.11:169][561]PIE: Server logged in
+[2024.03.20-11.35.11:171][561]PIE: Play in editor total start time 0.54 seconds.
+[2024.03.20-11.35.11:245][561]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.37.51:549][575]LogBlueprintUserMessages: [BP_Kronen_C_17] 40.0
+[2024.03.20-11.37.51:859][590]LogBlueprintUserMessages: [BP_Kronen_C_17] -20.0
+[2024.03.20-11.37.54:777][729]LogBlueprintUserMessages: [BP_Kronen_C_18] 40.0
+[2024.03.20-11.37.54:968][738]LogBlueprintUserMessages: [BP_Kronen_C_18] -20.0
+[2024.03.20-11.38.03:627][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.38.03:627][146]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.38.03:627][146]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.38.03:635][146]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.38.03:676][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.38.03:678][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.38.03:686][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.38.03:745][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.20-11.38.03:745][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.20-11.38.03:746][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.20-11.38.03:792][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.20-11.38.03:910][147]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.03.20-11.38.09:216][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.20-11.38.09:246][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Player/IF_Character" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/IF_Character.uasset" SILENT=true
+[2024.03.20-11.38.09:352][408]LogSavePackage: Moving output files for package: /Game/_Core/_Player/IF_Character
+[2024.03.20-11.38.09:352][408]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/IF_Character35C36B844896FF23E5263BB42E086E7B.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/IF_Character.uasset'
+[2024.03.20-11.38.09:358][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 606 ms)
+[2024.03.20-11.38.09:359][408]AssetCheck: New page: Asset Save: IF_Character
+[2024.03.20-11.38.09:359][408]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/IF_Character.IF_Character
+[2024.03.20-11.38.34:298][646]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.38.34:336][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.38.34:372][648]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.38.34:416][649]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.38.34:421][649]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.38.36:021][713]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen.BP_Kronen
+[2024.03.20-11.38.36:021][713]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.38.36:021][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.38.36:128][713]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.38.59:895][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.39.36:889][615]BlueprintLog: New page: Compile BP_Kronen
+[2024.03.20-11.39.37:113][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:125][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:154][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.20-11.39.37:197][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:209][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:209][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:222][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:223][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:363][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:374][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:375][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.37:387][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.38:202][649]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.39.38:220][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.39.38:220][649]PIE: New page: PIE session: Island (20 Mar 2024, 13:39:38)
+[2024.03.20-11.39.38:220][649]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.39.38:566][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.344641s)
+[2024.03.20-11.39.38:566][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.344671s)
+[2024.03.20-11.39.38:579][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.20-11.39.38:585][649]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.39.38:585][649]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.39.38:585][649]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.39.38:586][649]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2024.03.20-11.39.38:586][649]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.39.38:586][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.39.38:586][649]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.39.38:586][649]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.39.38:586][649]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.39.38:586][649]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.39.38:588][649]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.39.38:600][649]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.39.38:601][649]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.39.38:601][649]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.39.38:601][649]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.39.38:601][649]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.03.20-11.39.38:601][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.03.20-11.39.38:603][649]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.20-11.39.38:603][649]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.03.20-11.39.38:603][649]LogInit: FAudioDevice initialized with ID 15.
+[2024.03.20-11.39.38:603][649]LogAudio: Display: Audio Device (ID: 15) registered with world 'Island'.
+[2024.03.20-11.39.38:603][649]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.20-11.39.38:621][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.39.38:621][649]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.39.38:661][649]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.39.38:762][649]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.39.38:762][649]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.39.38:764][649]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.39.38
+[2024.03.20-11.39.38:766][649]LogWorld: Bringing up level for play took: 0.145655
+[2024.03.20-11.39.38:768][649]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.03.20-11.39.38:778][649]PIE: Server logged in
+[2024.03.20-11.39.38:779][649]PIE: Play in editor total start time 0.559 seconds.
+[2024.03.20-11.39.38:851][649]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.39.46:877][ 37]LogBlueprintUserMessages: [BP_Kronen_C_18] 85.0
+[2024.03.20-11.39.47:558][ 70]LogBlueprintUserMessages: [BP_Kronen_C_18] 70.0
+[2024.03.20-11.39.48:065][ 94]LogBlueprintUserMessages: [BP_Kronen_C_18] 55.0
+[2024.03.20-11.39.49:226][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.39.49:226][146]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.39.49:226][146]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.39.49:233][146]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.39.49:272][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.39.49:275][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.39.49:282][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.39.49:343][146]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.20-11.39.49:344][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.20-11.39.49:344][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.20-11.39.49:345][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.20-11.39.49:389][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.20-11.39.49:444][147]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.03.20-11.39.58:273][756]BlueprintLog: New page: Compile BP_Kronen
+[2024.03.20-11.39.58:506][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:518][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:546][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.20-11.39.58:581][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:593][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_1, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:593][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:605][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:605][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_2, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:692][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:705][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:705][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_2, they are designed to work with AAIControllers!
+[2024.03.20-11.39.58:717][756]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_2, they are designed to work with AAIControllers!
+[2024.03.20-11.39.59:314][782]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.20-11.39.59:331][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.20-11.39.59:331][782]PIE: New page: PIE session: Island (20 Mar 2024, 13:39:59)
+[2024.03.20-11.39.59:331][782]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.39.59:685][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.354088s)
+[2024.03.20-11.39.59:685][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.354115s)
+[2024.03.20-11.39.59:697][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.20-11.39.59:703][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.39.59:703][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.20-11.39.59:703][782]LogAIModule: Creating AISystem for world Island
+[2024.03.20-11.39.59:704][782]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2024.03.20-11.39.59:704][782]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.20-11.39.59:704][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.20-11.39.59:704][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.20-11.39.59:704][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.20-11.39.59:704][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.20-11.39.59:704][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.20-11.39.59:706][782]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.20-11.39.59:719][782]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.03.20-11.39.59:719][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.20-11.39.59:719][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.20-11.39.59:719][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.20-11.39.59:719][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.03.20-11.39.59:719][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.03.20-11.39.59:721][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.20-11.39.59:721][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.03.20-11.39.59:721][782]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.20-11.39.59:721][782]LogAudio: Display: Audio Device (ID: 16) registered with world 'Island'.
+[2024.03.20-11.39.59:721][782]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.20-11.39.59:741][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.39.59:741][782]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.03.20-11.39.59:781][782]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.03.20-11.39.59:880][782]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_17, they are designed to work with AAIControllers!
+[2024.03.20-11.39.59:880][782]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_18, they are designed to work with AAIControllers!
+[2024.03.20-11.39.59:881][782]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.03.20-12.39.59
+[2024.03.20-11.39.59:884][782]LogWorld: Bringing up level for play took: 0.142841
+[2024.03.20-11.39.59:886][782]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.03.20-11.39.59:897][782]PIE: Server logged in
+[2024.03.20-11.39.59:899][782]PIE: Play in editor total start time 0.568 seconds.
+[2024.03.20-11.39.59:971][782]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.03.20-11.40.12:801][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.20-11.40.12:805][165]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.20-11.40.12:805][165]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.20-11.40.12:811][165]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Kronen_C_0, they are designed to work with AAIControllers!
+[2024.03.20-11.40.12:947][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male_001/BP_Kronen.uasset" SILENT=true
+[2024.03.20-11.40.12:957][165]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen
+[2024.03.20-11.40.12:957][165]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenC0DA70134CDA1E25B7F0038E6E7341F0.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male_001/BP_Kronen.uasset'
+[2024.03.20-11.40.12:963][165]LogSavePackage: Moving output files for package: /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive
+[2024.03.20-11.40.12:963][165]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Bp_Knive0F8C6E83487492BF919ED18C039718D2.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive.uasset'
+[2024.03.20-11.40.12:964][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/_Blueprints/woodBP" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Level/_Blueprints/woodBP.uasset" SILENT=true
+[2024.03.20-11.40.12:966][165]LogSavePackage: Moving output files for package: /Game/_Level/_Blueprints/woodBP
+[2024.03.20-11.40.12:966][165]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/woodBP5C8D685145DDD71DABA55B832AA626BC.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Level/_Blueprints/woodBP.uasset'
+[2024.03.20-11.40.12:967][165]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 768 ms)
+[2024.03.20-11.40.12:970][165]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.20-11.40.12:970][165]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen.BP_Kronen
+[2024.03.20-11.40.12:970][165]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive.Bp_Knive
+[2024.03.20-11.40.12:970][165]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_Blueprints/woodBP.woodBP
+[2024.03.20-11.40.27:656][470]LogCharacterMovement: IF_Character_C_0 is stuck and failed to move! Velocity: X=-5.02 Y=29.02 Z=0.00 Location: X=-5945.55 Y=-5632.39 Z=2592.34 Normal: X=0.69 Y=-0.52 Z=-0.50 PenetrationDepth:3.749 Actor:BP_Kronen_C_18 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.03.20-11.40.28:022][485]LogBlueprintUserMessages: [BP_Kronen_C_18] 10.0
+[2024.03.20-11.40.32:476][668]LogBlueprintUserMessages: [BP_Kronen_C_18] -5.0
+[2024.03.20-11.40.39:302][947]LogBlueprintUserMessages: [IF_Character_C_0] Reloading
+[2024.03.20-11.40.39:472][954]LogScript: Warning: Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00D0
+[2024.03.20-11.40.39:472][954]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:472][954]LogScript: Warning: Accessed None
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00E5
+[2024.03.20-11.40.39:472][954]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:496][955]LogScript: Warning: Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00D0
+[2024.03.20-11.40.39:496][955]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:496][955]LogScript: Warning: Accessed None
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00E5
+[2024.03.20-11.40.39:496][955]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:496][955]LogScript: Warning: Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00D0
+[2024.03.20-11.40.39:496][955]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:496][955]LogScript: Warning: Accessed None
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00E5
+[2024.03.20-11.40.39:496][955]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:519][956]LogScript: Warning: Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00D0
+[2024.03.20-11.40.39:519][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:519][956]LogScript: Warning: Accessed None
+	IF_Character_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.IF_Character_C_0
+	Function /Game/_Core/_Player/IF_Character.IF_Character_C:Track Enemy:00E5
+[2024.03.20-11.40.39:519][956]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:542][957]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:542][957]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:564][958]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:564][958]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:589][959]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:589][959]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:612][960]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:612][960]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:612][960]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:612][960]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:635][961]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:635][961]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:658][962]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:658][962]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:684][963]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:684][963]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:707][964]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:707][964]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:731][965]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:731][965]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:731][965]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:731][965]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:753][966]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:753][966]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:777][967]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:777][967]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:801][968]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:801][968]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:825][969]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:825][969]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:848][970]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:848][970]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:848][970]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:848][970]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:871][971]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:871][971]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:895][972]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.39:895][972]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:402][993]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:402][993]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:428][994]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:428][994]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:451][995]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Kronen_C_18 via property K2Node_DynamicCast_AsBP_Kronen, but BP_Kronen_C_18 is not valid (pending kill or garbage)". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.40:451][995]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Rotation Graph:  Track Enemy Function:  Track Enemy Blueprint:  IF_Character
+[2024.03.20-11.40.41:358][ 32]LogBlueprintUserMessages: [BP_Kronen_C_17] 40.0
+[2024.03.20-11.40.43:946][139]LogBlueprintUserMessages: [BP_Kronen_C_17] -20.0
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 0 (Found bundle for host: 0xa2eef1505a0 [serially])
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 6 (Closing connection)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 9 (  Trying 3.208.253.152:443...)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.208.253.152) port 443)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 25 (Server certificate:)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 34 (Closing connection)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: 00000A2FCC660500: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.20-11.40.47:165][272]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33BDBF02-491B-2FCB-91D4-33A1C33AF3DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0546d1ef46e71ba4a306609ad94a3454%7Cae1e6669c13b426882bf0bce021b630f%7C1bbd5858-577b-4660-b81c-1a38536e0231&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.20-11.41.36:036][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.20-11.41.36:036][523]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.03.20-11.41.36:037][523]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.20-11.41.36:045][523]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.03.20-11.41.36:088][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.41.36:091][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.20-11.41.36:099][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.20-11.41.36:156][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.20-11.41.36:167][523]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.20-11.41.36:167][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.20-11.41.36:168][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.20-11.41.36:207][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.20-11.41.36:326][524]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.03.20-11.41.39:091][687]LogSlate: Window 'Message Log' being destroyed
+[2024.03.20-11.41.39:095][687]LogSlate: Window 'Message Log' being destroyed
+[2024.03.20-11.41.43:925][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.20-11.41.55:245][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.20-11.41.55:251][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.20-11.41.55:276][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male_001/BP_Kronen.uasset" SILENT=true
+[2024.03.20-11.41.55:286][767]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen
+[2024.03.20-11.41.55:286][767]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_Kronen66DC51B149B40D88E78996954B81F248.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male_001/BP_Kronen.uasset'
+[2024.03.20-11.41.55:292][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 810 ms)
+[2024.03.20-11.41.55:293][767]AssetCheck: New page: Asset Save: BP_Kronen
+[2024.03.20-11.41.55:293][767]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/Kronen_Male_001/BP_Kronen.BP_Kronen
