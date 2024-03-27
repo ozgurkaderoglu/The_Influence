@@ -2773,3 +2773,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.27-19.33.11:533][368]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/_Core/_Player/_PlayerAnimations/_blendSpace/Carp_AnimBP.Carp_AnimBP
 [2024.03.27-19.33.11:533][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_Knive.Bp_Knive
 [2024.03.27-19.33.11:533][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_Charger.BP_Charger
+[2024.03.27-19.33.23:804][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
