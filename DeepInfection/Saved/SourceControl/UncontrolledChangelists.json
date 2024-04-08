@@ -12,7 +12,27 @@
 				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Weapons/Shotgun.uasset",
 				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Player/_Inputs/_IA/IA_WeaponSelect.uasset",
 				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Player/_Inputs/_IMP/AllMayorKeyInputs.uasset",
-				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Player/IF_Character.uasset"
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Player/IF_Character.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Enemy.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ferry.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Charger.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Kronen.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Charger/Brain/task/BTTASK_ROAM.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/danger_texture.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/Floor_Grate_M.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/lab_floor.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/Material_002.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/railing_for_ship.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ship_floor.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ship_hull.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ship_roof_.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ship_wall.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/ship_wall_3.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Bulky.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFast.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFemale.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Slugger.uasset",
+				"E:/Unreal engines/Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/Ferry_BP.uasset"
 			]
 		}
 	]
