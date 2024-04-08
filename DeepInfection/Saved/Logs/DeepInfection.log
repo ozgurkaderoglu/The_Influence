@@ -5680,3 +5680,59 @@ Script Stack (1 frames) :
 [2024.04.08-21.45.49:839][427]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/DI_Player_Auto1BF3EBCD442F8CF4F360C7AAF5746623E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Player/DI_Player_Auto1.uasset'
 [2024.04.08-21.45.49:840][427]LogFileHelpers: Auto-saving content packages took 0.099
 [2024.04.08-21.47.07:262][858]LogDerivedDataCache: C:/Users/Adriaan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.117 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24536 files in 26481 folders with total size 2468 MiB.
+[2024.04.08-21.47.48:868][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.04.08-21.47.50:455][983]LogSlate: Window 'Save Content' being destroyed
+[2024.04.08-21.47.50:462][983]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.08-21.47.50:490][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Player/DI_Player" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset" SILENT=true
+[2024.04.08-21.47.50:524][983]LogSavePackage: Moving output files for package: /Game/_Core/_Player/DI_Player
+[2024.04.08-21.47.50:524][983]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/DI_Player7C3FEB2D40C0BB6B235ED3B096EA10C0.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset'
+[2024.04.08-21.47.50:532][983]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 5.67 sec)
+[2024.04.08-21.47.50:532][983]LogStall: Shutdown...
+[2024.04.08-21.47.50:536][983]LogStall: Shutdown complete.
+[2024.04.08-21.47.50:556][983]LogSlate: Window 'IF_Character' being destroyed
+[2024.04.08-21.47.50:614][983]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-21.47.50:614][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-21.47.50:644][983]LogSlate: Window 'DI_Player' being destroyed
+[2024.04.08-21.47.50:666][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.08-21.47.50:666][983]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-21.47.50:666][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-21.47.50:700][983]LogSlate: Window 'DeepInfection - Unreal Editor' being destroyed
+[2024.04.08-21.47.50:761][983]AssetCheck: New page: Asset Save: DI_Player
+[2024.04.08-21.47.50:761][983]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.04.08-21.47.50:771][984]Cmd: QUIT_EDITOR
+[2024.04.08-21.47.50:771][984]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.04.08-21.47.50:775][984]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.04.08-21.47.50:775][984]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.04.08-21.47.50:775][984]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.04.08-21.47.50:841][984]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-21.47.50:867][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-21.47.50:871][984]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.04.08-21.47.52:050][984]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.04.08-21.47.52:050][984]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.04.08-21.47.52:050][984]LogAudio: Display: Audio Device unregistered from world 'Island'.
+[2024.04.08-21.47.52:050][984]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.04.08-21.47.52:050][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.04.08-21.47.52:051][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.04.08-21.47.52:055][984]LogAudio: Display: Audio Device Manager Shutdown
+[2024.04.08-21.47.52:058][984]LogExit: Preparing to exit.
+[2024.04.08-21.47.52:079][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.04.08-21.47.52:120][984]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:120][984]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:123][984]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:123][984]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.08-21.47.52:124][984]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
