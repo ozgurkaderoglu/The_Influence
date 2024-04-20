@@ -2163,3 +2163,171 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.20-12.15.13:137][656]AssetCheck: New page: Asset Save: multiple assets
 [2024.04.20-12.15.13:137][656]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
 [2024.04.20-12.15.13:137][656]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.04.20-12.15.38:125][443]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.15.38:213][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.20-12.16.33:183][430]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.16.33:273][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.20-12.17.00:299][395]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.17.00:390][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.20-12.17.01:297][472]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.20-12.17.01:310][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.20-12.17.01:310][472]PIE: New page: PIE session: Island (20 Apr 2024, 16:17:01)
+[2024.04.20-12.17.01:310][472]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.04.20-12.17.01:678][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.369167s)
+[2024.04.20-12.17.01:678][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.369192s)
+[2024.04.20-12.17.01:693][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.20-12.17.01:695][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.20-12.17.01:695][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.20-12.17.01:695][472]LogAIModule: Creating AISystem for world Island
+[2024.04.20-12.17.01:695][472]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2024.04.20-12.17.01:696][472]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.20-12.17.01:696][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.20-12.17.01:696][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.20-12.17.01:696][472]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.20-12.17.01:696][472]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.20-12.17.01:696][472]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.20-12.17.01:697][472]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.20-12.17.01:712][472]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.04.20-12.17.01:712][472]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.20-12.17.01:712][472]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.20-12.17.01:712][472]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.20-12.17.01:712][472]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.20-12.17.01:712][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.20-12.17.01:713][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.20-12.17.01:713][472]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.20-12.17.01:713][472]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.20-12.17.01:713][472]LogAudio: Display: Audio Device (ID: 12) registered with world 'Island'.
+[2024.04.20-12.17.01:713][472]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.20-12.17.01:733][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-12.17.01:733][472]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.04.20-12.17.01:771][472]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.04.20-12.17.01:880][472]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.04.20-12.17.01:881][472]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Slugger_C_1, they are designed to work with AAIControllers!
+[2024.04.20-12.17.01:881][472]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.04.20-14.17.01
+[2024.04.20-12.17.01:884][472]LogWorld: Bringing up level for play took: 0.150236
+[2024.04.20-12.17.01:885][472]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.04.20-12.17.01:892][472]PIE: Server logged in
+[2024.04.20-12.17.01:893][472]PIE: Play in editor total start time 0.584 seconds.
+[2024.04.20-12.17.01:957][472]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.04.20-12.17.02:053][473]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075545 > MaxSimulationTimeStep (0.050) for 'DI_Player_C_0', movement 'Walking'
+[2024.04.20-12.17.08:651][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-12.17.08:651][ 88]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.04.20-12.17.08:651][ 88]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.20-12.17.08:657][ 88]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.04.20-12.17.08:693][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-12.17.08:697][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.20-12.17.08:703][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-12.17.08:762][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.20-12.17.08:763][ 88]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.20-12.17.08:763][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.20-12.17.08:764][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.20-12.17.08:798][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.20-12.17.08:826][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.04.20-12.17.17:505][996]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.17.17:590][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.20-12.18.04:672][990]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.18.04:764][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.20-12.18.05:722][ 80]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.20-12.18.05:734][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.20-12.18.05:734][ 80]PIE: New page: PIE session: Island (20 Apr 2024, 16:18:05)
+[2024.04.20-12.18.05:734][ 80]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.04.20-12.18.06:105][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.370937s)
+[2024.04.20-12.18.06:105][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.370961s)
+[2024.04.20-12.18.06:120][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.20-12.18.06:121][ 80]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.20-12.18.06:121][ 80]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.20-12.18.06:121][ 80]LogAIModule: Creating AISystem for world Island
+[2024.04.20-12.18.06:122][ 80]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2024.04.20-12.18.06:122][ 80]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.20-12.18.06:122][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.20-12.18.06:122][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.20-12.18.06:122][ 80]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.20-12.18.06:122][ 80]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.20-12.18.06:122][ 80]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.20-12.18.06:124][ 80]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.20-12.18.06:137][ 80]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.04.20-12.18.06:137][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.20-12.18.06:137][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.20-12.18.06:137][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.20-12.18.06:138][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.20-12.18.06:138][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.20-12.18.06:139][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.20-12.18.06:139][ 80]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.20-12.18.06:139][ 80]LogAudio: Display: Audio Device (ID: 13) registered with world 'Island'.
+[2024.04.20-12.18.06:139][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.20-12.18.06:139][ 80]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.20-12.18.06:160][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-12.18.06:160][ 80]LogLoad: Game class is 'IF_Gamemode_C'
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_1.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=12.503 Y=0.000 Z=0.806
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_10.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_2.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_3.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.000
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_5.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.504 Y=0.000 Z=1.000
+[2024.04.20-12.18.06:199][ 80]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchActor_C_7.CamTrigger has a component set to zero, which will result in a bad body instance. Scale:X=2.849 Y=0.000 Z=1.000
+[2024.04.20-12.18.06:303][ 80]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.04.20-12.18.06:303][ 80]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Slugger_C_1, they are designed to work with AAIControllers!
+[2024.04.20-12.18.06:304][ 80]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.04.20-14.18.06
+[2024.04.20-12.18.06:306][ 80]LogWorld: Bringing up level for play took: 0.145084
+[2024.04.20-12.18.06:308][ 80]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.04.20-12.18.06:315][ 80]PIE: Server logged in
+[2024.04.20-12.18.06:315][ 80]PIE: Play in editor total start time 0.581 seconds.
+[2024.04.20-12.18.06:378][ 80]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.04.20-12.18.06:495][ 81]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075545 > MaxSimulationTimeStep (0.050) for 'DI_Player_C_0', movement 'Walking'
+[2024.04.20-12.18.21:422][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-12.18.21:422][413]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.04.20-12.18.21:422][413]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.20-12.18.21:427][413]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.04.20-12.18.21:465][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-12.18.21:468][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.20-12.18.21:476][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-12.18.21:534][413]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.20-12.18.21:535][413]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.20-12.18.21:535][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.20-12.18.21:536][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.20-12.18.21:570][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.20-12.18.21:595][414]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.04.20-12.19.02:134][529]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.19.02:226][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.20-12.19.43:627][911]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.19.43:720][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.20-12.20.09:789][638]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.20.09:883][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.20-12.20.14:398][ 89]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.20.14:489][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.20-12.21.06:126][565]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.21.06:220][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.04.20-12.21.13:310][300]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.21.13:402][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.20-12.22.08:896][288]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.22.08:988][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.20-12.23.00:052][648]BlueprintLog: New page: Compile DI_Player
+[2024.04.20-12.23.00:146][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.20-12.24.33:314][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.20-12.24.33:320][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.20-12.24.33:354][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Player/DI_Player" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset" SILENT=true
+[2024.04.20-12.24.33:406][142]LogSavePackage: Moving output files for package: /Game/_Core/_Player/DI_Player
+[2024.04.20-12.24.33:406][142]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/DI_PlayerF320196440EFBED15CD44E8DD625FC1E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset'
+[2024.04.20-12.24.33:407][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.20-12.24.33:420][142]LogSavePackage: Moving output files for package: /Game/_Core/_Player/_INV_System/_Items/MedicalItams/Medkit
+[2024.04.20-12.24.33:420][142]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/MedkitB8CA24E44913093675B9F4A56785F8C6.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/_INV_System/_Items/MedicalItams/Medkit.uasset'
+[2024.04.20-12.24.33:425][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 2.44 sec)
+[2024.04.20-12.24.33:428][142]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.20-12.24.33:428][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.04.20-12.24.33:428][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/_INV_System/_Items/MedicalItams/Medkit.Medkit
