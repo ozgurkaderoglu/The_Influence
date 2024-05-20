@@ -3945,3 +3945,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.20-15.47.33:998][438]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
 [2024.05.20-15.47.33:998][438]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/NewCamSwitch.NewCamSwitch
 [2024.05.20-15.47.33:998][438]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/Cam.Cam
+[2024.05.20-15.57.22:511][205]LogDerivedDataCache: C:/Users/Adriaan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.096 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6708 files in 8636 folders with total size 351 MiB.
