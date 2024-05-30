@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DeepInfection.cpp.obj": [
+			"DeepInfection.cpp.obj"
+		]
+	}
+}
