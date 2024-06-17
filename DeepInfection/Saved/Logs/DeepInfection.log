@@ -2764,3 +2764,242 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.17-12.26.30:597][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
 [2024.06.17-12.26.30:597][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast
 [2024.06.17-12.26.30:597][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFemale.BP_KronenFemale
+[2024.06.17-12.29.45:963][769]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.17-12.29.45:981][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-12.29.51:695][ 94]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Female_Zombie_Death_Sound_2...
+[2024.06.17-12.29.51:697][ 94]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim.Enemy_Kronen_Bulk_Death_Anim
+[2024.06.17-12.29.51:708][ 94]LogAnimationCompression: Display: Storing compressed animation data for /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim.Enemy_Kronen_Bulk_Death_Anim, at AnimationSequence/0af247e5f2e01a6c04a8546a517e1c26d1657173
+[2024.06.17-12.29.51:710][ 94]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Death_Sound_2.Female_Zombie_Death_Sound_2: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.17-12.29.53:089][179]BlueprintLog: New page: Compile BP_Bulky
+[2024.06.17-12.29.53:123][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.06.17-12.29.54:449][256]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.17-12.29.54:464][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.17-12.29.54:464][256]PIE: New page: PIE session: Island (17 Jun 2024, 16:29:54)
+[2024.06.17-12.29.54:464][256]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.06.17-12.29.54:954][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.489440s)
+[2024.06.17-12.29.54:954][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.489469s)
+[2024.06.17-12.29.54:970][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.06.17-12.29.54:974][256]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-12.29.54:974][256]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-12.29.54:974][256]LogAIModule: Creating AISystem for world Island
+[2024.06.17-12.29.54:975][256]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2024.06.17-12.29.54:975][256]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.17-12.29.54:975][256]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.17-12.29.54:975][256]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.17-12.29.54:976][256]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.17-12.29.54:976][256]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.17-12.29.54:976][256]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.17-12.29.54:978][256]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.17-12.29.54:993][256]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.06.17-12.29.54:993][256]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.17-12.29.54:993][256]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.17-12.29.54:993][256]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.17-12.29.54:993][256]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.06.17-12.29.54:993][256]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.06.17-12.29.54:994][256]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.06.17-12.29.54:994][256]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.06.17-12.29.54:994][256]LogInit: FAudioDevice initialized with ID 8.
+[2024.06.17-12.29.54:994][256]LogAudio: Display: Audio Device (ID: 8) registered with world 'Island'.
+[2024.06.17-12.29.54:994][256]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.17-12.29.55:018][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-12.29.55:018][256]LogLoad: Game class is 'DI_gameMode_C'
+[2024.06.17-12.29.55:223][256]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.06.17-12.29.55:225][256]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.06.17-14.29.55
+[2024.06.17-12.29.55:227][256]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.06.17-12.29.55:228][256]LogWorld: Bringing up level for play took: 0.209923
+[2024.06.17-12.29.55:230][256]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.06.17-12.29.55:230][256]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.06.17-12.29.55:230][256]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.06.17-12.29.55:230][256]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.06.17-12.29.55:243][256]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.06.17-12.29.55:248][256]PIE: Server logged in
+[2024.06.17-12.29.55:250][256]PIE: Play in editor total start time 0.785 seconds.
+[2024.06.17-12.29.55:344][256]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.06.17-12.29.55:370][257]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.06.17-12.30.00:160][539]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.06.17-12.30.00:160][539]LogBlueprintUserMessages: [EnnemySpawner_C_2] 1
+[2024.06.17-12.30.00:161][539]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.06.17-12.30.00:161][539]LogBlueprintUserMessages: [EnnemySpawner_C_4] 1
+[2024.06.17-12.30.00:667][569]LogBlueprintUserMessages: [EnnemySpawner_C_2] 2
+[2024.06.17-12.30.00:667][569]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.06.17-12.30.00:667][569]LogBlueprintUserMessages: [EnnemySpawner_C_4] 2
+[2024.06.17-12.30.01:183][599]LogBlueprintUserMessages: [EnnemySpawner_C_2] 3
+[2024.06.17-12.30.01:184][599]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.06.17-12.30.01:184][599]LogBlueprintUserMessages: [EnnemySpawner_C_4] 3
+[2024.06.17-12.30.01:435][613]LogLevelSequence: Starting new camera cut: 'Cine_Camera_Actor_1'
+[2024.06.17-12.30.01:688][625]LogBlueprintUserMessages: [EnnemySpawner_C_2] 4
+[2024.06.17-12.30.01:689][625]LogBlueprintUserMessages: [EnnemySpawner_C_4] 4
+[2024.06.17-12.30.02:201][650]LogBlueprintUserMessages: [EnnemySpawner_C_2] 5
+[2024.06.17-12.30.02:202][650]LogBlueprintUserMessages: [EnnemySpawner_C_4] 5
+[2024.06.17-12.30.02:705][674]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.06.17-12.30.02:705][674]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.30.02:706][674]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2181.456 Y=-4228.975 Z=2749.517] for [BP_Kronen_C]
+[2024.06.17-12.30.02:707][674]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.06.17-12.30.02:707][674]LogBlueprintUserMessages: [EnnemySpawner_C_4] 6
+[2024.06.17-12.30.03:207][699]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.30.03:208][699]LogBlueprintUserMessages: [EnnemySpawner_C_4] 7
+[2024.06.17-12.30.04:895][776]LogCharacterMovement: BP_Kronen_C_2 is stuck and failed to move! Velocity: X=285.06 Y=-93.48 Z=0.00 Location: X=-8699.56 Y=-5343.44 Z=2627.54 Normal: X=-0.90 Y=0.40 Z=-0.18 PenetrationDepth:3.271 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.30.14:624][ 35]LogLevelSequence: Starting new camera cut: 'Cine_Camera_Actor_(2)_3'
+[2024.06.17-12.30.32:627][ 89]LogLevelSequence: Starting new camera cut: 'DI_Player_C_1'
+[2024.06.17-12.30.32:638][ 89]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: ================================================
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Total job queries 1,316, among them cache hits 1,209 (91.87%)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 58 distinct outputs (54.21%)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: RAM used: 2.46 MiB of 1.60 GiB budget. Usage: 0.15%
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Shaders Compiled: 13
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Jobs assigned 13, completed 13 (100%)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Average time worker was idle: 1401.33 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 1.01 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Job life time (pending + execution): average 0.61 s, max 1.09
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Shader code size: average 34.907 KiB, min 29.656 KiB, max 42.973 KiB
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.99 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Jobs were issued in 13 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Average processing rate: 6.53 jobs/sec
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Total thread time: 2.331 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Total thread preprocess time: 0.372 s
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Percentage time preprocessing: 15.94%
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.20 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.43% of total time (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.20 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.39% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.88% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 12.32% of total time (compiled    2 times, average 0.14 sec, max 0.15 sec, min 0.14 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.46% of total time (compiled    2 times, average 0.10 sec, max 0.11 sec, min 0.09 sec)
+[2024.06.17-12.30.33:056][101]LogShaderCompilers: Display: ================================================
+[2024.06.17-12.31.02:813][292]LogCharacterMovement: BP_Kronen_C_5 is stuck and failed to move! Velocity: X=-282.81 Y=0.83 Z=0.00 Location: X=7484.36 Y=-8901.47 Z=2627.52 Normal: X=0.41 Y=-0.87 Z=-0.28 PenetrationDepth:17.067 Actor:BP_KronenFast_C_0 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.31.04:402][357]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.06.17-12.31.10:835][430]LogViewport: Scene viewport resized to 1920x998, mode Windowed.
+[2024.06.17-12.31.22:227][923]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.06.17-12.31.23:323][972]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.06.17-12.31.36:427][ 30]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=164.48 Y=250.89 Z=0.00 Location: X=7407.61 Y=-9223.02 Z=2628.09 Normal: X=0.47 Y=-0.65 Z=-0.60 PenetrationDepth:22.970 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.31.46:431][ 60]LogCharacterMovement: BP_KronenFemale_C_2 is stuck and failed to move! Velocity: X=9.56 Y=20.20 Z=0.00 Location: X=-5562.81 Y=-4553.89 Z=2629.24 Normal: X=-0.51 Y=-0.86 Z=0.00 PenetrationDepth:9.025 Actor:BP_Bulky_C_2 Component:CharacterMesh0 BoneName:upperarm_l (0 other events since notify)
+[2024.06.17-12.31.51:770][ 76]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.06.17-12.31.58:779][237]LogCharacterMovement: BP_Kronen_C_0 is stuck and failed to move! Velocity: X=-252.09 Y=162.64 Z=0.00 Location: X=4253.01 Y=-8985.53 Z=2660.09 Normal: X=0.65 Y=-0.76 Z=-0.00 PenetrationDepth:23.606 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spinetent_02_r (0 other events since notify)
+[2024.06.17-12.32.00:112][241]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-111.73 Y=0.22 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.94 Y=-0.01 Z=-0.33 PenetrationDepth:13.408 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.32.01:113][244]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.13 Z=-0.39 PenetrationDepth:13.048 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (3 other events since notify)
+[2024.06.17-12.32.02:113][247]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.15 Z=-0.39 PenetrationDepth:12.803 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (2 other events since notify)
+[2024.06.17-12.32.03:113][250]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.16 Z=-0.39 PenetrationDepth:12.766 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (2 other events since notify)
+[2024.06.17-12.32.04:112][253]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.16 Z=-0.39 PenetrationDepth:12.762 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (2 other events since notify)
+[2024.06.17-12.32.05:113][256]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.16 Z=-0.39 PenetrationDepth:12.760 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (2 other events since notify)
+[2024.06.17-12.32.06:113][259]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.39 Y=19.09 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.91 Y=0.16 Z=-0.39 PenetrationDepth:12.760 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (2 other events since notify)
+[2024.06.17-12.32.07:780][264]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-74.67 Y=-70.07 Z=0.00 Location: X=-273.87 Y=-6032.09 Z=2627.65 Normal: X=0.90 Y=0.16 Z=-0.41 PenetrationDepth:12.339 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.32.08:461][266]LogCharacterMovement: BP_KronenFast_C_2 is stuck and failed to move! Velocity: X=-66.81 Y=81.55 Z=0.00 Location: X=-279.72 Y=-6203.99 Z=2628.05 Normal: X=0.58 Y=-0.59 Z=-0.56 PenetrationDepth:25.528 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.32.25:781][318]LogCharacterMovement: BP_KronenFast_C_2 is stuck and failed to move! Velocity: X=-66.68 Y=-273.83 Z=0.00 Location: X=-1231.53 Y=-6565.00 Z=2627.76 Normal: X=0.76 Y=0.50 Z=-0.42 PenetrationDepth:6.112 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:upperarm_twist_01_l (2 other events since notify)
+[2024.06.17-12.33.22:475][909]LogCharacterMovement: DI_Player_C_1 is stuck and failed to move! Velocity: X=-421.74 Y=294.18 Z=0.00 Location: X=8667.76 Y=-11333.80 Z=2609.92 Normal: X=0.46 Y=-0.87 Z=-0.19 PenetrationDepth:1.872 Actor:BP_KronenFast_C_0 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.33.23:804][968]LogBlueprintUserMessages: [BP_Kronen_C_3] 80.0
+[2024.06.17-12.33.25:745][ 54]LogBlueprintUserMessages: [BP_KronenFast_C_0] 30.0
+[2024.06.17-12.33.27:325][122]LogBlueprintUserMessages: [BP_Kronen_C_1] 30.0
+[2024.06.17-12.33.27:901][146]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=-577.51 Y=-151.58 Z=0.00 Location: X=8289.24 Y=-11210.01 Z=2650.69 Normal: X=-0.51 Y=0.86 Z=-0.00 PenetrationDepth:31.665 Actor:BP_Kronen_C_3 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.06.17-12.33.28:912][188]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=-200.51 Y=26.61 Z=0.00 Location: X=8280.90 Y=-11212.56 Z=2653.14 Normal: X=0.13 Y=-0.99 Z=-0.00 PenetrationDepth:4.602 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (11 other events since notify)
+[2024.06.17-12.33.29:983][233]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-32.37 Y=-88.27 Z=0.00 Location: X=870.86 Y=-6802.93 Z=2627.79 Normal: X=0.73 Y=-0.25 Z=-0.64 PenetrationDepth:19.659 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:lowerarm_twist_01_l (0 other events since notify)
+[2024.06.17-12.33.30:493][254]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=-361.62 Y=478.78 Z=0.00 Location: X=7935.02 Y=-11065.32 Z=2661.51 Normal: X=-0.97 Y=-0.23 Z=0.00 PenetrationDepth:5.352 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (27 other events since notify)
+[2024.06.17-12.33.30:677][262]LogBlueprintUserMessages: [BP_Kronen_C_5] 30.0
+[2024.06.17-12.33.30:864][270]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-254.97 Y=124.36 Z=0.00 Location: X=7966.77 Y=-10992.25 Z=2629.59 Normal: X=0.77 Y=-0.64 Z=0.00 PenetrationDepth:2.370 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.33.31:886][313]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-196.21 Y=226.94 Z=0.00 Location: X=7959.96 Y=-10970.38 Z=2627.68 Normal: X=0.72 Y=0.18 Z=-0.67 PenetrationDepth:13.351 Actor:BP_Kronen_C_3 Component:CharacterMesh0 BoneName:Bone_036_L (11 other events since notify)
+[2024.06.17-12.33.32:552][341]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=73.51 Y=279.95 Z=0.00 Location: X=7955.30 Y=-11017.46 Z=2651.46 Normal: X=0.54 Y=-0.84 Z=-0.00 PenetrationDepth:26.719 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.06.17-12.33.33:231][370]LogBlueprintUserMessages: [BP_Kronen_C_3] 10.0
+[2024.06.17-12.33.34:141][409]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=225.92 Y=197.39 Z=0.00 Location: X=7926.10 Y=-10887.22 Z=2629.63 Normal: X=0.07 Y=-1.00 Z=-0.00 PenetrationDepth:3.135 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (2 other events since notify)
+[2024.06.17-12.33.34:283][415]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=84.52 Y=6.17 Z=0.00 Location: X=7882.01 Y=-10953.04 Z=2629.73 Normal: X=-0.69 Y=-0.72 Z=0.00 PenetrationDepth:1.348 Actor:BP_Kronen_C_3 Component:CharacterMesh0 BoneName:Bone_003 (6 other events since notify)
+[2024.06.17-12.33.35:544][468]LogCharacterMovement: BP_Kronen_C_5 is stuck and failed to move! Velocity: X=248.42 Y=168.18 Z=0.00 Location: X=7903.01 Y=-10770.48 Z=2629.62 Normal: X=0.32 Y=0.95 Z=-0.00 PenetrationDepth:8.941 Actor:BP_KronenFast_C_0 Component:CharacterMesh0 BoneName:Bone_003 (4 other events since notify)
+[2024.06.17-12.33.35:666][473]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=174.89 Y=243.75 Z=0.00 Location: X=8041.59 Y=-10879.20 Z=2629.63 Normal: X=-0.39 Y=-0.92 Z=0.00 PenetrationDepth:9.186 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (2 other events since notify)
+[2024.06.17-12.33.36:314][500]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=381.35 Y=414.48 Z=0.00 Location: X=8032.54 Y=-10821.80 Z=2627.59 Normal: X=0.65 Y=-0.68 Z=-0.35 PenetrationDepth:3.189 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (2 other events since notify)
+[2024.06.17-12.33.37:416][546]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=599.57 Y=-22.59 Z=0.00 Location: X=8227.49 Y=-10736.42 Z=2629.62 Normal: X=0.34 Y=0.94 Z=0.00 PenetrationDepth:1.251 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (8 other events since notify)
+[2024.06.17-12.33.38:314][584]LogCharacterMovement: BP_Kronen_C_5 is stuck and failed to move! Velocity: X=295.46 Y=-51.99 Z=0.00 Location: X=8281.23 Y=-10747.42 Z=2629.63 Normal: X=0.77 Y=0.64 Z=0.00 PenetrationDepth:4.374 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (6 other events since notify)
+[2024.06.17-12.33.38:452][590]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=299.57 Y=-16.00 Z=0.00 Location: X=8219.73 Y=-10760.86 Z=2629.71 Normal: X=0.70 Y=-0.71 Z=0.00 PenetrationDepth:5.336 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spinetent_03_r (14 other events since notify)
+[2024.06.17-12.33.38:553][594]LogBlueprintUserMessages: [DI_Player_C_1] Hello
+[2024.06.17-12.33.39:472][633]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=299.69 Y=13.58 Z=0.00 Location: X=8246.62 Y=-10832.17 Z=2629.45 Normal: X=0.17 Y=-0.98 Z=-0.00 PenetrationDepth:15.862 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:pelvis (14 other events since notify)
+[2024.06.17-12.33.39:934][653]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.33.39:934][653]LogBlueprintUserMessages: [BP_KronenFast_C_0] -40.0
+[2024.06.17-12.33.40:495][677]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=298.21 Y=-32.70 Z=0.00 Location: X=8236.47 Y=-10856.49 Z=2634.24 Normal: X=-1.00 Y=0.08 Z=-0.00 PenetrationDepth:51.120 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (42 other events since notify)
+[2024.06.17-12.33.40:621][682]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.33.41:586][723]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-299.84 Y=9.65 Z=0.00 Location: X=104.56 Y=-6712.95 Z=2628.85 Normal: X=0.93 Y=0.17 Z=-0.33 PenetrationDepth:14.565 Actor:BP_KronenFast_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.33.41:830][733]LogCharacterMovement: BP_Kronen_C_5 is stuck and failed to move! Velocity: X=-9.85 Y=-96.28 Z=0.00 Location: X=8273.80 Y=-10755.14 Z=2629.12 Normal: X=0.99 Y=0.11 Z=-0.00 PenetrationDepth:0.674 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spinetent_03_r (31 other events since notify)
+[2024.06.17-12.33.44:776][857]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-66.13 Y=138.99 Z=0.00 Location: X=8253.02 Y=-10809.24 Z=2629.62 Normal: X=-0.24 Y=0.97 Z=-0.00 PenetrationDepth:6.602 Actor:BP_Kronen_C_3 Component:CharacterMesh0 BoneName:Bone_003 (2 other events since notify)
+[2024.06.17-12.33.46:682][938]LogCharacterMovement: BP_Bulky_C_0 is stuck and failed to move! Velocity: X=197.98 Y=-202.15 Z=0.00 Location: X=8353.43 Y=-10277.63 Z=2612.02 Normal: X=-0.71 Y=-0.32 Z=-0.63 PenetrationDepth:4.025 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.33.49:919][ 80]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=141.89 Y=-184.38 Z=0.00 Location: X=8545.11 Y=-10671.94 Z=2629.62 Normal: X=-0.79 Y=-0.62 Z=-0.00 PenetrationDepth:2.105 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_003 (5 other events since notify)
+[2024.06.17-12.33.50:943][124]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=113.78 Y=-277.59 Z=0.00 Location: X=8536.88 Y=-10692.83 Z=2629.62 Normal: X=0.91 Y=0.41 Z=-0.00 PenetrationDepth:6.076 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (33 other events since notify)
+[2024.06.17-12.33.51:213][136]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.33.51:213][136]LogBlueprintUserMessages: [BP_Kronen_C_3] -60.0
+[2024.06.17-12.33.51:470][147]LogCharacterMovement: BP_Bulky_C_0 is stuck and failed to move! Velocity: X=-10.16 Y=-299.83 Z=0.00 Location: X=8681.33 Y=-10871.76 Z=2612.02 Normal: X=0.62 Y=-0.78 Z=0.00 PenetrationDepth:9.332 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (3 other events since notify)
+[2024.06.17-12.33.52:514][191]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-78.02 Y=-289.68 Z=0.00 Location: X=8731.39 Y=-11007.98 Z=2629.62 Normal: X=-0.12 Y=-0.99 Z=-0.00 PenetrationDepth:0.325 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_003 (2 other events since notify)
+[2024.06.17-12.33.53:210][220]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.06.17-12.33.53:210][220]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.33.53:544][234]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-299.18 Y=22.10 Z=0.00 Location: X=8492.54 Y=-11074.00 Z=2629.64 Normal: X=0.42 Y=0.88 Z=0.21 PenetrationDepth:5.928 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:foot_l (4 other events since notify)
+[2024.06.17-12.33.54:994][295]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-211.51 Y=212.75 Z=0.00 Location: X=8263.95 Y=-10728.48 Z=2629.63 Normal: X=0.52 Y=-0.85 Z=-0.00 PenetrationDepth:3.762 Actor:BP_Kronen_C_5 Component:CharacterMesh0 BoneName:Bone_036_L (1 other events since notify)
+[2024.06.17-12.33.55:065][298]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=-257.54 Y=153.86 Z=0.00 Location: X=8332.29 Y=-10728.25 Z=2629.63 Normal: X=0.54 Y=0.84 Z=0.00 PenetrationDepth:0.064 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spine_01 (0 other events since notify)
+[2024.06.17-12.33.55:205][304]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.33.55:205][304]LogBlueprintUserMessages: [BP_Kronen_C_5] -40.0
+[2024.06.17-12.33.55:743][326]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.33.57:354][395]LogCharacterMovement: DI_Player_C_1 is stuck and failed to move! Velocity: X=44.36 Y=31.10 Z=0.00 Location: X=7564.87 Y=-10542.19 Z=2641.87 Normal: X=-0.99 Y=0.02 Z=-0.15 PenetrationDepth:3.978 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (4 other events since notify)
+[2024.06.17-12.34.00:280][522]LogBlueprintUserMessages: [BP_KronenFemale_C_0] 30.0
+[2024.06.17-12.34.02:248][605]LogCharacterMovement: DI_Player_C_1 is stuck and failed to move! Velocity: X=315.99 Y=-234.04 Z=0.00 Location: X=8262.98 Y=-10654.01 Z=2610.51 Normal: X=0.58 Y=-0.81 Z=0.00 PenetrationDepth:30.086 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spinetent_03_r (2 other events since notify)
+[2024.06.17-12.34.03:802][670]LogBlueprintUserMessages: [BP_Bulky_C_0] 30.0
+[2024.06.17-12.34.04:135][684]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=115.18 Y=-277.01 Z=0.00 Location: X=8302.90 Y=-10372.73 Z=2629.58 Normal: X=-0.49 Y=0.87 Z=0.00 PenetrationDepth:3.388 Actor:BP_Bulky_C_3 Component:CharacterMesh0 BoneName:spinetent_04_r (1 other events since notify)
+[2024.06.17-12.34.04:329][692]LogCharacterMovement: BP_Kronen_C_6 is stuck and failed to move! Velocity: X=-265.23 Y=140.18 Z=0.00 Location: X=1352.88 Y=-7943.45 Z=2627.53 Normal: X=-0.43 Y=-0.88 Z=-0.22 PenetrationDepth:1.734 Actor:BP_Kronen_C_0 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.06.17-12.34.04:354][693]LogCharacterMovement: BP_Bulky_C_3 is stuck and failed to move! Velocity: X=293.29 Y=-63.11 Z=0.00 Location: X=8237.71 Y=-10439.99 Z=2612.03 Normal: X=0.16 Y=0.99 Z=-0.00 PenetrationDepth:4.577 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spine_01 (0 other events since notify)
+[2024.06.17-12.34.06:665][790]LogCharacterMovement: BP_Bulky_C_0 is stuck and failed to move! Velocity: X=104.81 Y=-281.10 Z=0.00 Location: X=8798.70 Y=-10620.57 Z=2610.28 Normal: X=0.96 Y=0.28 Z=0.00 PenetrationDepth:3.136 Actor:BP_Bulky_C_3 Component:CharacterMesh0 BoneName:ball_l (3 other events since notify)
+[2024.06.17-12.34.07:448][823]LogCharacterMovement: BP_Bulky_C_3 is stuck and failed to move! Velocity: X=-34.06 Y=-123.52 Z=0.00 Location: X=8724.31 Y=-10613.36 Z=2612.03 Normal: X=-0.97 Y=-0.11 Z=-0.23 PenetrationDepth:0.620 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:upperarm_l (10 other events since notify)
+[2024.06.17-12.34.11:683][  4]LogCharacterMovement: BP_Bulky_C_3 is stuck and failed to move! Velocity: X=-241.72 Y=-61.47 Z=0.00 Location: X=8312.28 Y=-10839.83 Z=2610.51 Normal: X=-0.43 Y=-0.90 Z=-0.00 PenetrationDepth:5.360 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (2 other events since notify)
+[2024.06.17-12.34.12:303][ 30]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.34.12:303][ 30]LogBlueprintUserMessages: [BP_Bulky_C_0] -40.0
+[2024.06.17-12.34.12:379][ 33]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.34.13:464][ 79]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=-299.75 Y=12.34 Z=0.00 Location: X=8375.22 Y=-10984.83 Z=2629.32 Normal: X=0.94 Y=0.33 Z=-0.10 PenetrationDepth:1.892 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:upperarm_twist_01_r (18 other events since notify)
+[2024.06.17-12.34.13:560][ 83]LogCharacterMovement: BP_Bulky_C_2 is stuck and failed to move! Velocity: X=96.97 Y=212.73 Z=0.00 Location: X=-6148.63 Y=-4003.77 Z=2610.05 Normal: X=-0.21 Y=-0.48 Z=-0.85 PenetrationDepth:2.547 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.34.17:861][267]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=27.51 Y=-41.76 Z=0.00 Location: X=-799.53 Y=-6990.43 Z=2629.63 Normal: X=0.52 Y=0.85 Z=0.00 PenetrationDepth:4.891 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_02_r (3 other events since notify)
+[2024.06.17-12.34.18:269][284]LogBlueprintUserMessages: [BP_Bulky_C_3] 30.0
+[2024.06.17-12.34.18:822][307]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=194.86 Y=228.10 Z=0.00 Location: X=8245.71 Y=-10760.45 Z=2627.59 Normal: X=-0.05 Y=-0.91 Z=-0.42 PenetrationDepth:2.053 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_036_R (7 other events since notify)
+[2024.06.17-12.34.20:362][372]LogBlueprintUserMessages: [EnnemySpawner_C_4] 6
+[2024.06.17-12.34.20:362][372]LogBlueprintUserMessages: [BP_KronenFemale_C_0] -40.0
+[2024.06.17-12.34.20:810][391]LogBlueprintUserMessages: [EnnemySpawner_C_4] 7
+[2024.06.17-12.34.21:847][435]LogCharacterMovement: BP_KronenFemale_C_3 is stuck and failed to move! Velocity: X=299.73 Y=-12.80 Z=0.00 Location: X=8357.79 Y=-10625.02 Z=2627.91 Normal: X=-0.95 Y=-0.26 Z=-0.17 PenetrationDepth:5.208 Actor:BP_Bulky_C_3 Component:CharacterMesh0 BoneName:upperarm_twist_01_r (0 other events since notify)
+[2024.06.17-12.34.22:242][452]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=42.86 Y=30.68 Z=0.00 Location: X=8410.34 Y=-10765.69 Z=2629.63 Normal: X=-0.86 Y=-0.51 Z=0.00 PenetrationDepth:8.083 Actor:BP_Bulky_C_3 Component:CharacterMesh0 BoneName:spinetent_04_r (5 other events since notify)
+[2024.06.17-12.34.23:664][512]LogCharacterMovement: BP_KronenFemale_C_3 is stuck and failed to move! Velocity: X=51.13 Y=-10.49 Z=0.00 Location: X=8385.44 Y=-10586.03 Z=2628.65 Normal: X=-0.97 Y=-0.19 Z=-0.17 PenetrationDepth:19.631 Actor:BP_Bulky_C_3 Component:CharacterMesh0 BoneName:lowerarm_twist_01_r (5 other events since notify)
+[2024.06.17-12.34.24:423][545]LogBlueprintUserMessages: [DI_Player_C_1] Hello
+[2024.06.17-12.34.25:396][588]LogCharacterMovement: BP_KronenFemale_C_3 is stuck and failed to move! Velocity: X=52.86 Y=-19.91 Z=0.00 Location: X=8406.38 Y=-10616.31 Z=2629.45 Normal: X=0.72 Y=-0.09 Z=0.69 PenetrationDepth:13.754 Actor:BP_KronenFemale_C_0 Component:CharacterMesh0 BoneName:Bone_003 (16 other events since notify)
+[2024.06.17-12.34.26:830][648]LogBlueprintUserMessages: [EnnemySpawner_C_2] 6
+[2024.06.17-12.34.26:830][648]LogBlueprintUserMessages: [BP_Bulky_C_3] -40.0
+[2024.06.17-12.34.26:950][653]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.06.17-12.34.26:951][653]LogBlueprintUserMessages: [EnnemySpawner_C_2] 7
+[2024.06.17-12.34.27:256][666]LogBlueprintUserMessages: [DI_Player_C_1] Hello
+[2024.06.17-12.34.28:941][731]LogCharacterMovement: BP_KronenFast_C_2 is stuck and failed to move! Velocity: X=-507.77 Y=-319.63 Z=0.00 Location: X=297.17 Y=-7378.00 Z=2659.32 Normal: X=-0.17 Y=0.94 Z=-0.28 PenetrationDepth:1.978 Actor:BP_KronenFemale_C_1 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.06.17-12.34.30:753][804]LogWindowsDesktop: Alt-F4 pressed!
+[2024.06.17-12.34.30:792][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-12.34.30:792][804]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.06.17-12.34.30:793][804]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.06.17-12.34.30:801][804]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-12.34.30:850][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-12.34.30:864][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.17-12.34.30:876][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-12.34.30:951][804]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.17-12.34.30:952][804]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.17-12.34.30:952][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.17-12.34.30:953][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.17-12.34.31:004][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.06.17-12.34.31:018][804]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.06.17-12.34.31:087][805]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.06.17-12.35.11:265][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.17-12.35.11:271][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-12.35.11:378][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_Bulky" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Bulky.uasset" SILENT=true
+[2024.06.17-12.35.11:387][344]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_Bulky
+[2024.06.17-12.35.11:387][344]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_Bulky5EDC9CA745661B82E8CCB68845BBB6C1.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Bulky.uasset'
+[2024.06.17-12.35.11:399][344]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner
+[2024.06.17-12.35.11:399][344]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/EnnemySpawner27F5439A4E13ACFFD2C763846EA8C7A3.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.uasset'
+[2024.06.17-12.35.11:405][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 3.56 sec)
+[2024.06.17-12.35.11:406][344]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.17-12.35.11:406][344]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_Bulky.BP_Bulky
+[2024.06.17-12.35.11:406][344]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
