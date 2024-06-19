@@ -23358,3 +23358,124 @@ Make sure 'WGP_DemoMenu_C' has been compiled for  Get TXT_Save
 [2024.06.19-10.51.00:511][170]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFemale.BP_KronenFemale
 [2024.06.19-10.51.00:538][170]LogAutomationController: Ignoring very large delta of 3.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2024.06.19-10.51.03:100][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.19-10.51.44:040][580]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-10.51.44:040][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-10.51.46:247][712]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_Bulky.BP_Bulky
+[2024.06.19-10.51.46:247][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.51.46:247][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: ================================================
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Total job queries 981, among them cache hits 863 (87.97%)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Tracking 118 distinct input hashes that result in 60 distinct outputs (50.85%)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: RAM used: 2.66 MiB of 1.60 GiB budget. Usage: 0.16%
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.43 s
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Job life time (pending + execution): average 0.39 s, max 0.44
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Shader code size: average 34.278 KiB, min 28.871 KiB, max 38.133 KiB
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.44 s
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Average processing rate: 13.49 jobs/sec
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Total thread time: 1.228 s
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Total thread preprocess time: 0.187 s
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Percentage time preprocessing: 15.26%
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Effective parallelization: 2.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.22 sec, max 0.22 sec, min 0.22 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                                  FVelocityVS - 23.94% of total time (compiled    2 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                                  FVelocityPS - 18.55% of total time (compiled    2 times, average 0.11 sec, max 0.12 sec, min 0.11 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.02% of total time (compiled    1 times, average 0.22 sec, max 0.22 sec, min 0.22 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.61% of total time (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.52% of total time (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2024.06.19-10.51.46:469][713]LogShaderCompilers: Display: ================================================
+[2024.06.19-10.51.46:870][716]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.51.48:037][768]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.51.48:142][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.52.09:445][636]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Walk_Anim.Enemy_Kronen_Bulk_Walk_Anim
+[2024.06.19-10.52.09:482][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.52.09:482][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.52.09:521][636]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.19-10.52.09:723][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.52.09:723][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.52.09:879][636]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.06.19-10.52.09:883][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.52.09:883][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.52.09:898][636]LogViewport: Scene viewport resized to 810x255, mode Windowed.
+[2024.06.19-10.52.09:926][636]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.06.19-10.52.17:586][ 32]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Idle_Anim.Enemy_Kronen_Bulk_Idle_Anim
+[2024.06.19-10.52.17:629][ 32]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.52.17:629][ 32]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.52.17:641][ 32]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-10.52.17:641][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-10.52.43:276][290]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 6-11-24_Bulky_Idle...
+[2024.06.19-10.52.43:282][290]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/bulky/6-11-24_Bulky_Idle.6-11-24_Bulky_Idle: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.19-10.52.48:803][792]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 6-11-24_Bulky_Idle_3...
+[2024.06.19-10.52.48:810][792]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/bulky/6-11-24_Bulky_Idle_3.6-11-24_Bulky_Idle_3: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.19-10.52.56:234][387]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 6-11-24_Bulky_Idle_4...
+[2024.06.19-10.52.56:243][387]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/bulky/6-11-24_Bulky_Idle_4.6-11-24_Bulky_Idle_4: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.19-10.53.05:706][881]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.06.19-10.53.06:456][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.53.06:487][920]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Idle_Anim
+[2024.06.19-10.53.06:488][920]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Enemy_Kronen_Bulk_Idle_Anim826DBEF84641F2D426A469A003D2DC72.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Idle_Anim.uasset'
+[2024.06.19-10.53.06:494][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 3.65 sec)
+[2024.06.19-10.53.06:496][920]AssetCheck: New page: Asset Save: Enemy_Kronen_Bulk_Idle_Anim
+[2024.06.19-10.53.06:496][920]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Idle_Anim.Enemy_Kronen_Bulk_Idle_Anim
+[2024.06.19-10.53.20:115][650]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim.Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.20:157][650]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.53.20:157][650]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.53.20:169][650]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-10.53.20:169][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-10.53.27:731][348]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 6-11-24_Bulky_attack_4__Vocal_...
+[2024.06.19-10.53.27:737][348]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/bulky/6-11-24_Bulky_attack_4__Vocal_.6-11-24_Bulky_attack_4__Vocal_: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.19-10.53.45:472][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.53.45:507][245]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.45:507][245]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Enemy_Kronen_Bulk_Attack_Anim228BA317462D5A8BBD5C2D80280FFCB2.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim.uasset'
+[2024.06.19-10.53.45:513][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 3.69 sec)
+[2024.06.19-10.53.45:514][245]AssetCheck: New page: Asset Save: Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.45:514][245]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim.Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.47:852][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.53.47:885][360]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.47:885][360]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Enemy_Kronen_Bulk_Attack_Anim804604224DD26531F331CD86357222B3.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim.uasset'
+[2024.06.19-10.53.47:889][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 3.73 sec)
+[2024.06.19-10.53.47:890][360]AssetCheck: New page: Asset Save: Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.53.47:890][360]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Attack_Anim.Enemy_Kronen_Bulk_Attack_Anim
+[2024.06.19-10.54.07:951][275]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim.Enemy_Kronen_Bulk_Death_Anim
+[2024.06.19-10.54.07:994][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.54.07:994][275]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.54.08:006][275]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-10.54.08:006][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-10.54.15:023][930]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 6-11-24_Bulky_Death_3...
+[2024.06.19-10.54.15:030][930]LogAudio: Display: Chunk sizes for SoundWave /Game/_Core/_Enemies/enemy_sounds/bulky/6-11-24_Bulky_Death_3.6-11-24_Bulky_Death_3: Chunk0=28 bytes, Chunk1-N=256k
+[2024.06.19-10.54.22:150][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.54.22:181][276]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim
+[2024.06.19-10.54.22:181][276]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Enemy_Kronen_Bulk_Death_AnimE42FC6EB44713838B571E7875482CAE9.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim.uasset'
+[2024.06.19-10.54.22:188][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 3.77 sec)
+[2024.06.19-10.54.22:189][276]AssetCheck: New page: Asset Save: Enemy_Kronen_Bulk_Death_Anim
+[2024.06.19-10.54.22:189][276]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Death_Anim.Enemy_Kronen_Bulk_Death_Anim
+[2024.06.19-10.54.24:959][415]LogScript: Warning: Accessed None trying to read property CallFunc_GetOwner_ReturnValue
+	Bp_FootstepsNoti_C /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Walk_Anim.Enemy_Kronen_Bulk_Walk_Anim:Bp_FootstepsNoti_C_0
+	Function /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti.Bp_FootstepsNoti_C:Received_Notify:0048
+[2024.06.19-10.54.24:959][415]LogScript: Warning: Accessed None trying to read property CallFunc_GetOwner_ReturnValue
+	Bp_FootstepsNoti_C /Game/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Walk_Anim.Enemy_Kronen_Bulk_Walk_Anim:Bp_FootstepsNoti_C_0
+	Function /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti.Bp_FootstepsNoti_C:Received_Notify:007A
+[2024.06.19-10.54.25:289][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.54.25:289][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.54.25:301][433]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-10.54.25:301][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-10.54.32:727][935]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti.Bp_FootstepsNoti
+[2024.06.19-10.54.32:727][935]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-10.54.32:727][935]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-10.55.35:208][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.06.19-10.55.35:215][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.55.35:252][617]LogSavePackage: Moving output files for package: /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti
+[2024.06.19-10.55.35:253][617]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Bp_FootstepsNoti953EF9F54AFF1C3C248B7FB8DF7DC62D.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti.uasset'
+[2024.06.19-10.55.35:259][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 3.81 sec)
+[2024.06.19-10.55.35:261][617]AssetCheck: New page: Asset Save: Bp_FootstepsNoti
+[2024.06.19-10.55.35:261][617]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/_PlayerAnimations/_Notifires/Bp_FootstepsNoti.Bp_FootstepsNoti
