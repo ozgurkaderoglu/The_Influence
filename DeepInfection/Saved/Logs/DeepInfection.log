@@ -2994,3 +2994,60 @@ Script Stack (4 frames) :
 [2024.07.01-20.36.26:165][638]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen_Auto1
 [2024.07.01-20.36.26:165][638]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_Kronen_Auto155CD0B16421BB018CA61D7A161587D30.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen_Auto1.uasset'
 [2024.07.01-20.36.26:165][638]LogFileHelpers: Auto-saving content packages took 0.441
+[2024.07.01-20.45.22:683][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.07.01-20.45.22:690][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.01-20.45.22:845][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/Island" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.01-20.45.22:875][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.07.01-20.45.25:653][679]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2024.07.01-20.45.25:653][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Island32873037426ABD5CF9037EBC38BF388E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2024.07.01-20.45.25:695][679]LogFileHelpers: Saving map 'Island' took 2.853
+[2024.07.01-20.45.25:703][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_Brain/Enemy_CTR_Main
+[2024.07.01-20.45.25:703][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Enemy_CTR_MainCB23DA004FF17AC7F5F4DCAB6C07C25B.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_Brain/Enemy_CTR_Main.uasset'
+[2024.07.01-20.45.25:704][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Player/DI_Player" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset" SILENT=true
+[2024.07.01-20.45.25:813][679]LogSavePackage: Moving output files for package: /Game/_Core/_Player/DI_Player
+[2024.07.01-20.45.25:813][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/DI_Player1BF6175940F75408EB69D8BA593D34FB.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset'
+[2024.07.01-20.45.25:823][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner
+[2024.07.01-20.45.25:823][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/EnnemySpawner18F4A7AD40D9310C6081A7B0E5649EA3.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.uasset'
+[2024.07.01-20.45.25:823][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Kronen.uasset" SILENT=true
+[2024.07.01-20.45.25:836][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_Kronen
+[2024.07.01-20.45.25:836][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenB2F6470C47396333D4C3508FACCE334F.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Kronen.uasset'
+[2024.07.01-20.45.25:837][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_KronenFast" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFast.uasset" SILENT=true
+[2024.07.01-20.45.25:849][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_KronenFast
+[2024.07.01-20.45.25:849][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenFastB3C8DBB14AEC5ACA938B6398BC9992FF.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFast.uasset'
+[2024.07.01-20.45.25:849][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_KronenFemale" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFemale.uasset" SILENT=true
+[2024.07.01-20.45.25:860][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_KronenFemale
+[2024.07.01-20.45.25:861][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenFemale0D70DDD44B39943A9223F6AE57243143.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFemale.uasset'
+[2024.07.01-20.45.25:861][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.uasset" SILENT=true
+[2024.07.01-20.45.25:863][679]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen
+[2024.07.01-20.45.25:863][679]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_Kronen3DCF4C2549FE28B6B3C1C98A59CAC23B.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.uasset'
+[2024.07.01-20.45.25:869][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.17 sec (total: 3.26 sec)
+[2024.07.01-20.45.25:901][679]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_AiSystems/_Brain/Enemy_CTR_Main.Enemy_CTR_Main
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_Kronen.BP_Kronen
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFemale.BP_KronenFemale
+[2024.07.01-20.45.25:901][679]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.BHT_Kronen
+[2024.07.01-20.45.31:503][963]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.31:503][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.33:101][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.33:101][ 48]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.33:101][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.34:231][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.34:231][ 86]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.34:232][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.35:610][140]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.35:610][140]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.35:610][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.36:751][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.36:751][188]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.36:751][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.37:754][239]LogSlate: Window 'BP_KronenFast' being destroyed
+[2024.07.01-20.45.37:763][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.37:763][239]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.37:763][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.01-20.45.40:016][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.01-20.45.40:017][397]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.07.01-20.45.40:017][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
