@@ -3252,3 +3252,248 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.05-19.30.15:018][ 99]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
 [2024.07.05-19.30.15:018][ 99]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/_Core/_Player/_Assets/_Textures/_Textures/CarpDMG_DM.CarpDMG_DM
 [2024.07.05-19.30.15:072][ 99]LogAutomationController: Ignoring very large delta of 4.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.05-19.34.04:571][424]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:577][424]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Slugger_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.34.04:644][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: ================================================
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Total job queries 1,491, among them cache hits 1,260 (84.51%)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Tracking 231 distinct input hashes that result in 104 distinct outputs (45.02%)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: RAM used: 5.20 MiB of 1.60 GiB budget. Usage: 0.32%
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Shaders Compiled: 106
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Jobs assigned 106, completed 106 (100%)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Average time worker was idle: 44.72 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 1.06 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Job execution time: average 0.30 s, max 0.81 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Job life time (pending + execution): average 0.51 s, max 1.26
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Shader code size: average 35.812 KiB, min 4.359 KiB, max 61.93 KiB
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.87 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Jobs were issued in 106 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Average processing rate: 15.42 jobs/sec
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Total thread time: 16.864 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Total thread preprocess time: 1.846 s
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Percentage time preprocessing: 10.95%
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Effective parallelization: 2.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.21 sec, max 0.22 sec, min 0.21 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.21 sec, max 0.21 sec, min 0.20 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.20 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.19 sec, max 0.20 sec, min 0.19 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.90% of total time (compiled   15 times, average 0.17 sec, max 0.20 sec, min 0.12 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.98% of total time (compiled   15 times, average 0.16 sec, max 0.18 sec, min 0.13 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.13% of total time (compiled    9 times, average 0.15 sec, max 0.17 sec, min 0.13 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:                                                  FVelocityVS - 7.64% of total time (compiled    9 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.39% of total time (compiled    6 times, average 0.15 sec, max 0.16 sec, min 0.14 sec)
+[2024.07.05-19.34.04:646][425]LogShaderCompilers: Display: ================================================
+[2024.07.05-19.34.04:652][425]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.34.04:680][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:686][426]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.34.04:714][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:752][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:759][428]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.34.04:787][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.04:824][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.07:908][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast
+[2024.07.05-19.34.07:908][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.07:908][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.07:992][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.34.08:267][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:010][735]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:136][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:173][739]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:204][740]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:234][741]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:264][742]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:294][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:344][744]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.11:349][744]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_44:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_0
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.05-19.34.12:087][769]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/_Core/_Enemies/_Animations/ABP_KFast.ABP_KFast
+[2024.07.05-19.34.12:088][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.12:088][769]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.12:095][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.12:095][769]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.12:146][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.07.05-19.34.12:343][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.12:344][769]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.12:452][769]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.07.05-19.34.15:687][949]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_44:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_1
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.05-19.34.15:710][950]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_44:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_2
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.05-19.34.15:731][951]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_44:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_3
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.05-19.34.23:726][388]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.BHT_Female
+[2024.07.05-19.34.27:719][651]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.27:719][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.27:731][651]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.27:731][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.27:766][651]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.27:766][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.40:450][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.40:474][578]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.40:497][579]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.41:956][665]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1.KronenFemale_Animations_Attack1
+[2024.07.05-19.34.41:957][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.41:957][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.41:980][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.07.05-19.34.42:151][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.42:151][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.42:266][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.34.42:266][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.34.42:280][665]LogViewport: Scene viewport resized to 976x448, mode Windowed.
+[2024.07.05-19.34.42:306][665]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.07.05-19.34.56:260][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-19.34.56:294][720]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1
+[2024.07.05-19.34.56:294][720]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/KronenFemale_Animations_Attack1972297774FD366D62F981F8707BE0FC2.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1.uasset'
+[2024.07.05-19.34.56:300][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 7.46 sec)
+[2024.07.05-19.34.56:301][720]AssetCheck: New page: Asset Save: KronenFemale_Animations_Attack1
+[2024.07.05-19.34.56:301][720]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1.KronenFemale_Animations_Attack1
+[2024.07.05-19.34.59:674][930]LogSlate: Window 'KronenFemale_Animations_Attack1' being destroyed
+[2024.07.05-19.34.59:678][930]LogSlate: Window 'KronenFemale_Animations_Attack1' being destroyed
+[2024.07.05-19.34.59:682][930]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:682][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.59:746][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.05-19.34.59:746][930]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:746][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.59:840][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.05-19.34.59:840][930]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:840][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.59:896][930]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:896][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.59:905][930]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:905][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.34.59:927][930]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.34.59:928][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.35.12:353][823]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.BHT_KronenFast
+[2024.07.05-19.35.15:298][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.35.16:147][ 87]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001.KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001
+[2024.07.05-19.35.16:148][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.35.16:148][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.35.16:154][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.07.05-19.35.16:299][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.35.16:300][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.35.16:400][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.35.16:400][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.35.16:412][ 87]LogViewport: Scene viewport resized to 976x448, mode Windowed.
+[2024.07.05-19.35.16:432][ 87]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.07.05-19.35.32:507][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-19.35.32:536][429]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001
+[2024.07.05-19.35.32:536][429]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/KronenFast_Animations_Attack1_ArFD8A1F1A46F25944E3D0C192E1E98CFF.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001.uasset'
+[2024.07.05-19.35.32:544][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 7.50 sec)
+[2024.07.05-19.35.32:545][429]AssetCheck: New page: Asset Save: KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001
+[2024.07.05-19.35.32:545][429]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001.KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001
+[2024.07.05-19.35.34:142][524]LogSlate: Window 'KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001' being destroyed
+[2024.07.05-19.35.34:147][524]LogSlate: Window 'KronenFast_Animations_Attack1_Armature_M_004_Armature_M_005Action_001' being destroyed
+[2024.07.05-19.35.34:171][524]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.35.34:171][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.35.34:178][524]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.35.34:178][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.35.34:205][524]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.35.34:205][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.35.35:895][674]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-19.35.35:909][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.35.35:909][674]PIE: New page: PIE session: Island (5 Jul 2024, 23:35:35)
+[2024.07.05-19.35.35:909][674]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.35.36:393][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.483943s)
+[2024.07.05-19.35.36:393][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.483976s)
+[2024.07.05-19.35.36:419][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.07.05-19.35.36:428][674]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.35.36:428][674]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.35.36:428][674]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.35.36:429][674]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2024.07.05-19.35.36:429][674]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.35.36:429][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.35.36:429][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.35.36:429][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.35.36:429][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.35.36:430][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.35.36:431][674]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.35.36:447][674]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.35.36:447][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.35.36:447][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.35.36:447][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.35.36:448][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.07.05-19.35.36:448][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.07.05-19.35.36:449][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.07.05-19.35.36:449][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.07.05-19.35.36:449][674]LogInit: FAudioDevice initialized with ID 18.
+[2024.07.05-19.35.36:449][674]LogAudio: Display: Audio Device (ID: 18) registered with world 'Island'.
+[2024.07.05-19.35.36:449][674]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.07.05-19.35.36:468][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.35.36:468][674]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.35.36:661][674]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.35.36:664][674]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.35.36
+[2024.07.05-19.35.36:666][674]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.35.36:667][674]LogWorld: Bringing up level for play took: 0.198140
+[2024.07.05-19.35.36:669][674]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2024.07.05-19.35.36:670][674]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.35.36:670][674]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.35.36:670][674]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.35.36:680][674]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.05-19.35.36:680][674]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.05-19.35.36:681][674]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.35.36:683][674]PIE: Server logged in
+[2024.07.05-19.35.36:683][674]PIE: Play in editor total start time 0.775 seconds.
+[2024.07.05-19.35.36:764][674]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.05-19.35.36:773][674]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.07.05-19.35.36:792][675]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089609 > MaxSimulationTimeStep (0.050) for 'DI_Player_C_0', movement 'Walking'
+[2024.07.05-19.35.42:649][946]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.35.43:158][972]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.35.43:159][972]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.35.43:671][998]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.35.43:673][998]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7127.691 Y=-9421.926 Z=2881.114] for [BP_KronenFemale_C]
+[2024.07.05-19.35.43:673][998]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.35.43:674][998]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.35.44:192][ 24]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7765.980 Y=-9725.056 Z=2881.114] for [BP_Kronen_C]
+[2024.07.05-19.35.44:192][ 24]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.35.44:193][ 24]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.35.44:694][ 49]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.35.44:694][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5349.649 Y=-9420.289 Z=2881.114] for [BP_KronenFemale_C]
+[2024.07.05-19.35.44:697][ 49]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_5, they are designed to work with AAIControllers!
+[2024.07.05-19.35.44:697][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-6137.673 Y=-4506.464 Z=2749.517] for [BP_KronenFemale_C]
+[2024.07.05-19.35.57:449][693]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=13.17 Y=68.75 Z=0.00 Location: X=-3148.47 Y=-6336.54 Z=2629.82 Normal: X=-0.52 Y=-0.85 Z=0.00 PenetrationDepth:3.745 Actor:BP_KronenFemale_C_1 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.07.05-19.35.58:398][738]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=9.21 Y=-268.94 Z=0.00 Location: X=8001.87 Y=-9225.37 Z=2609.90 Normal: X=0.31 Y=0.91 Z=-0.28 PenetrationDepth:0.319 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_03_r (0 other events since notify)
+[2024.07.05-19.35.58:459][741]LogCharacterMovement: BP_Kronen_C_3 is stuck and failed to move! Velocity: X=39.90 Y=57.52 Z=0.00 Location: X=-3168.74 Y=-6336.56 Z=2629.82 Normal: X=-0.72 Y=-0.69 Z=0.00 PenetrationDepth:4.274 Actor:BP_KronenFemale_C_1 Component:CharacterMesh0 BoneName:Bone_003 (7 other events since notify)
+[2024.07.05-19.36.00:101][819]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=44.11 Y=-0.00 Z=0.00 Location: X=8072.73 Y=-9256.99 Z=2612.03 Normal: X=-0.42 Y=-0.47 Z=-0.78 PenetrationDepth:19.347 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_04_r (25 other events since notify)
+[2024.07.05-19.36.01:068][865]LogBlueprintUserMessages: [DI_Player_C_0] Hello
+[2024.07.05-19.36.04:007][  3]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=43.31 Y=-0.00 Z=0.00 Location: X=8203.97 Y=-9172.05 Z=2610.21 Normal: X=-0.30 Y=0.79 Z=-0.53 PenetrationDepth:5.854 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_04_r (3 other events since notify)
+[2024.07.05-19.36.06:520][116]LogBlueprintUserMessages: [DI_Player_C_0] Hello
+[2024.07.05-19.36.12:346][387]LogCharacterMovement: BP_KronenFast_C_1 is stuck and failed to move! Velocity: X=-354.05 Y=-77.56 Z=0.00 Location: X=7935.38 Y=-9157.52 Z=2627.60 Normal: X=0.62 Y=0.73 Z=-0.30 PenetrationDepth:1.986 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:upperarm_twist_01_r (0 other events since notify)
+[2024.07.05-19.36.12:598][399]LogBlueprintUserMessages: [DI_Player_C_0] Hello
+[2024.07.05-19.36.13:000][418]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-54.84 Y=-43.50 Z=0.00 Location: X=-2389.14 Y=-5714.88 Z=2659.24 Normal: X=0.85 Y=0.33 Z=-0.40 PenetrationDepth:0.547 Actor:BP_Kronen_C_3 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.07.05-19.36.13:127][424]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=-42.92 Y=0.00 Z=0.00 Location: X=7770.33 Y=-9196.80 Z=2612.02 Normal: X=0.67 Y=0.74 Z=0.00 PenetrationDepth:26.147 Actor:BP_KronenFast_C_2 Component:CharacterMesh0 BoneName:Bone_003 (1 other events since notify)
+[2024.07.05-19.36.14:134][472]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=421.17 Y=-424.52 Z=0.00 Location: X=7770.33 Y=-9196.80 Z=2612.02 Normal: X=-0.96 Y=-0.28 Z=0.00 PenetrationDepth:26.283 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:pelvis (47 other events since notify)
+[2024.07.05-19.36.14:642][496]LogBlueprintUserMessages: [DI_Player_C_0] Hello
+[2024.07.05-19.36.15:155][520]LogCharacterMovement: DI_Player_C_0 is stuck and failed to move! Velocity: X=-598.95 Y=-35.40 Z=0.00 Location: X=7726.01 Y=-9201.08 Z=2612.02 Normal: X=-0.85 Y=-0.52 Z=0.00 PenetrationDepth:33.532 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_03_r (25 other events since notify)
+[2024.07.05-19.36.16:422][578]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.05-19.36.16:422][578]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-19.36.16:422][578]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.05-19.36.17:865][645]Cmd: quit
+[2024.07.05-19.36.17:866][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.36.17:866][645]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.36.17:866][645]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.07.05-19.36.17:929][645]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.36.17:976][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.36.17:985][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.36.17:996][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.36.18:068][645]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.07.05-19.36.18:068][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.07.05-19.36.18:069][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.07.05-19.36.18:123][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.07.05-19.36.18:140][645]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.36.18:206][646]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2024.07.05-19.36.22:139][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
