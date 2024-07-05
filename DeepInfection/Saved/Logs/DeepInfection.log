@@ -3497,3 +3497,974 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.05-19.36.18:140][645]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
 [2024.07.05-19.36.18:206][646]LogPlayLevel: Display: Destroying online subsystem :Context_75
 [2024.07.05-19.36.22:139][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.05-19.37.03:601][989]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.37.54:346][612]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.37.54:346][612]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.37.54:349][612]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_0
+[2024.07.05-19.37.54:353][612]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_0
+[2024.07.05-19.37.54:358][612]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.07.05-19.37.55:011][631]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.37.55:011][631]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.37.55:017][631]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_2
+[2024.07.05-19.37.55:019][631]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_2
+[2024.07.05-19.37.55:209][632]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.03:412][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.39.03:412][937]PIE: New page: SIE session: Island (5 Jul 2024, 23:39:03)
+[2024.07.05-19.39.03:414][937]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.39.03:907][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.493666s)
+[2024.07.05-19.39.03:908][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.493696s)
+[2024.07.05-19.39.03:928][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.05-19.39.03:946][937]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.39.03:946][937]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.39.03:946][937]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.39.03:947][937]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2024.07.05-19.39.03:947][937]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.39.03:947][937]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.39.03:948][937]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.39.03:948][937]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.39.03:948][937]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.39.03:948][937]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.39.03:949][937]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.39.03:964][937]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.39.03:964][937]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.39.03:964][937]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.39.03:964][937]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.39.03:965][937]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.07.05-19.39.03:965][937]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.07.05-19.39.03:966][937]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.07.05-19.39.03:966][937]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.07.05-19.39.03:966][937]LogInit: FAudioDevice initialized with ID 19.
+[2024.07.05-19.39.03:966][937]LogAudio: Display: Audio Device (ID: 19) registered with world 'Island'.
+[2024.07.05-19.39.03:966][937]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.07.05-19.39.03:972][937]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.39.04:154][937]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.04:157][937]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.39.04
+[2024.07.05-19.39.04:159][937]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.39.04:160][937]LogWorld: Bringing up level for play took: 0.188219
+[2024.07.05-19.39.04:162][937]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2024.07.05-19.39.04:162][937]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.04:170][937]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.04:170][937]PIE: Server logged in
+[2024.07.05-19.39.04:171][937]PIE: Play in editor total start time 0.758 seconds.
+[2024.07.05-19.39.04:679][938]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.05:758][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.39.05:758][962]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.39.05:761][962]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.39.05:807][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.39.05:818][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.39.05:829][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.39.05:890][962]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-19.39.05:891][962]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.07.05-19.39.05:891][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.07.05-19.39.05:892][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.07.05-19.39.05:895][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.39.05:956][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.07.05-19.39.05:972][962]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.39.06:014][963]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2024.07.05-19.39.06:177][963]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.07:952][ 20]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
+[2024.07.05-19.39.07:953][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.39.07:953][ 20]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.39.12:066][211]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.39.12:080][211]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.05-19.39.12:081][211]LogPlayLevel: [PlayLevel] Compiling CamSwitchWithTracker before play...
+[2024.07.05-19.39.12:147][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.07.05-19.39.12:156][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2024.07.05-19.39.12:156][211]PIE: New page: SIE session: Island (5 Jul 2024, 23:39:12)
+[2024.07.05-19.39.12:156][211]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.39.12:659][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.503155s)
+[2024.07.05-19.39.12:659][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.503183s)
+[2024.07.05-19.39.12:672][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.07.05-19.39.12:674][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.39.12:674][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.39.12:674][211]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.39.12:674][211]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2024.07.05-19.39.12:676][211]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.39.12:676][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.39.12:676][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.39.12:676][211]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.39.12:676][211]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.39.12:676][211]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.39.12:678][211]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.39.12:690][211]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.39.12:690][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.39.12:690][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.39.12:690][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.39.12:690][211]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.07.05-19.39.12:690][211]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.07.05-19.39.12:693][211]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.07.05-19.39.12:693][211]LogInit: FAudioDevice initialized with ID 20.
+[2024.07.05-19.39.12:693][211]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.07.05-19.39.12:693][211]LogAudio: Display: Audio Device (ID: 20) registered with world 'Island'.
+[2024.07.05-19.39.12:693][211]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.07.05-19.39.12:697][211]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.39.12:876][211]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.12:878][211]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.39.12
+[2024.07.05-19.39.12:880][211]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.39.12:881][211]LogWorld: Bringing up level for play took: 0.183955
+[2024.07.05-19.39.12:882][211]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2024.07.05-19.39.12:884][211]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.12:891][211]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.12:891][211]PIE: Server logged in
+[2024.07.05-19.39.12:891][211]PIE: Play in editor total start time 0.811 seconds.
+[2024.07.05-19.39.13:029][212]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.17:642][330]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.39.17:642][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.39.17:642][330]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.39.17:642][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.39.17:852][336]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.39.17:854][336]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.39.18:382][353]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-6137.673 Y=-4506.464 Z=2749.517] for [BP_Kronen_C]
+[2024.07.05-19.39.19:428][387]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1141.478 Y=-6988.941 Z=2749.517] for [BP_Kronen_C]
+[2024.07.05-19.39.19:428][387]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.19:956][404]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.19:957][404]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.39.19:957][404]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-8457.416 Y=-5611.096 Z=2749.517] for [BP_KronenFemale_C]
+[2024.07.05-19.39.19:959][404]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.39.19:959][404]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-8457.416 Y=-5611.096 Z=2749.517] for [BP_KronenFast_C]
+[2024.07.05-19.39.19:959][404]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.39.19:959][404]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-8457.416 Y=-5611.096 Z=2749.517] for [BP_KronenFast_C]
+[2024.07.05-19.39.19:960][404]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3039.819 Y=-6759.784 Z=2749.517] for [BP_Bulky_C]
+[2024.07.05-19.39.19:960][404]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.39.20:459][420]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.39.20:460][420]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-8457.416 Y=-5611.096 Z=2749.517] for [BP_Kronen_C]
+[2024.07.05-19.39.20:962][436]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.39.26:855][606]LogCharacterMovement: BP_KronenFast_C_0 is stuck and failed to move! Velocity: X=14.31 Y=63.33 Z=0.00 Location: X=7470.21 Y=-10073.30 Z=2627.58 Normal: X=0.26 Y=-0.91 Z=-0.32 PenetrationDepth:2.940 Actor:BP_KronenFemale_C_3 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.07.05-19.39.28:932][673]LogCharacterMovement: BP_KronenFemale_C_4 is stuck and failed to move! Velocity: X=67.27 Y=19.37 Z=0.00 Location: X=5773.95 Y=-9213.39 Z=2659.69 Normal: X=-0.97 Y=-0.12 Z=-0.23 PenetrationDepth:7.689 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.07.05-19.39.35:237][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.39.35:237][856]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.39.35:242][856]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.39.35:291][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.39.35:301][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.39.35:311][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.39.35:381][856]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-19.39.35:383][856]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.07.05-19.39.35:383][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.07.05-19.39.35:385][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.07.05-19.39.35:387][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.39.35:447][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.07.05-19.39.35:462][856]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.39.35:570][857]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2024.07.05-19.39.35:593][857]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.37:545][917]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.39.37:550][917]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.39.45:296][180]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.39.45:311][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.39.45:311][180]PIE: New page: SIE session: Island (5 Jul 2024, 23:39:45)
+[2024.07.05-19.39.45:311][180]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.39.45:827][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.516599s)
+[2024.07.05-19.39.45:827][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.516636s)
+[2024.07.05-19.39.45:842][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.05-19.39.45:852][180]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.39.45:852][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.39.45:852][180]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.39.45:853][180]LogPlayLevel: PIE: World Init took: (0.001602s)
+[2024.07.05-19.39.45:854][180]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.39.45:854][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.39.45:854][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.39.45:854][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.39.45:854][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.39.45:854][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.39.45:856][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.39.45:873][180]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.39.45:873][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.39.45:873][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.39.45:873][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.39.45:875][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.07.05-19.39.45:875][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.07.05-19.39.45:875][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.07.05-19.39.45:875][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.07.05-19.39.45:875][180]LogInit: FAudioDevice initialized with ID 21.
+[2024.07.05-19.39.45:875][180]LogAudio: Display: Audio Device (ID: 21) registered with world 'Island'.
+[2024.07.05-19.39.45:875][180]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.07.05-19.39.45:878][180]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.39.46:072][180]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.46:075][180]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.39.46
+[2024.07.05-19.39.46:077][180]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.39.46:078][180]LogWorld: Bringing up level for play took: 0.200933
+[2024.07.05-19.39.46:081][180]LogOnline: OSS: Created online subsystem instance for: :Context_79
+[2024.07.05-19.39.46:081][180]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.46:088][180]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.39.46:088][180]PIE: Server logged in
+[2024.07.05-19.39.46:090][180]PIE: Play in editor total start time 0.779 seconds.
+[2024.07.05-19.39.46:511][181]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.39.50:967][285]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.39.50:967][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.39.50:967][285]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.39.50:967][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.39.51:198][291]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.39.51:732][305]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.52:235][318]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.39.52:236][318]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.39.52:815][332]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.39.53:323][349]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.39.53:323][349]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.39.53:822][365]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.39.53:822][365]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_5, they are designed to work with AAIControllers!
+[2024.07.05-19.39.54:324][381]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.39.54:324][381]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_6, they are designed to work with AAIControllers!
+[2024.07.05-19.40.08:743][826]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-69.58 Y=-7.69 Z=0.00 Location: X=-7939.76 Y=-5879.49 Z=2627.57 Normal: X=0.98 Y=0.00 Z=-0.20 PenetrationDepth:3.899 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.07.05-19.40.14:760][993]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=-69.23 Y=-10.35 Z=0.00 Location: X=-5283.55 Y=-4786.91 Z=2657.47 Normal: X=0.97 Y=-0.02 Z=-0.23 PenetrationDepth:1.870 Actor:BP_KronenFast_C_6 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.07.05-19.40.15:990][ 28]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-68.90 Y=-12.35 Z=0.00 Location: X=-7914.10 Y=-5858.75 Z=2627.50 Normal: X=0.94 Y=0.25 Z=-0.23 PenetrationDepth:0.029 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (7 other events since notify)
+[2024.07.05-19.40.16:276][ 37]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=-69.25 Y=-10.24 Z=0.00 Location: X=7608.39 Y=-10486.33 Z=2629.60 Normal: X=-0.13 Y=-0.99 Z=-0.00 PenetrationDepth:9.661 Actor:BP_Bulky_C_0 Component:CharacterMesh0 BoneName:spinetent_03_r (0 other events since notify)
+[2024.07.05-19.40.24:085][256]LogCharacterMovement: BP_KronenFemale_C_2 is stuck and failed to move! Velocity: X=46.55 Y=33.99 Z=0.00 Location: X=-8166.91 Y=-6005.88 Z=2629.62 Normal: X=-0.28 Y=-0.96 Z=-0.00 PenetrationDepth:0.029 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.07.05-19.40.24:426][263]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=-49.72 Y=49.27 Z=0.00 Location: X=-8147.78 Y=-5899.02 Z=2627.76 Normal: X=0.84 Y=0.46 Z=-0.29 PenetrationDepth:13.852 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (7 other events since notify)
+[2024.07.05-19.40.26:238][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.40.26:238][309]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.40.26:241][309]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.40.26:288][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.40.26:295][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.40.26:304][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.40.26:374][309]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-19.40.26:374][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.07.05-19.40.26:374][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.07.05-19.40.26:377][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.07.05-19.40.26:380][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.40.26:426][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.07.05-19.40.26:438][309]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.40.26:530][310]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2024.07.05-19.40.26:552][310]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.40.27:402][355]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.40.27:452][355]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.40.40:418][719]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.40:418][719]LogEditorTransaction: Undo Reset Location
+[2024.07.05-19.40.42:531][822]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.42:531][822]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.44:607][875]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.44:607][875]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.45:206][920]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.45:206][920]LogEditorTransaction: Undo Change Enum Pin Value
+[2024.07.05-19.40.45:804][965]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.45:804][965]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.46:449][982]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.46:450][982]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.47:021][997]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.47:021][997]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.47:514][ 10]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.47:514][ 10]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.50:150][ 84]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.50:151][ 84]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.50:736][108]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.50:736][108]LogEditorTransaction: Undo Move Elements
+[2024.07.05-19.40.53:401][212]Cmd: TRANSACTION UNDO
+[2024.07.05-19.40.53:401][212]LogEditorTransaction: Undo Edit Hidden in Game
+[2024.07.05-19.41.30:561][346]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.43.01:362][116]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.43.01:379][116]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.05-19.43.01:379][116]LogPlayLevel: [PlayLevel] Compiling CamSwitchWithTracker before play...
+[2024.07.05-19.43.01:433][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.07.05-19.43.01:448][116]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2024.07.05-19.43.01:448][116]PIE: New page: SIE session: Island (5 Jul 2024, 23:43:01)
+[2024.07.05-19.43.01:448][116]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.43.01:927][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.478672s)
+[2024.07.05-19.43.01:927][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.478702s)
+[2024.07.05-19.43.01:941][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.05-19.43.01:942][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.43.01:942][116]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.43.01:942][116]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.43.01:944][116]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2024.07.05-19.43.01:945][116]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.43.01:945][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.43.01:945][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.43.01:945][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.43.01:945][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.43.01:945][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.43.01:946][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.43.01:960][116]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.43.01:961][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.43.01:961][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.43.01:961][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.43.01:961][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.07.05-19.43.01:962][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.07.05-19.43.01:963][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.07.05-19.43.01:963][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.07.05-19.43.01:963][116]LogInit: FAudioDevice initialized with ID 22.
+[2024.07.05-19.43.01:963][116]LogAudio: Display: Audio Device (ID: 22) registered with world 'Island'.
+[2024.07.05-19.43.01:963][116]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.07.05-19.43.01:965][116]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.43.02:143][116]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.43.02:145][116]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.43.02
+[2024.07.05-19.43.02:147][116]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.43.02:148][116]LogWorld: Bringing up level for play took: 0.183802
+[2024.07.05-19.43.02:151][116]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2024.07.05-19.43.02:152][116]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.43.02:159][116]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.43.02:159][116]PIE: Server logged in
+[2024.07.05-19.43.02:159][116]PIE: Play in editor total start time 0.781 seconds.
+[2024.07.05-19.43.02:378][117]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.43.05:948][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.43.05:948][243]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.43.05:951][243]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.43.05:998][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.43.06:005][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.43.06:016][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.43.06:032][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.43.06:091][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.07.05-19.43.06:091][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.07.05-19.43.06:092][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.07.05-19.43.06:144][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.07.05-19.43.06:158][243]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.43.06:205][244]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2024.07.05-19.43.06:374][244]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.43.17:355][650]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2024.07.05-19.43.17:392][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.07.05-19.43.17:547][652]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.43.20:922][737]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.43.20:935][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.43.20:935][737]PIE: New page: SIE session: Island (5 Jul 2024, 23:43:20)
+[2024.07.05-19.43.20:935][737]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.43.21:416][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.480935s)
+[2024.07.05-19.43.21:416][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.480963s)
+[2024.07.05-19.43.21:431][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.07.05-19.43.21:439][737]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.43.21:439][737]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.43.21:440][737]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.43.21:441][737]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2024.07.05-19.43.21:441][737]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.43.21:441][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.43.21:441][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.43.21:441][737]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.43.21:441][737]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.43.21:441][737]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.43.21:442][737]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.43.21:457][737]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.43.21:457][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.43.21:457][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.43.21:457][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.43.21:457][737]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.07.05-19.43.21:457][737]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.07.05-19.43.21:458][737]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.07.05-19.43.21:458][737]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.07.05-19.43.21:458][737]LogInit: FAudioDevice initialized with ID 23.
+[2024.07.05-19.43.21:458][737]LogAudio: Display: Audio Device (ID: 23) registered with world 'Island'.
+[2024.07.05-19.43.21:458][737]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.07.05-19.43.21:464][737]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.43.21:642][737]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.43.21:645][737]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.43.21
+[2024.07.05-19.43.21:648][737]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.43.21:649][737]LogWorld: Bringing up level for play took: 0.184733
+[2024.07.05-19.43.21:651][737]LogOnline: OSS: Created online subsystem instance for: :Context_81
+[2024.07.05-19.43.21:652][737]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.43.21:659][737]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.43.21:659][737]PIE: Server logged in
+[2024.07.05-19.43.21:659][737]PIE: Play in editor total start time 0.724 seconds.
+[2024.07.05-19.43.21:784][738]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.43.26:418][870]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.43.26:418][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.43.26:418][870]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.43.26:418][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.43.26:649][877]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.43.27:162][892]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.43.27:665][907]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.43.27:665][907]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7429.133 Y=-10426.860 Z=2881.114] for [BP_KronenFast_C]
+[2024.07.05-19.43.27:665][907]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.43.27:666][907]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.43.28:169][922]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.43.28:696][936]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.43.29:231][950]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7429.133 Y=-10426.860 Z=2881.114] for [BP_Kronen_C]
+[2024.07.05-19.43.29:233][950]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.43.29:234][950]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.43.29:743][963]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.44.30:353][577]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=69.04 Y=11.58 Z=0.00 Location: X=-1868.85 Y=-6502.32 Z=2652.35 Normal: X=-0.77 Y=-0.64 Z=0.00 PenetrationDepth:3.129 Actor:BP_KronenFast_C_4 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.07.05-19.44.31:470][606]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=68.89 Y=12.43 Z=0.00 Location: X=-1862.29 Y=-6506.39 Z=2654.01 Normal: X=-0.55 Y=-0.83 Z=0.00 PenetrationDepth:10.964 Actor:BP_KronenFast_C_4 Component:CharacterMesh0 BoneName:Bone_003 (18 other events since notify)
+[2024.07.05-19.44.32:487][632]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=68.89 Y=12.43 Z=0.00 Location: X=-1862.29 Y=-6506.39 Z=2654.01 Normal: X=-0.81 Y=-0.59 Z=0.00 PenetrationDepth:1.406 Actor:BP_KronenFast_C_4 Component:CharacterMesh0 BoneName:Bone_003 (25 other events since notify)
+[2024.07.05-19.44.32:648][636]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=65.75 Y=24.03 Z=0.00 Location: X=-2220.84 Y=-5999.22 Z=2629.47 Normal: X=-0.47 Y=0.88 Z=0.00 PenetrationDepth:1.984 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:pelvis (0 other events since notify)
+[2024.07.05-19.44.33:520][658]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=68.89 Y=12.42 Z=0.00 Location: X=-1861.23 Y=-6506.13 Z=2653.29 Normal: X=-0.57 Y=-0.82 Z=0.00 PenetrationDepth:11.326 Actor:BP_KronenFast_C_4 Component:CharacterMesh0 BoneName:Bone_003 (24 other events since notify)
+[2024.07.05-19.44.34:530][681]LogCharacterMovement: BP_KronenFemale_C_1 is stuck and failed to move! Velocity: X=68.89 Y=12.42 Z=0.00 Location: X=-1861.17 Y=-6506.12 Z=2653.29 Normal: X=-0.82 Y=-0.57 Z=-0.00 PenetrationDepth:2.499 Actor:BP_KronenFast_C_4 Component:CharacterMesh0 BoneName:Bone_003 (20 other events since notify)
+[2024.07.05-19.44.34:786][687]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=69.94 Y=2.78 Z=0.00 Location: X=-2276.63 Y=-5903.49 Z=2629.53 Normal: X=-0.73 Y=-0.68 Z=-0.00 PenetrationDepth:0.269 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_04_r (4 other events since notify)
+[2024.07.05-19.44.38:287][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.44.38:287][774]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.44.38:291][774]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.44.38:337][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.44.38:352][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.44.38:363][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.44.38:388][774]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-19.44.38:432][774]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.07.05-19.44.38:432][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.07.05-19.44.38:435][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.07.05-19.44.38:437][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.44.38:488][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.07.05-19.44.38:507][774]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.44.38:674][775]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2024.07.05-19.44.38:696][775]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.44.39:579][810]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.44.39:625][810]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.45.43:235][531]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.45.53:694][895]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.45.53:694][895]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.45.53:696][895]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_4
+[2024.07.05-19.45.53:698][895]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_4
+[2024.07.05-19.45.54:117][913]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.45.54:117][913]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C
+[2024.07.05-19.45.54:123][913]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_5
+[2024.07.05-19.45.54:126][913]LogActorFactory: Actor Factory spawned Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker as actor: CamSwitchWithTracker_C /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_5
+[2024.07.05-19.45.54:329][914]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2024.07.05-19.45.58:649][102]LogViewport: Scene viewport resized to 1524x892, mode Windowed.
+[2024.07.05-19.45.58:664][102]LogViewport: Scene viewport resized to 481x281, mode Windowed.
+[2024.07.05-19.45.58:703][103]LogViewport: Scene viewport resized to 1487x892, mode Windowed.
+[2024.07.05-19.45.58:792][104]LogViewport: Scene viewport resized to 1276x892, mode Windowed.
+[2024.07.05-19.45.58:824][104]LogViewport: Scene viewport resized to 469x281, mode Windowed.
+[2024.07.05-19.45.58:852][105]LogViewport: Scene viewport resized to 1230x892, mode Windowed.
+[2024.07.05-19.45.58:935][105]LogViewport: Scene viewport resized to 403x281, mode Windowed.
+[2024.07.05-19.45.58:971][106]LogViewport: Scene viewport resized to 1243x892, mode Windowed.
+[2024.07.05-19.45.59:053][106]LogViewport: Scene viewport resized to 388x281, mode Windowed.
+[2024.07.05-19.45.59:136][107]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.46.57:535][833]Cmd: DELETE
+[2024.07.05-19.46.57:535][833]Cmd: ACTOR DELETE
+[2024.07.05-19.46.57:535][833]LogEditorActor: Cannot delete component StaticMeshComponent /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_5.Tracker Middel of the room: Can't delete non-instanced components or the scene root.
+[2024.07.05-19.46.59:895][908]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.47.00:222][914]Cmd: DELETE
+[2024.07.05-19.47.00:222][914]Cmd: ACTOR DELETE
+[2024.07.05-19.47.00:457][914]LogEditorActor: Deleted Actor: CamSwitchWithTracker_C
+[2024.07.05-19.47.00:478][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.07.05-19.47.00:492][914]LogEditorActor: Deleted 1 Actors (0.269 secs)
+[2024.07.05-19.47.13:190][701]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.47.48:206][ 43]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.00:472][416]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.49.00:486][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.49.00:486][416]PIE: New page: SIE session: Island (5 Jul 2024, 23:49:00)
+[2024.07.05-19.49.00:486][416]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.00:965][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.479349s)
+[2024.07.05-19.49.00:965][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.479380s)
+[2024.07.05-19.49.00:980][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.05-19.49.00:989][416]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.49.00:989][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.49.00:990][416]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.49.00:990][416]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2024.07.05-19.49.00:990][416]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.07.05-19.49.00:990][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.49.00:990][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.49.00:990][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.49.00:990][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.49.00:990][416]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.49.00:991][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.49.00:991][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.49.00:991][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.49.00:991][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.49.00:991][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.49.00:991][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.49.00:993][416]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.49.01:007][416]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.49.01:007][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.49.01:007][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.49.01:007][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.49.01:008][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.07.05-19.49.01:008][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.07.05-19.49.01:009][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.07.05-19.49.01:009][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.07.05-19.49.01:009][416]LogInit: FAudioDevice initialized with ID 24.
+[2024.07.05-19.49.01:009][416]LogAudio: Display: Audio Device (ID: 24) registered with world 'Island'.
+[2024.07.05-19.49.01:009][416]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.07.05-19.49.01:011][416]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.49.01:197][416]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.01:197][416]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.01:197][416]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.49.01:198][416]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.01:200][416]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.49.01
+[2024.07.05-19.49.01:202][416]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.01:203][416]LogWorld: Bringing up level for play took: 0.192116
+[2024.07.05-19.49.01:206][416]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2024.07.05-19.49.01:206][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.01:214][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.01:214][416]PIE: Server logged in
+[2024.07.05-19.49.01:214][416]PIE: Play in editor total start time 0.728 seconds.
+[2024.07.05-19.49.01:566][417]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.06:033][600]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.49.06:033][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.49.06:033][600]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.49.06:033][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.49.06:243][612]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.06:757][640]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7429.133 Y=-10426.860 Z=2881.114] for [BP_Bulky_C]
+[2024.07.05-19.49.06:757][640]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.07:273][668]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.07:273][668]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7429.133 Y=-10426.860 Z=2881.114] for [BP_KronenFemale_C]
+[2024.07.05-19.49.07:276][668]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.07:786][696]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.49.08:799][741]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.49.08:800][741]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.49.08:800][741]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-6137.673 Y=-4506.464 Z=2749.517] for [BP_KronenFemale_C]
+[2024.07.05-19.49.09:301][764]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.49.09:698][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.09:698][780]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.09:702][780]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.49.09:753][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.09:767][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.49.09:778][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.09:791][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.09:849][780]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.07.05-19.49.09:849][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.07.05-19.49.09:850][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.07.05-19.49.09:902][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.07.05-19.49.09:917][780]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.10:002][781]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2024.07.05-19.49.10:034][781]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.10:935][814]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.49.10:940][814]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.49.12:381][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.49.12:381][920]PIE: New page: PIE session: Island (5 Jul 2024, 23:49:12)
+[2024.07.05-19.49.12:381][920]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.12:867][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.485952s)
+[2024.07.05-19.49.12:867][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.485988s)
+[2024.07.05-19.49.12:882][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.05-19.49.12:890][920]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.49.12:890][920]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.49.12:890][920]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.49.12:891][920]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2024.07.05-19.49.12:891][920]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.49.12:891][920]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.49.12:891][920]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.49.12:891][920]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.49.12:891][920]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.49.12:891][920]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.49.12:894][920]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.49.12:906][920]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.49.12:906][920]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.49.12:906][920]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.49.12:906][920]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.49.12:907][920]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.07.05-19.49.12:907][920]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.07.05-19.49.12:908][920]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.07.05-19.49.12:908][920]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.07.05-19.49.12:908][920]LogInit: FAudioDevice initialized with ID 25.
+[2024.07.05-19.49.12:908][920]LogAudio: Display: Audio Device (ID: 25) registered with world 'Island'.
+[2024.07.05-19.49.12:908][920]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.07.05-19.49.12:910][920]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.49.13:088][920]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.13:088][920]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.13:088][920]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.49.13:089][920]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.13:090][920]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.49.13
+[2024.07.05-19.49.13:093][920]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.13:095][920]LogWorld: Bringing up level for play took: 0.184313
+[2024.07.05-19.49.13:097][920]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2024.07.05-19.49.13:097][920]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.13:097][920]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.13:097][920]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.49.13:108][920]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.05-19.49.13:108][920]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.05-19.49.13:108][920]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.49.13:108][920]PIE: Server logged in
+[2024.07.05-19.49.13:108][920]PIE: Play in editor total start time 0.728 seconds.
+[2024.07.05-19.49.13:196][920]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.05-19.49.13:369][921]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089609 > MaxSimulationTimeStep (0.050) for 'DI_Player_C_0', movement 'Walking'
+[2024.07.05-19.49.18:683][297]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.19:697][371]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.19:697][371]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7429.133 Y=-10426.860 Z=2881.114] for [BP_KronenFemale_C]
+[2024.07.05-19.49.19:697][371]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.20:203][408]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.20:203][408]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5349.649 Y=-9420.289 Z=2881.114] for [BP_KronenFast_C]
+[2024.07.05-19.49.20:204][408]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.49.21:215][481]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.49.23:373][647]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.05-19.49.23:373][647]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-19.49.23:373][647]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.05-19.49.24:197][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.24:197][720]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.24:201][720]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.49.24:251][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.24:257][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.49.24:268][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.24:284][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.24:339][720]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.07.05-19.49.24:339][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.07.05-19.49.24:340][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.07.05-19.49.24:396][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.07.05-19.49.24:409][720]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.24:458][721]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2024.07.05-19.49.24:510][721]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.29:037][912]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-19.49.29:052][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.49.29:052][912]PIE: New page: PIE session: Island (5 Jul 2024, 23:49:29)
+[2024.07.05-19.49.29:052][912]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.29:531][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.479337s)
+[2024.07.05-19.49.29:531][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.479365s)
+[2024.07.05-19.49.29:544][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.07.05-19.49.29:551][912]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.49.29:551][912]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.49.29:552][912]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.49.29:552][912]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2024.07.05-19.49.29:552][912]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.49.29:552][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.49.29:552][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.49.29:554][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.49.29:554][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.49.29:554][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.49.29:556][912]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.49.29:569][912]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.49.29:569][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.49.29:569][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.49.29:569][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.49.29:570][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.07.05-19.49.29:570][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.07.05-19.49.29:570][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.07.05-19.49.29:570][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.07.05-19.49.29:570][912]LogInit: FAudioDevice initialized with ID 26.
+[2024.07.05-19.49.29:570][912]LogAudio: Display: Audio Device (ID: 26) registered with world 'Island'.
+[2024.07.05-19.49.29:570][912]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.07.05-19.49.29:573][912]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.49.29:754][912]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.29:754][912]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.29:754][912]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.49.29:754][912]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.29:757][912]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.49.29
+[2024.07.05-19.49.29:760][912]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.29:761][912]LogWorld: Bringing up level for play took: 0.187725
+[2024.07.05-19.49.29:763][912]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2024.07.05-19.49.29:763][912]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.29:763][912]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.29:763][912]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.49.29:774][912]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.05-19.49.29:774][912]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.05-19.49.29:774][912]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.05-19.49.29:774][912]PIE: Server logged in
+[2024.07.05-19.49.29:775][912]PIE: Play in editor total start time 0.724 seconds.
+[2024.07.05-19.49.29:856][912]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.05-19.49.29:984][913]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089609 > MaxSimulationTimeStep (0.050) for 'DI_Player_C_0', movement 'Walking'
+[2024.07.05-19.49.30:458][932]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.05-19.49.30:458][932]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-19.49.30:458][932]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.05-19.49.31:217][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.31:217][972]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.31:221][972]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.49.31:266][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.31:272][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.49.31:282][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.49.31:296][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.49.31:352][972]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.07.05-19.49.31:352][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.07.05-19.49.31:354][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.07.05-19.49.31:404][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.07.05-19.49.31:417][972]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.31:439][973]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2024.07.05-19.49.31:452][973]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.32:799][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.49.32:799][ 96]PIE: New page: SIE session: Island (5 Jul 2024, 23:49:32)
+[2024.07.05-19.49.32:799][ 96]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.49.33:278][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.480038s)
+[2024.07.05-19.49.33:278][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.480074s)
+[2024.07.05-19.49.33:292][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.07.05-19.49.33:301][ 96]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.49.33:301][ 96]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.49.33:301][ 96]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.49.33:302][ 96]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2024.07.05-19.49.33:302][ 96]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.49.33:302][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.49.33:302][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.49.33:303][ 96]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.49.33:303][ 96]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.49.33:303][ 96]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.49.33:305][ 96]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.49.33:317][ 96]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.49.33:318][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.49.33:318][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.49.33:318][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.49.33:318][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.07.05-19.49.33:318][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.07.05-19.49.33:320][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.07.05-19.49.33:320][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.07.05-19.49.33:320][ 96]LogInit: FAudioDevice initialized with ID 27.
+[2024.07.05-19.49.33:320][ 96]LogAudio: Display: Audio Device (ID: 27) registered with world 'Island'.
+[2024.07.05-19.49.33:320][ 96]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.07.05-19.49.33:322][ 96]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.49.33:507][ 96]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.33:507][ 96]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.33:507][ 96]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.49.33:508][ 96]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.33:510][ 96]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.49.33
+[2024.07.05-19.49.33:513][ 96]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.49.33:514][ 96]LogWorld: Bringing up level for play took: 0.192290
+[2024.07.05-19.49.33:516][ 96]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2024.07.05-19.49.33:517][ 96]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.33:524][ 96]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.49.33:524][ 96]PIE: Server logged in
+[2024.07.05-19.49.33:524][ 96]PIE: Play in editor total start time 0.726 seconds.
+[2024.07.05-19.49.33:986][ 97]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.49.38:341][291]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.49.38:341][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.49.38:341][291]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.49.38:342][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.49.39:052][329]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.39:053][329]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.39:569][352]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7765.980 Y=-9725.056 Z=2881.114] for [BP_Kronen_C]
+[2024.07.05-19.49.40:074][373]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.49.40:074][373]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2303.129 Y=-6025.783 Z=2749.517] for [BP_KronenFemale_C]
+[2024.07.05-19.49.40:074][373]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.49.40:595][395]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.49.40:595][395]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.49.41:115][417]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.49.41:116][417]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.49.42:206][464]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.42:206][464]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.42:208][464]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.42:208][464]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.45:741][613]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.45:742][613]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.45:742][613]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.45:742][613]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.54:418][ 13]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.54:418][ 13]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.54:418][ 13]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.54:418][ 13]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.57:263][162]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.57:263][162]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.57:264][162]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.49.57:264][162]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.00:951][342]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=-17.39 Y=67.80 Z=0.00 Location: X=6643.29 Y=-9785.77 Z=2629.63 Normal: X=-0.37 Y=0.93 Z=-0.00 PenetrationDepth:6.605 Actor:BP_KronenFast_C_1 Component:CharacterMesh0 BoneName:Bone_003 (0 other events since notify)
+[2024.07.05-19.50.04:615][525]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=-28.78 Y=63.81 Z=0.00 Location: X=6691.43 Y=-9655.84 Z=2656.35 Normal: X=0.52 Y=-0.79 Z=-0.32 PenetrationDepth:4.386 Actor:BP_KronenFast_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (18 other events since notify)
+[2024.07.05-19.50.17:097][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.50.17:097][ 90]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.50.17:101][ 90]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.50.17:150][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.50.17:156][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.50.17:167][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.50.17:181][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.50.17:237][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.07.05-19.50.17:237][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.07.05-19.50.17:238][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.07.05-19.50.17:290][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.07.05-19.50.17:304][ 90]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.50.17:398][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2024.07.05-19.50.17:434][ 91]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.50.18:413][130]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.50.18:418][130]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.50.20:940][231]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.50.20:954][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.50.20:954][231]PIE: New page: SIE session: Island (5 Jul 2024, 23:50:20)
+[2024.07.05-19.50.20:954][231]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.50.21:434][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.479466s)
+[2024.07.05-19.50.21:434][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.479500s)
+[2024.07.05-19.50.21:447][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.05-19.50.21:454][231]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.50.21:454][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.50.21:454][231]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.50.21:456][231]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2024.07.05-19.50.21:456][231]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.50.21:456][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.50.21:456][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.50.21:456][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.50.21:456][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.50.21:456][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.50.21:457][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.50.21:471][231]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.50.21:471][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.50.21:471][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.50.21:471][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.50.21:472][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.07.05-19.50.21:472][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.07.05-19.50.21:473][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.07.05-19.50.21:473][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.07.05-19.50.21:473][231]LogInit: FAudioDevice initialized with ID 28.
+[2024.07.05-19.50.21:473][231]LogAudio: Display: Audio Device (ID: 28) registered with world 'Island'.
+[2024.07.05-19.50.21:473][231]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.07.05-19.50.21:476][231]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.50.21:664][231]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.21:664][231]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.21:664][231]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.50.21:664][231]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.50.21:667][231]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.50.21
+[2024.07.05-19.50.21:669][231]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.50.21:670][231]LogWorld: Bringing up level for play took: 0.194332
+[2024.07.05-19.50.21:672][231]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2024.07.05-19.50.21:672][231]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.50.21:680][231]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.50.21:680][231]PIE: Server logged in
+[2024.07.05-19.50.21:681][231]PIE: Play in editor total start time 0.727 seconds.
+[2024.07.05-19.50.22:021][232]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.50.25:208][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.50.25:208][338]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.50.25:212][338]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.50.25:262][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.50.25:268][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.50.25:279][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.50.25:348][338]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-19.50.25:348][338]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.07.05-19.50.25:348][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.07.05-19.50.25:351][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.07.05-19.50.25:354][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.50.25:414][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.07.05-19.50.25:427][338]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.50.25:473][339]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2024.07.05-19.50.25:594][339]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.50.27:917][431]LogPhysics: Warning: Scale for /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.27:917][431]LogPhysics: Warning: Scale for /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.27:918][431]LogPhysics: Warning: Scale for /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.27:918][431]LogPhysics: Warning: Scale for /Game/_Level/Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.29:506][496]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.07.05-19.50.29:521][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-19.50.29:521][496]PIE: New page: SIE session: Island (5 Jul 2024, 23:50:29)
+[2024.07.05-19.50.29:521][496]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.50.30:007][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.485967s)
+[2024.07.05-19.50.30:007][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.486001s)
+[2024.07.05-19.50.30:021][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.05-19.50.30:029][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-19.50.30:029][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-19.50.30:030][496]LogAIModule: Creating AISystem for world Island
+[2024.07.05-19.50.30:030][496]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2024.07.05-19.50.30:030][496]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.05-19.50.30:030][496]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-19.50.30:030][496]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-19.50.30:031][496]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-19.50.30:031][496]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-19.50.30:031][496]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-19.50.30:032][496]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-19.50.30:044][496]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.05-19.50.30:044][496]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-19.50.30:044][496]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-19.50.30:044][496]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-19.50.30:046][496]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.07.05-19.50.30:046][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.07.05-19.50.30:047][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.07.05-19.50.30:047][496]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.07.05-19.50.30:047][496]LogInit: FAudioDevice initialized with ID 29.
+[2024.07.05-19.50.30:047][496]LogAudio: Display: Audio Device (ID: 29) registered with world 'Island'.
+[2024.07.05-19.50.30:047][496]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.07.05-19.50.30:050][496]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.05-19.50.30:224][496]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.30:224][496]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_1.Exit Zone2 If needed has a component set to zero, which will result in a bad body instance. Scale:X=3.750 Y=0.000 Z=1.000
+[2024.07.05-19.50.30:224][496]LogPhysics: Warning: Scale for /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.CamSwitchWithTracker_C_3.Exit Zone has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=8.000 Z=1.000
+[2024.07.05-19.50.30:224][496]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.50.30:227][496]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.05-21.50.30
+[2024.07.05-19.50.30:229][496]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.50.30:230][496]LogWorld: Bringing up level for play took: 0.180620
+[2024.07.05-19.50.30:232][496]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2024.07.05-19.50.30:233][496]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.50.30:240][496]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.05-19.50.30:240][496]PIE: Server logged in
+[2024.07.05-19.50.30:241][496]PIE: Play in editor total start time 0.72 seconds.
+[2024.07.05-19.50.30:574][497]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.50.35:048][640]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.50.35:048][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.50.35:048][640]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_4
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0398
+[2024.07.05-19.50.35:048][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.05-19.50.35:254][651]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.50.35:757][679]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.50.35:758][679]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.05-19.50.36:274][703]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2000.012 Y=-6772.566 Z=2749.517] for [BP_Kronen_C]
+[2024.07.05-19.50.37:278][742]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.50.37:782][767]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2024.07.05-19.50.37:782][767]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6489.728 Y=-8544.358 Z=2881.114] for [BP_KronenFemale_C]
+[2024.07.05-19.50.37:783][767]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.05-19.50.37:784][767]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2024.07.05-19.50.38:309][787]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.05-19.50.41:526][894]LogCharacterMovement: BP_KronenFemale_C_0 is stuck and failed to move! Velocity: X=42.82 Y=55.37 Z=0.00 Location: X=-3359.22 Y=-6681.60 Z=2629.20 Normal: X=-0.92 Y=0.11 Z=-0.37 PenetrationDepth:3.852 Actor:BP_KronenFemale_C_2 Component:CharacterMesh0 BoneName:Bone_036_R (0 other events since notify)
+[2024.07.05-19.50.54:681][376]LogCharacterMovement: BP_Bulky_C_1 is stuck and failed to move! Velocity: X=-24.12 Y=-43.80 Z=0.00 Location: X=35.56 Y=-7182.55 Z=2609.99 Normal: X=0.00 Y=0.54 Z=-0.84 PenetrationDepth:0.986 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (0 other events since notify)
+[2024.07.05-19.50.55:686][416]LogCharacterMovement: BP_Bulky_C_1 is stuck and failed to move! Velocity: X=-18.21 Y=-46.57 Z=0.00 Location: X=34.25 Y=-7181.53 Z=2609.93 Normal: X=0.04 Y=0.54 Z=-0.84 PenetrationDepth:4.683 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (37 other events since notify)
+[2024.07.05-19.50.56:691][456]LogCharacterMovement: BP_Bulky_C_1 is stuck and failed to move! Velocity: X=-18.21 Y=-46.57 Z=0.00 Location: X=34.25 Y=-7181.53 Z=2609.93 Normal: X=0.04 Y=0.54 Z=-0.84 PenetrationDepth:4.683 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (39 other events since notify)
+[2024.07.05-19.50.57:707][498]LogCharacterMovement: BP_Bulky_C_1 is stuck and failed to move! Velocity: X=-18.21 Y=-46.57 Z=0.00 Location: X=34.25 Y=-7181.53 Z=2609.93 Normal: X=0.04 Y=0.54 Z=-0.84 PenetrationDepth:4.684 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (41 other events since notify)
+[2024.07.05-19.50.58:713][544]LogCharacterMovement: BP_Bulky_C_1 is stuck and failed to move! Velocity: X=-15.48 Y=-47.54 Z=0.00 Location: X=32.41 Y=-7183.82 Z=2609.89 Normal: X=0.11 Y=0.41 Z=-0.91 PenetrationDepth:9.525 Actor:BP_Kronen_C_1 Component:CharacterMesh0 BoneName:Bone_036_L (39 other events since notify)
+[2024.07.05-19.50.58:738][545]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=30.24 Y=63.13 Z=0.00 Location: X=-54.32 Y=-7267.26 Z=2661.99 Normal: X=0.66 Y=-0.76 Z=0.00 PenetrationDepth:1.910 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spinetent_04_r (0 other events since notify)
+[2024.07.05-19.51.01:042][632]LogCharacterMovement: BP_Kronen_C_1 is stuck and failed to move! Velocity: X=29.96 Y=63.26 Z=0.00 Location: X=-60.56 Y=-7289.52 Z=2660.77 Normal: X=-0.69 Y=-0.73 Z=0.00 PenetrationDepth:0.292 Actor:BP_Bulky_C_1 Component:CharacterMesh0 BoneName:spine_01 (10 other events since notify)
+[2024.07.05-19.51.11:528][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.51.11:528][ 35]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.05-19.51.11:532][ 35]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-19.51.11:581][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.51.11:587][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-19.51.11:600][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-19.51.11:614][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-19.51.11:669][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.07.05-19.51.11:669][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.07.05-19.51.11:670][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.07.05-19.51.11:731][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.07.05-19.51.11:748][ 35]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.05-19.51.11:832][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2024.07.05-19.51.12:032][ 36]LogViewport: Scene viewport resized to 392x281, mode Windowed.
+[2024.07.05-19.51.13:151][ 76]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.51.13:156][ 76]LogSlate: Window 'Message Log' being destroyed
+[2024.07.05-19.51.43:371][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.05-19.51.43:384][214]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-19.51.43:410][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/Island" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.05-19.51.43:442][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.07.05-19.51.46:058][214]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2024.07.05-19.51.46:058][214]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/Island465034AE400FD8883B16A2B5D04C72F8.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2024.07.05-19.51.46:098][214]LogFileHelpers: Saving map 'Island' took 2.691
+[2024.07.05-19.51.46:114][214]LogSavePackage: Moving output files for package: /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker
+[2024.07.05-19.51.46:114][214]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/CamSwitchWithTracker88DFCF314F95D8D68155A881FA7E817E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.uasset'
+[2024.07.05-19.51.46:151][214]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.76 sec (total: 10.2 sec)
+[2024.07.05-19.51.46:182][214]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.05-19.51.46:182][214]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2024.07.05-19.51.46:182][214]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
+[2024.07.05-19.51.46:198][214]LogAutomationController: Ignoring very large delta of 2.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
