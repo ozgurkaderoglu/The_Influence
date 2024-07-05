@@ -4767,3 +4767,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.05-19.58.11:134][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 10.4 sec)
 [2024.07.05-19.58.11:138][149]AssetCheck: New page: Asset Save: DI_Player
 [2024.07.05-19.58.11:138][149]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.07.05-19.58.25:212][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
