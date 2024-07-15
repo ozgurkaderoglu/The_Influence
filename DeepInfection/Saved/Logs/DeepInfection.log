@@ -3201,3 +3201,744 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.15-08.06.29:918][864]AssetCheck: New page: Asset Save: multiple assets
 [2024.07.15-08.06.29:918][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
 [2024.07.15-08.06.29:918][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
+[2024.07.15-08.08.16:974][854]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.08.17:014][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.15-08.08.55:581][335]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.08.55:621][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.15-08.10.02:543][339]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.07.15-08.10.02:543][339]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.07.15-08.10.10:314][823]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.10.10:352][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.15-08.10.32:531][130]LogSlate: Window 'Delete Variable' being destroyed
+[2024.07.15-08.10.37:096][287]LogSlate: Window 'Delete Variable' being destroyed
+[2024.07.15-08.10.38:428][384]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:432][384]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.07.15-08.10.38:461][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.15-08.10.43:574][753]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.10.43:606][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.07.15-08.10.43:793][763]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.07.15-08.10.53:567][482]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.10.53:598][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.07.15-08.11.37:664][ 23]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/Random_ESpanwer.Random_ESpanwer
+[2024.07.15-08.11.37:664][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.11.37:665][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.12.31:607][520]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.12.33:401][628]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.12.33:433][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: ================================================
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Total job queries 1,475, among them cache hits 1,329 (90.10%)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Tracking 146 distinct input hashes that result in 81 distinct outputs (55.48%)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: RAM used: 3.34 MiB of 1.60 GiB budget. Usage: 0.20%
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Shaders Compiled: 33
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Jobs assigned 33, completed 33 (100%)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Average time worker was idle: 8.40 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.07 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Job execution time: average 0.76 s, max 0.95 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Job life time (pending + execution): average 0.82 s, max 1.01
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Shader code size: average 45.031 KiB, min 35.664 KiB, max 61.289 KiB
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.50 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 3.00 jobs/batch
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Average processing rate: 22.03 jobs/sec
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Total thread time: 5.649 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Total thread preprocess time: 0.534 s
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Percentage time preprocessing: 9.46%
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.16% of total time (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.09% of total time (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.00% of total time (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.98% of total time (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.66% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.07.15-08.13.44:571][980]LogShaderCompilers: Display: ================================================
+[2024.07.15-08.14.12:379][294]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.14.12:413][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.15-08.14.18:502][785]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.14.18:506][785]LogBlueprint: Error: [AssetLog] E:\Unreal engines\Projects\The_Influence\DeepInfection\Content\_Core\_Enemies\_Ennemy_Spawner\EnnemySpawner.uasset: [Compiler] This blueprint (self) is not a ChildActorComponent, therefore ' Target ' must have a connection.
+[2024.07.15-08.14.18:535][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.15-08.14.23:946][296]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner'
+[2024.07.15-08.14.25:685][439]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.14.25:719][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.07.15-08.14.28:746][693]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.14.28:781][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.15-08.14.41:268][829]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.14.41:302][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.07.15-08.15.08:440][276]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.15.08:472][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.07.15-08.15.42:273][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.15-08.15.42:279][623]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 0.025
+[2024.07.15-08.15.42:279][623]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner] ([2] browsable assets)...
+[2024.07.15-08.15.42:298][623]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner]
+[2024.07.15-08.15.42:298][623]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner]
+[2024.07.15-08.15.42:305][623]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner_Auto2
+[2024.07.15-08.15.42:305][623]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/EnnemySpawner_Auto2C1F246314E2FE774813A8FB1AAB00B35.tmp' to '../../../../Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner_Auto2.uasset'
+[2024.07.15-08.15.42:305][623]LogFileHelpers: Auto-saving content packages took 0.027
+[2024.07.15-08.16.02:087][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:093][108]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Slugger_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.16.02:116][109]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:122][109]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.16.02:137][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:143][110]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.16.02:158][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:182][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:187][112]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.16.02:203][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.02:225][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.04:073][264]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_Kronen.BP_Kronen
+[2024.07.15-08.16.04:073][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.16.04:074][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.16.23:014][261]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-08.16.23:014][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.16.47:913][196]BlueprintLog: New page: Compile BP_Kronen
+[2024.07.15-08.16.47:962][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.07.15-08.17.17:257][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.17.17:289][657]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.17.17:310][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Kronen.uasset" SILENT=true
+[2024.07.15-08.17.17:322][657]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_Kronen
+[2024.07.15-08.17.17:322][657]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenD9EFA20344166F0C8DA95FB2568A920E.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Kronen.uasset'
+[2024.07.15-08.17.17:327][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 594 ms)
+[2024.07.15-08.17.17:328][657]AssetCheck: New page: Asset Save: BP_Kronen
+[2024.07.15-08.17.17:328][657]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_Kronen.BP_Kronen
+[2024.07.15-08.17.30:377][226]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_Bulky.BP_Bulky
+[2024.07.15-08.17.30:377][226]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.17.30:377][226]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: ================================================
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Total job queries 1,491, among them cache hits 1,337 (89.67%)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Tracking 146 distinct input hashes that result in 81 distinct outputs (55.48%)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: RAM used: 3.34 MiB of 1.60 GiB budget. Usage: 0.20%
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Shaders Compiled: 33
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Jobs assigned 33, completed 33 (100%)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Average time worker was idle: 8.40 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.07 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Job execution time: average 0.76 s, max 0.95 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Job life time (pending + execution): average 0.82 s, max 1.01
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Shader code size: average 45.031 KiB, min 35.664 KiB, max 61.289 KiB
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.50 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 3.00 jobs/batch
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Average processing rate: 22.03 jobs/sec
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Total thread time: 5.649 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Total thread preprocess time: 0.534 s
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Percentage time preprocessing: 9.46%
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.16% of total time (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.09% of total time (compiled    2 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.00% of total time (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.98% of total time (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.66% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2024.07.15-08.17.30:623][227]LogShaderCompilers: Display: ================================================
+[2024.07.15-08.17.53:715][825]BlueprintLog: New page: Compile BP_Bulky
+[2024.07.15-08.17.53:760][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.07.15-08.18.05:874][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.15-08.18.05:881][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.18.05:907][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.18.05:933][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_Bulky" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Bulky.uasset" SILENT=true
+[2024.07.15-08.18.05:946][736]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_Bulky
+[2024.07.15-08.18.05:946][736]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_Bulky06FF288149D988612A0E4EA5E073C495.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_Bulky.uasset'
+[2024.07.15-08.18.05:950][736]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner
+[2024.07.15-08.18.05:950][736]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/EnnemySpawner0CEF63C74F100C559E01B2A1D05F167F.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.uasset'
+[2024.07.15-08.18.05:956][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 668 ms)
+[2024.07.15-08.18.05:957][736]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.15-08.18.05:957][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_Bulky.BP_Bulky
+[2024.07.15-08.18.05:957][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
+[2024.07.15-08.18.08:086][879]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast
+[2024.07.15-08.18.08:086][879]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.18.08:086][879]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.18.08:176][879]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.19:974][781]BlueprintLog: New page: Compile BP_KronenFast
+[2024.07.15-08.18.19:998][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.19:998][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:018][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.15-08.18.20:023][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:023][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:024][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:024][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:024][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:052][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:052][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:053][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.20:053][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.24:538][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.07.15-08.18.25:842][133]LogSlate: Window 'Save Content' being destroyed
+[2024.07.15-08.18.27:149][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.07.15-08.18.27:153][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.18.27:180][225]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.18.27:186][225]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.27:201][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_KronenFast" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFast.uasset" SILENT=true
+[2024.07.15-08.18.27:216][225]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_KronenFast
+[2024.07.15-08.18.27:216][225]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenFast47D47BF34E1B5375AF76D3AB210DDB9D.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFast.uasset'
+[2024.07.15-08.18.27:222][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 737 ms)
+[2024.07.15-08.18.27:224][225]AssetCheck: New page: Asset Save: BP_KronenFast
+[2024.07.15-08.18.27:224][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast
+[2024.07.15-08.18.28:915][343]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Enemies/BP_KronenFemale.BP_KronenFemale
+[2024.07.15-08.18.28:915][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.18.28:915][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.18.29:001][343]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:874][553]BlueprintLog: New page: Compile BP_KronenFemale
+[2024.07.15-08.18.46:895][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:895][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:916][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.07.15-08.18.46:920][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:921][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:921][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:921][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:922][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:949][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:949][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:950][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.46:950][553]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:661][827]BlueprintLog: New page: Compile BP_KronenFemale
+[2024.07.15-08.18.50:683][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:683][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:704][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.07.15-08.18.50:709][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:709][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:710][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:710][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:710][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:737][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:737][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:737][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.18.50:737][827]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:202][486]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.19.10:249][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.15-08.19.10:296][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:296][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:296][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:297][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:297][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:297][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:314][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:314][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:314][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:314][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:337][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:337][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:337][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:338][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:338][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:338][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:340][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:341][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:341][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.10:341][486]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.12:124][635]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.07.15-08.19.25:648][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.15-08.19.25:662][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-08.19.25:662][474]PIE: New page: PIE session: Island (15 Jul 2024, 12:19:25)
+[2024.07.15-08.19.25:662][474]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.19.26:162][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.498873s)
+[2024.07.15-08.19.26:162][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.498903s)
+[2024.07.15-08.19.26:176][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.07.15-08.19.26:184][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.19.26:184][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.19.26:184][474]LogAIModule: Creating AISystem for world Island
+[2024.07.15-08.19.26:185][474]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2024.07.15-08.19.26:185][474]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-08.19.26:185][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.15-08.19.26:185][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-08.19.26:186][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-08.19.26:186][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-08.19.26:186][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-08.19.26:187][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.15-08.19.26:203][474]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.15-08.19.26:204][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-08.19.26:204][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-08.19.26:204][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-08.19.26:204][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.07.15-08.19.26:204][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.07.15-08.19.26:205][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.07.15-08.19.26:205][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.07.15-08.19.26:205][474]LogInit: FAudioDevice initialized with ID 21.
+[2024.07.15-08.19.26:205][474]LogAudio: Display: Audio Device (ID: 21) registered with world 'Island'.
+[2024.07.15-08.19.26:205][474]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.07.15-08.19.26:207][474]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.15-08.19.26:391][474]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.19.26:393][474]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.15-10.19.26
+[2024.07.15-08.19.26:396][474]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.19.26:398][474]LogWorld: Bringing up level for play took: 0.189954
+[2024.07.15-08.19.26:400][474]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2024.07.15-08.19.26:400][474]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.19.26:400][474]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.19.26:400][474]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.19.26:409][474]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.26:410][474]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.19.26:414][474]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.15-08.19.26:414][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.15-08.19.26:414][474]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.19.26:415][474]PIE: Server logged in
+[2024.07.15-08.19.26:415][474]PIE: Play in editor total start time 0.753 seconds.
+[2024.07.15-08.19.26:502][474]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.15-08.19.33:621][ 89]LogBlueprintUserMessages: [BP_KronenFast_C_0] 80.0
+[2024.07.15-08.19.34:682][172]LogBlueprintUserMessages: [BP_KronenFast_C_0] 60.0
+[2024.07.15-08.19.35:732][249]LogBlueprintUserMessages: [BP_KronenFast_C_0] 40.0
+[2024.07.15-08.19.36:932][333]LogBlueprintUserMessages: [BP_KronenFast_C_0] 20.0
+[2024.07.15-08.19.38:073][410]LogScript: Warning: Attempted to access Previeuwen via property Previeuwen, but Previeuwen is not valid (pending kill or garbage)
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0033
+[2024.07.15-08.19.38:074][410]PIE: Error: Blueprint Runtime Error: "Attempted to access Previeuwen via property Previeuwen, but Previeuwen is not valid (pending kill or garbage)". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.15-08.19.38:075][410]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)
+	BP_KronenFast_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_KronenFast_C_CHILDACTOR_1
+	Function /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast_C:ExecuteUbergraph_BP_KronenFast:0111
+[2024.07.15-08.19.38:075][410]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Fast Blueprint:  BP_KronenFast
+[2024.07.15-08.19.38:075][410]LogScript: Warning: Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)
+	BP_KronenFast_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_KronenFast_C_CHILDACTOR_1
+	Function /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast_C:ExecuteUbergraph_BP_KronenFast:0137
+[2024.07.15-08.19.38:075][410]PIE: Error: Blueprint Runtime Error: "Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Fast Blueprint:  BP_KronenFast
+[2024.07.15-08.19.38:075][410]LogBlueprintUserMessages: [DESTROYED_BP_KronenFast_C_CHILDACTOR_1] 0.0
+[2024.07.15-08.19.46:411][983]LogBlueprintUserMessages: [BP_Kronen_C_0] 80.0
+[2024.07.15-08.19.47:400][ 51]LogBlueprintUserMessages: [BP_Kronen_C_0] 60.0
+[2024.07.15-08.19.52:595][410]LogBlueprintUserMessages: [BP_Kronen_C_0] 40.0
+[2024.07.15-08.19.53:651][482]LogBlueprintUserMessages: [BP_Kronen_C_0] 20.0
+[2024.07.15-08.19.54:737][557]LogScript: Warning: Accessed None trying to read property Previeuwen
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0033
+[2024.07.15-08.19.54:738][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Previeuwen". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.15-08.19.54:738][557]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.19.54:739][557]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is not valid (pending kill or garbage)
+	BP_Kronen_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_Kronen_C_CHILDACTOR_1
+	Function /Game/_Core/_Enemies/BP_Kronen.BP_Kronen_C:ExecuteUbergraph_BP_Kronen:0163
+[2024.07.15-08.19.54:739][557]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is not valid (pending kill or garbage)". Node:  Disable Movement Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Blueprint:  BP_Kronen
+[2024.07.15-08.19.54:739][557]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)
+	BP_Kronen_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_Kronen_C_CHILDACTOR_1
+	Function /Game/_Core/_Enemies/BP_Kronen.BP_Kronen_C:ExecuteUbergraph_BP_Kronen:0114
+[2024.07.15-08.19.54:739][557]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Blueprint:  BP_Kronen
+[2024.07.15-08.19.54:739][557]LogScript: Warning: Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)
+	BP_Kronen_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_Kronen_C_CHILDACTOR_1
+	Function /Game/_Core/_Enemies/BP_Kronen.BP_Kronen_C:ExecuteUbergraph_BP_Kronen:013A
+[2024.07.15-08.19.54:739][557]PIE: Error: Blueprint Runtime Error: "Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Blueprint:  BP_Kronen
+[2024.07.15-08.19.54:740][557]LogBlueprintUserMessages: [DESTROYED_BP_Kronen_C_CHILDACTOR_1] 0.0
+[2024.07.15-08.19.56:887][703]LogBlueprintUserMessages: [BP_KronenFast_C_2] 80.0
+[2024.07.15-08.19.57:931][774]LogBlueprintUserMessages: [BP_KronenFast_C_2] 60.0
+[2024.07.15-08.19.58:857][837]LogBlueprintUserMessages: [BP_KronenFast_C_2] 40.0
+[2024.07.15-08.20.00:348][937]LogBlueprintUserMessages: [BP_KronenFast_C_2] 20.0
+[2024.07.15-08.20.04:312][206]LogScript: Warning: Accessed None trying to read property Previeuwen
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:0033
+[2024.07.15-08.20.04:312][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Previeuwen". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.15-08.20.04:312][206]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.04:314][206]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)
+	BP_KronenFast_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_KronenFast_C_CHILDACTOR_3
+	Function /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast_C:ExecuteUbergraph_BP_KronenFast:0111
+[2024.07.15-08.20.04:314][206]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Fast Blueprint:  BP_KronenFast
+[2024.07.15-08.20.04:314][206]LogScript: Warning: Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)
+	BP_KronenFast_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.DESTROYED_BP_KronenFast_C_CHILDACTOR_3
+	Function /Game/_Core/_Enemies/BP_KronenFast.BP_KronenFast_C:ExecuteUbergraph_BP_KronenFast:0137
+[2024.07.15-08.20.04:314][206]PIE: Error: Blueprint Runtime Error: "Attempted to access CharacterMesh0 via property Mesh, but CharacterMesh0 is not valid (pending kill or garbage)". Node:  Set Collision Enabled Graph:  EventGraph Function:  Execute Ubergraph BP Kronen Fast Blueprint:  BP_KronenFast
+[2024.07.15-08.20.04:314][206]LogBlueprintUserMessages: [DESTROYED_BP_KronenFast_C_CHILDACTOR_3] 0.0
+[2024.07.15-08.20.06:060][326]LogBlueprintUserMessages: [BP_KronenFemale_C_1] 80.0
+[2024.07.15-08.20.07:121][400]LogBlueprintUserMessages: [BP_KronenFemale_C_1] 60.0
+[2024.07.15-08.20.07:742][442]LogBlueprintUserMessages: [BP_KronenFemale_C_1] 40.0
+[2024.07.15-08.20.08:417][487]LogBlueprintUserMessages: [BP_KronenFemale_C_1] 20.0
+[2024.07.15-08.20.09:179][538]LogBlueprintUserMessages: [BP_KronenFemale_C_1] 0.0
+[2024.07.15-08.20.20:376][318]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.15-08.20.20:376][318]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.15-08.20.20:376][318]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.15-08.20.22:132][528]Cmd: quit
+[2024.07.15-08.20.22:134][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.20.22:134][528]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.20.22:147][528]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-08.20.22:196][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.20.22:207][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-08.20.22:219][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.20.22:245][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-08.20.22:293][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.07.15-08.20.22:293][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.07.15-08.20.22:295][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.07.15-08.20.22:298][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.20.22:348][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.07.15-08.20.22:363][528]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.20.22:442][529]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2024.07.15-08.20.27:000][819]LogSlate: Window 'Message Log' being destroyed
+[2024.07.15-08.20.27:009][819]LogSlate: Window 'Message Log' being destroyed
+[2024.07.15-08.20.53:044][626]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.20.53:080][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.15-08.20.53:100][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:100][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:101][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:101][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:101][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:101][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:103][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:104][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:104][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:104][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:113][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:114][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:114][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:114][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:115][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:115][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:117][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:117][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:117][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.53:117][626]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:222][ 39]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.20.58:256][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.07.15-08.20.58:278][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:278][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:278][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:279][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:279][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:279][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:281][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:281][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:282][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:282][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:291][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:291][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:292][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:292][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:292][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:293][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:294][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:295][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:295][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.58:295][ 39]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.20.59:165][104]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.15-08.20.59:180][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-08.20.59:180][104]PIE: New page: PIE session: Island (15 Jul 2024, 12:20:59)
+[2024.07.15-08.20.59:180][104]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.20.59:670][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.490804s)
+[2024.07.15-08.20.59:670][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.490844s)
+[2024.07.15-08.20.59:685][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.15-08.20.59:692][104]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.20.59:692][104]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.20.59:692][104]LogAIModule: Creating AISystem for world Island
+[2024.07.15-08.20.59:693][104]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2024.07.15-08.20.59:693][104]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-08.20.59:693][104]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.15-08.20.59:693][104]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-08.20.59:693][104]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-08.20.59:693][104]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-08.20.59:693][104]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-08.20.59:695][104]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.15-08.20.59:709][104]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.15-08.20.59:709][104]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-08.20.59:709][104]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-08.20.59:709][104]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-08.20.59:710][104]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.07.15-08.20.59:710][104]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.07.15-08.20.59:712][104]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.07.15-08.20.59:712][104]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.07.15-08.20.59:712][104]LogInit: FAudioDevice initialized with ID 22.
+[2024.07.15-08.20.59:712][104]LogAudio: Display: Audio Device (ID: 22) registered with world 'Island'.
+[2024.07.15-08.20.59:712][104]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.07.15-08.20.59:732][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.20.59:732][104]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.15-08.20.59:928][104]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.20.59:930][104]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.15-10.20.59
+[2024.07.15-08.20.59:932][104]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.20.59:934][104]LogWorld: Bringing up level for play took: 0.200416
+[2024.07.15-08.20.59:936][104]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.07.15-08.20.59:936][104]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.20.59:936][104]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.20.59:936][104]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.20.59:948][104]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.15-08.20.59:948][104]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.15-08.20.59:948][104]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.20.59:950][104]PIE: Server logged in
+[2024.07.15-08.20.59:952][104]PIE: Play in editor total start time 0.772 seconds.
+[2024.07.15-08.21.00:033][104]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.15-08.21.00:050][104]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.07.15-08.21.09:788][781]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.21.12:592][945]LogBlueprintUserMessages: [BP_KronenFast_C_0] 80.0
+[2024.07.15-08.21.14:019][ 27]LogBlueprintUserMessages: [BP_KronenFast_C_0] 60.0
+[2024.07.15-08.21.15:376][104]LogBlueprintUserMessages: [BP_KronenFast_C_0] 40.0
+[2024.07.15-08.21.16:902][191]LogBlueprintUserMessages: [BP_KronenFast_C_0] 20.0
+[2024.07.15-08.21.18:581][283]LogBlueprintUserMessages: [BP_KronenFast_C_0] 0.0
+[2024.07.15-08.21.28:563][854]LogScript: Warning: Accessed None trying to read property Previeuwen
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:001C
+[2024.07.15-08.21.28:563][854]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Previeuwen". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.15-08.21.28:565][854]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.21.29:899][930]LogBlueprintUserMessages: [BP_KronenFast_C_2] 80.0
+[2024.07.15-08.21.31:031][993]LogBlueprintUserMessages: [BP_KronenFast_C_2] 60.0
+[2024.07.15-08.21.35:109][225]LogBlueprintUserMessages: [BP_KronenFast_C_2] 40.0
+[2024.07.15-08.21.36:506][304]LogBlueprintUserMessages: [BP_KronenFast_C_2] 20.0
+[2024.07.15-08.21.37:686][369]LogBlueprintUserMessages: [BP_KronenFast_C_2] 0.0
+[2024.07.15-08.21.47:675][940]LogScript: Warning: Accessed None trying to read property Previeuwen
+	EnnemySpawner_C /Game/_Level/UEDPIE_0_Island.Island:PersistentLevel.EnnemySpawner_C_2
+	Function /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner_C:ExecuteUbergraph_EnnemySpawner:001C
+[2024.07.15-08.21.47:675][940]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Previeuwen". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Ennemy Spawner Blueprint:  EnnemySpawner
+[2024.07.15-08.21.47:676][940]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_4, they are designed to work with AAIControllers!
+[2024.07.15-08.21.48:687][999]LogBlueprintUserMessages: [BP_KronenFast_C_4] 80.0
+[2024.07.15-08.21.50:051][ 77]LogBlueprintUserMessages: [BP_KronenFast_C_4] 60.0
+[2024.07.15-08.21.51:455][158]LogBlueprintUserMessages: [BP_KronenFast_C_4] 40.0
+[2024.07.15-08.21.52:762][231]LogBlueprintUserMessages: [BP_KronenFast_C_4] 20.0
+[2024.07.15-08.21.54:022][301]LogBlueprintUserMessages: [BP_KronenFast_C_4] 0.0
+[2024.07.15-08.22.00:037][632]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.15-08.22.00:037][632]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.15-08.22.00:037][632]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.15-08.22.00:904][726]Cmd: quit
+[2024.07.15-08.22.00:905][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.22.00:905][726]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.22.00:906][726]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.07.15-08.22.00:938][726]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-08.22.00:989][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.22.01:003][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-08.22.01:015][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.22.01:090][726]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-08.22.01:095][726]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.07.15-08.22.01:095][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.07.15-08.22.01:097][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.07.15-08.22.01:150][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.07.15-08.22.01:164][726]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.22.01:281][727]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.07.15-08.22.03:038][857]LogSlate: Window 'Message Log' being destroyed
+[2024.07.15-08.22.03:046][857]LogSlate: Window 'Message Log' being destroyed
+[2024.07.15-08.22.12:655][615]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.22.12:690][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.15-08.22.12:712][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:712][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:712][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:712][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:714][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:714][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:716][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:716][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:716][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:716][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:726][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:726][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:727][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:727][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:727][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:727][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:729][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:729][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:730][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.12:730][615]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.13:645][689]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.15-08.22.13:661][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.15-08.22.13:661][689]PIE: New page: PIE session: Island (15 Jul 2024, 12:22:13)
+[2024.07.15-08.22.13:661][689]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.22.14:170][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.508054s)
+[2024.07.15-08.22.14:170][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.508083s)
+[2024.07.15-08.22.14:186][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.07.15-08.22.14:191][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.14:191][689]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.15-08.22.14:191][689]LogAIModule: Creating AISystem for world Island
+[2024.07.15-08.22.14:192][689]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2024.07.15-08.22.14:192][689]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.15-08.22.14:192][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.15-08.22.14:192][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.15-08.22.14:193][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.15-08.22.14:193][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.15-08.22.14:193][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.15-08.22.14:194][689]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.15-08.22.14:208][689]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Boom Audio)
+[2024.07.15-08.22.14:209][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.15-08.22.14:209][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.15-08.22.14:209][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.15-08.22.14:209][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.07.15-08.22.14:209][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.07.15-08.22.14:210][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.07.15-08.22.14:210][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.07.15-08.22.14:210][689]LogInit: FAudioDevice initialized with ID 23.
+[2024.07.15-08.22.14:210][689]LogAudio: Display: Audio Device (ID: 23) registered with world 'Island'.
+[2024.07.15-08.22.14:210][689]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.07.15-08.22.14:232][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.22.14:232][689]LogLoad: Game class is 'DI_gameMode_C'
+[2024.07.15-08.22.14:425][689]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.14:427][689]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.07.15-10.22.14
+[2024.07.15-08.22.14:430][689]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.22.14:431][689]LogWorld: Bringing up level for play took: 0.198783
+[2024.07.15-08.22.14:433][689]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.07.15-08.22.14:433][689]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.22.14:433][689]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.15-08.22.14:433][689]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.22.14:445][689]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.07.15-08.22.14:445][689]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.15-08.22.14:445][689]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.15-08.22.14:448][689]PIE: Server logged in
+[2024.07.15-08.22.14:449][689]PIE: Play in editor total start time 0.788 seconds.
+[2024.07.15-08.22.14:531][689]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'menu_music'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.07.15-08.22.14:546][689]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.07.15-08.22.16:830][870]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.07.15-08.22.16:830][870]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.15-08.22.16:830][870]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.07.15-08.22.17:838][986]Cmd: quit
+[2024.07.15-08.22.17:839][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.15-08.22.17:839][986]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.07.15-08.22.17:840][986]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.07.15-08.22.17:878][986]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.07.15-08.22.17:925][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.22.17:936][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.15-08.22.17:949][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.15-08.22.18:021][986]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.15-08.22.18:021][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.07.15-08.22.18:021][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.07.15-08.22.18:023][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.07.15-08.22.18:075][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.07.15-08.22.18:087][986]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.07.15-08.22.18:145][987]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.07.15-08.22.24:001][515]BlueprintLog: New page: Compile EnnemySpawner
+[2024.07.15-08.22.24:032][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.07.15-08.22.24:053][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:054][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:054][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:055][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:055][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:055][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:057][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:057][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:057][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:057][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:068][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:068][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:068][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:068][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:069][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:069][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:071][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:071][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:071][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.24:072][515]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2024.07.15-08.22.26:247][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.07.15-08.22.26:256][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.22.26:418][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/Island" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.15-08.22.26:448][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.07.15-08.22.29:214][688]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2024.07.15-08.22.29:215][688]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/IslandADB826104CB51F6508E5858221416C36.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2024.07.15-08.22.29:258][688]LogFileHelpers: Saving map 'Island' took 2.844
+[2024.07.15-08.22.29:280][688]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner
+[2024.07.15-08.22.29:280][688]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/EnnemySpawnerDF4D7686412E872A0D84F59CD57C9324.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.uasset'
+[2024.07.15-08.22.29:282][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.29:287][688]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2024.07.15-08.22.29:303][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/BP_KronenFemale" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFemale.uasset" SILENT=true
+[2024.07.15-08.22.29:315][688]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/BP_KronenFemale
+[2024.07.15-08.22.29:315][688]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BP_KronenFemale4F8CD10E4C082F6336EB9E8DE17BAB49.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/BP_KronenFemale.uasset'
+[2024.07.15-08.22.29:318][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.06 sec (total: 3.79 sec)
+[2024.07.15-08.22.29:353][688]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.15-08.22.29:353][688]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2024.07.15-08.22.29:353][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.EnnemySpawner
+[2024.07.15-08.22.29:353][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Enemies/BP_KronenFemale.BP_KronenFemale
+[2024.07.15-08.22.59:239][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:302][923]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:332][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:356][925]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:380][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:401][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:422][928]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:445][929]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.15-08.22.59:450][929]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_0
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.22.59:466][930]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_1
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:124][151]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_2
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:139][152]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_3
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:153][153]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_4
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:168][154]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_5
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:182][155]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_6
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:197][156]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_7
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.02:211][157]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Bulky_C /Engine/Transient.World_55:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Bulky_C_8
+	Function /Game/_Core/_Enemies/_Animations/ABP_Bulky.ABP_Bulky_C:ExecuteUbergraph_ABP_Bulky:0040
+[2024.07.15-08.23.14:595][152]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.BHT_Kronen
+[2024.07.15-08.23.24:233][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.23.24:261][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.uasset" SILENT=true
+[2024.07.15-08.23.24:263][103]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen
+[2024.07.15-08.23.24:263][103]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_KronenE19A98794D644B4B9497A0B88C06D404.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.uasset'
+[2024.07.15-08.23.24:268][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 3.83 sec)
+[2024.07.15-08.23.24:269][103]AssetCheck: New page: Asset Save: BHT_Kronen
+[2024.07.15-08.23.24:269][103]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Kronen.BHT_Kronen
+[2024.07.15-08.23.30:690][680]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.BHT_KronenFast
+[2024.07.15-08.23.38:121][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.23.38:151][391]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast
+[2024.07.15-08.23.38:151][391]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_KronenFast5E61F01441C8BEF27D1891B2F573908A.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.uasset'
+[2024.07.15-08.23.38:157][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 3.87 sec)
+[2024.07.15-08.23.38:158][391]AssetCheck: New page: Asset Save: BHT_KronenFast
+[2024.07.15-08.23.38:158][391]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.BHT_KronenFast
+[2024.07.15-08.23.42:872][757]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.BHT_Female
+[2024.07.15-08.23.47:752][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.23.47:776][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.uasset" SILENT=true
+[2024.07.15-08.23.47:778][216]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female
+[2024.07.15-08.23.47:778][216]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_Female7F5C002644C6AB36FD7FA7A310DA344F.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.uasset'
+[2024.07.15-08.23.47:784][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 3.90 sec)
+[2024.07.15-08.23.47:785][216]AssetCheck: New page: Asset Save: BHT_Female
+[2024.07.15-08.23.47:785][216]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.BHT_Female
+[2024.07.15-08.23.59:716][340]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.BHT_Bulky
+[2024.07.15-08.24.33:873][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.24.33:894][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.uasset" SILENT=true
+[2024.07.15-08.24.33:902][653]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky
+[2024.07.15-08.24.33:902][653]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_Bulky8F41346E4CF7404EFC81B5BF6C30DB54.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.uasset'
+[2024.07.15-08.24.33:908][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 3.93 sec)
+[2024.07.15-08.24.33:908][653]AssetCheck: New page: Asset Save: BHT_Bulky
+[2024.07.15-08.24.33:908][653]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.BHT_Bulky
+[2024.07.15-08.24.51:115][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.24.51:136][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.uasset" SILENT=true
+[2024.07.15-08.24.51:138][243]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky
+[2024.07.15-08.24.51:139][243]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_BulkyBA664178478407B23E48D7B6818B73D1.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.uasset'
+[2024.07.15-08.24.51:144][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 3.96 sec)
+[2024.07.15-08.24.51:144][243]AssetCheck: New page: Asset Save: BHT_Bulky
+[2024.07.15-08.24.51:144][243]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Bulky.BHT_Bulky
+[2024.07.15-08.25.09:646][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.25.09:669][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female" FILE="../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.uasset" SILENT=true
+[2024.07.15-08.25.09:672][ 17]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female
+[2024.07.15-08.25.09:672][ 17]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_Female3EA9B60A4144BDB0807AE7975EB40578.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.uasset'
+[2024.07.15-08.25.09:675][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 3.99 sec)
+[2024.07.15-08.25.09:676][ 17]AssetCheck: New page: Asset Save: BHT_Female
+[2024.07.15-08.25.09:676][ 17]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_Female.BHT_Female
+[2024.07.15-08.25.20:016][875]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.BHT_KronenFast
+[2024.07.15-08.25.27:306][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.15-08.25.27:332][546]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast
+[2024.07.15-08.25.27:332][546]LogSavePackage: Moving '../../../../Projects/The_Influence/DeepInfection/Saved/BHT_KronenFastDB24F7EC4AEF8505E266438869CE1727.tmp' to '../../../../Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.uasset'
+[2024.07.15-08.25.27:337][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 4.02 sec)
+[2024.07.15-08.25.27:338][546]AssetCheck: New page: Asset Save: BHT_KronenFast
+[2024.07.15-08.25.27:338][546]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/_Core/_Enemies/_AiSystems/_BHT/BHT_KronenFast.BHT_KronenFast
+[2024.07.15-08.25.52:676][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
