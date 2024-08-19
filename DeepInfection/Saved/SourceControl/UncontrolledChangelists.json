@@ -5,7 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap"
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Bar_White_Floor_Texture.uasset"
 			]
 		}
 	]
