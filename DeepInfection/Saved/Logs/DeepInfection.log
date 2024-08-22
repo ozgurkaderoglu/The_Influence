@@ -2133,3 +2133,26 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.22-09.30.57:757][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 111 ms)
 [2024.08.22-09.30.57:758][832]AssetCheck: New page: Asset Save: KronenFemale_Animations_Attack1
 [2024.08.22-09.30.57:758][832]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1.KronenFemale_Animations_Attack1
+[2024.08.22-09.31.29:333][444]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.31.29:334][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.31.29:342][444]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.31.29:342][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.31.29:369][444]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.31.29:369][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.31.40:460][649]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.31.41:918][791]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1.KronenMale_Animations_Attack1
+[2024.08.22-09.31.41:919][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.31.41:919][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.31.41:924][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.31.42:124][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.31.42:124][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.31.42:213][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.31.42:213][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.31.42:228][791]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.08.22-09.31.42:249][791]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.32.10:493][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.32.10:535][407]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1
+[2024.08.22-09.32.10:535][407]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenMale_Animations_Attack11CBD27FA4F18472219B504AC5D678BFB.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1.uasset'
+[2024.08.22-09.32.10:543][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 161 ms)
+[2024.08.22-09.32.10:544][407]AssetCheck: New page: Asset Save: KronenMale_Animations_Attack1
+[2024.08.22-09.32.10:544][407]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1.KronenMale_Animations_Attack1
