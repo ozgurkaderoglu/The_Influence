@@ -2180,3 +2180,67 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.22-09.33.40:934][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.08.22-09.33.40:958][378]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
 [2024.08.22-09.33.40:958][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.33.52:761][484]LogSlate: Window 'KronenMale_Animations_Attack1' being destroyed
+[2024.08.22-09.33.52:774][484]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.52:774][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.33.52:784][484]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.52:784][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.33.52:813][484]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.52:813][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.34.18:180][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.08.22-09.34.18:190][ 29]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 0.059
+[2024.08.22-09.34.18:191][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1] ([1] browsable assets)...
+[2024.08.22-09.34.18:235][ 29]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1.KronenFast_Animations_Attack1]
+[2024.08.22-09.34.18:235][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1]
+[2024.08.22-09.34.18:240][ 29]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Auto1
+[2024.08.22-09.34.18:240][ 29]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFast_Animations_Attack1_Au42F831684B5A230DE8485B992F0013B3.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1_Auto1.uasset'
+[2024.08.22-09.34.18:240][ 29]LogFileHelpers: Auto-saving content packages took 0.050
+[2024.08.22-09.34.27:937][424]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: ================================================
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Total job queries 5.461, among them cache hits 334 (6.12%)
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Tracking 4.186 distinct input hashes that result in 2.765 distinct outputs (66.05%)
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: RAM used: 77,37 MiB of 1,60 GiB budget. Usage: 4.72%
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Shaders Compiled: 4.186
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Jobs assigned 4.192, completed 4.186 (99.86%)
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Average time worker was idle: 22.74 s
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Time job spent in pending queue: average 35.37 s, longest 82.77 s
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Job execution time: average 1.61 s, max 7.78 s
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Job life time (pending + execution): average 37.03 s, max 85.29
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Shader code size: average 37,219 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 107.22 s
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Jobs were issued in 1.010 batches (only local compilation was used), average 4.15 jobs/batch
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Average processing rate: 39.04 jobs/sec
+[2024.08.22-09.34.28:248][441]LogShaderCompilers: Display: Total thread time: 744,582 s
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: Total thread preprocess time: 63,343 s
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: Percentage time preprocessing: 8.51%
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: Effective parallelization: 6.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.25 sec, max 5.80 sec, min 0.69 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 2.50 sec, max 3.05 sec, min 1.85 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 0.84 sec, max 1.64 sec, min 0.44 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 0.67 sec, max 1.69 sec, min 0.05 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.60 sec, max 1.13 sec, min 0.46 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.86% of total time (compiled  134 times, average 0.60 sec, max 1.13 sec, min 0.46 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.78% of total time (compiled   96 times, average 0.37 sec, max 0.59 sec, min 0.21 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.04% of total time (compiled   96 times, average 0.31 sec, max 0.58 sec, min 0.09 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.87% of total time (compiled  139 times, average 0.21 sec, max 0.99 sec, min 0.13 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.71% of total time (compiled   33 times, average 0.84 sec, max 1.64 sec, min 0.44 sec)
+[2024.08.22-09.34.28:249][441]LogShaderCompilers: Display: ================================================
+[2024.08.22-09.34.28:785][481]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.08.22-09.34.28:785][481]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.34.28:785][481]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.34.29:686][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.34.44:189][456]LogSlate: Window 'DI_Player' being destroyed
+[2024.08.22-09.35.07:518][389]BlueprintLog: New page: Compile DI_Player
+[2024.08.22-09.35.07:690][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.08.22-09.35.13:299][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.35.13:323][ 21]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.35.13:386][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Player/DI_Player" FILE="E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset" SILENT=true
+[2024.08.22-09.35.13:520][ 21]LogSavePackage: Moving output files for package: /Game/_Core/_Player/DI_Player
+[2024.08.22-09.35.13:520][ 21]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/DI_PlayerF9E15A7C49B475B6701024B231FE055C.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset'
+[2024.08.22-09.35.13:528][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 434 ms)
+[2024.08.22-09.35.13:529][ 21]AssetCheck: New page: Asset Save: DI_Player
+[2024.08.22-09.35.13:529][ 21]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
