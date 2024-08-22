@@ -2156,3 +2156,27 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.22-09.32.10:543][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 161 ms)
 [2024.08.22-09.32.10:544][407]AssetCheck: New page: Asset Save: KronenMale_Animations_Attack1
 [2024.08.22-09.32.10:544][407]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1.KronenMale_Animations_Attack1
+[2024.08.22-09.32.35:540][171]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.32.35:567][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.32.38:953][375]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Slugger_Enemy/TheSlugger_Animations_Attack1.TheSlugger_Animations_Attack1
+[2024.08.22-09.32.38:954][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.32.38:954][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.32.38:960][375]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.32.39:124][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.32.39:124][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.32.39:223][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.32.39:223][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.32.39:235][375]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.08.22-09.32.39:254][375]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.33.39:644][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.33.39:682][291]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Slugger_Enemy/TheSlugger_Animations_Attack1
+[2024.08.22-09.33.39:683][291]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/TheSlugger_Animations_Attack135D908194903F3A6C40B0A9274A0944C.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Slugger_Enemy/TheSlugger_Animations_Attack1.uasset'
+[2024.08.22-09.33.39:688][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 205 ms)
+[2024.08.22-09.33.39:689][291]AssetCheck: New page: Asset Save: TheSlugger_Animations_Attack1
+[2024.08.22-09.33.39:689][291]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Slugger_Enemy/TheSlugger_Animations_Attack1.TheSlugger_Animations_Attack1
+[2024.08.22-09.33.40:923][378]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.40:923][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.33.40:934][378]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.40:934][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.33.40:958][378]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.33.40:958][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
