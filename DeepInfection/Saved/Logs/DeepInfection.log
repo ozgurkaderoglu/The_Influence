@@ -2244,3 +2244,428 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.22-09.35.13:528][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 434 ms)
 [2024.08.22-09.35.13:529][ 21]AssetCheck: New page: Asset Save: DI_Player
 [2024.08.22-09.35.13:529][ 21]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2024.08.22-09.35.46:560][579]BlueprintLog: New page: Compile DI_Player
+[2024.08.22-09.35.46:746][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.08.22-09.38.06:438][865]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.38.06:484][867]LogConsoleManager: Warning: Console variable 'r.ShaderCompiler.JobCache' used in the render thread. Rendering artifacts could happen. Use ECVF_RenderThreadSafe or don't use in render thread.
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: ================================================
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Total job queries 5.554, among them cache hits 339 (6.10%)
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Tracking 4.194 distinct input hashes that result in 2.767 distinct outputs (65.98%)
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: RAM used: 77,64 MiB of 1,60 GiB budget. Usage: 4.74%
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Shaders Compiled: 4.194
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Jobs assigned 4.202, completed 4.194 (99.81%)
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Average time worker was idle: 24.24 s
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Time job spent in pending queue: average 35.29 s, longest 82.77 s
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Job execution time: average 1.60 s, max 7.78 s
+[2024.08.22-09.38.06:808][877]LogShaderCompilers: Display: Job life time (pending + execution): average 36.96 s, max 85.29
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Shader code size: average 37,207 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 108.05 s
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Jobs were issued in 1.020 batches (only local compilation was used), average 4.12 jobs/batch
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Average processing rate: 38.81 jobs/sec
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Total thread time: 745,91 s
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Total thread preprocess time: 63,519 s
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Percentage time preprocessing: 8.52%
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Effective parallelization: 6.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 3.25 sec, max 5.80 sec, min 0.69 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 2.50 sec, max 3.05 sec, min 1.85 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 0.84 sec, max 1.64 sec, min 0.44 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 0.67 sec, max 1.69 sec, min 0.05 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.60 sec, max 1.13 sec, min 0.46 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.84% of total time (compiled  134 times, average 0.60 sec, max 1.13 sec, min 0.46 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.78% of total time (compiled   96 times, average 0.37 sec, max 0.59 sec, min 0.21 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.03% of total time (compiled   96 times, average 0.31 sec, max 0.58 sec, min 0.09 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.92% of total time (compiled  141 times, average 0.21 sec, max 0.99 sec, min 0.13 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.71% of total time (compiled   33 times, average 0.84 sec, max 1.64 sec, min 0.44 sec)
+[2024.08.22-09.38.06:809][877]LogShaderCompilers: Display: ================================================
+[2024.08.22-09.38.08:681][983]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
+[2024.08.22-09.38.08:681][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.38.08:681][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.38.55:928][289]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2024.08.22-09.38.56:045][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.08.22-09.38.58:410][523]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2024.08.22-09.38.58:520][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.08.22-09.38.59:919][666]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-09.38.59:929][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-09.38.59:929][666]PIE: New page: PIE session: Island (22 Aug 2024, 13:38:59)
+[2024.08.22-09.38.59:935][666]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.08.22-09.38.59:935][666]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.08.22-09.38.59:936][666]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.39.00:508][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.573077s)
+[2024.08.22-09.39.00:508][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.573126s)
+[2024.08.22-09.39.00:526][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.08.22-09.39.00:528][666]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.39.00:528][666]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.39.00:530][666]LogAIModule: Creating AISystem for world Island
+[2024.08.22-09.39.00:530][666]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2024.08.22-09.39.00:531][666]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-09.39.00:531][666]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-09.39.00:531][666]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-09.39.00:531][666]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-09.39.00:531][666]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-09.39.00:531][666]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-09.39.00:533][666]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-09.39.00:547][666]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2024.08.22-09.39.00:547][666]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-09.39.00:547][666]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-09.39.00:548][666]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-09.39.00:548][666]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.08.22-09.39.00:548][666]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.08.22-09.39.00:550][666]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.08.22-09.39.00:550][666]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.08.22-09.39.00:550][666]LogInit: FAudioDevice initialized with ID 2.
+[2024.08.22-09.39.00:550][666]LogAudio: Display: Audio Device (ID: 2) registered with world 'Island'.
+[2024.08.22-09.39.00:550][666]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.08.22-09.39.00:575][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.39.00:575][666]LogLoad: Game class is 'DI_gameMode_C'
+[2024.08.22-09.39.00:788][666]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.08.22-09.39.00:792][666]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.08.22-11.39.00
+[2024.08.22-09.39.00:795][666]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.39.00:810][666]LogWorld: Bringing up level for play took: 0.234765
+[2024.08.22-09.39.00:812][666]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.08.22-09.39.00:819][666]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.39.00:819][666]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.39.00:819][666]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.08.22-09.39.00:838][666]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2024.08.22-09.39.00:838][666]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-09.39.00:839][666]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.08.22-09.39.00:841][666]PIE: Server logged in
+[2024.08.22-09.39.00:842][666]PIE: Play in editor total start time 0,913 seconds.
+[2024.08.22-09.39.00:958][666]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.08.22-09.39.02:443][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.39.02:444][719]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.39.02:444][719]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.08.22-09.39.02:453][719]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.39.02:507][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.39.02:518][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-09.39.02:532][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.39.02:597][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.22-09.39.02:597][719]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.08.22-09.39.02:597][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.08.22-09.39.02:599][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.08.22-09.39.02:688][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.08.22-09.39.02:699][719]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.39.02:767][720]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.08.22-09.39.39:769][937]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2024.08.22-09.39.39:861][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.08.22-09.39.44:368][453]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.40.13:190][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-09.40.13:190][886]PIE: New page: SIE session: Island (22 Aug 2024, 13:40:13)
+[2024.08.22-09.40.13:190][886]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.40.13:754][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.563829s)
+[2024.08.22-09.40.13:754][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.563864s)
+[2024.08.22-09.40.13:772][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.08.22-09.40.13:777][886]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.40.13:777][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.40.13:778][886]LogAIModule: Creating AISystem for world Island
+[2024.08.22-09.40.13:778][886]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2024.08.22-09.40.13:779][886]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-09.40.13:779][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-09.40.13:779][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-09.40.13:779][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-09.40.13:779][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-09.40.13:779][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-09.40.13:781][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-09.40.13:794][886]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2024.08.22-09.40.13:794][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-09.40.13:794][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-09.40.13:794][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-09.40.13:795][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.08.22-09.40.13:795][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.08.22-09.40.13:797][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.08.22-09.40.13:797][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.08.22-09.40.13:797][886]LogInit: FAudioDevice initialized with ID 3.
+[2024.08.22-09.40.13:797][886]LogAudio: Display: Audio Device (ID: 3) registered with world 'Island'.
+[2024.08.22-09.40.13:797][886]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.08.22-09.40.13:801][886]LogLoad: Game class is 'DI_gameMode_C'
+[2024.08.22-09.40.14:009][886]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.08.22-09.40.14:010][886]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.08.22-11.40.14
+[2024.08.22-09.40.14:012][886]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.40.14:013][886]LogWorld: Bringing up level for play took: 0.212018
+[2024.08.22-09.40.14:016][886]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.08.22-09.40.14:016][886]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.40.14:025][886]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.40.14:025][886]PIE: Server logged in
+[2024.08.22-09.40.14:026][886]PIE: Play in editor total start time 0,836 seconds.
+[2024.08.22-09.40.14:564][887]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.40.19:984][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.40.19:984][ 71]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.40.19:988][ 71]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.40.20:051][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.40.20:058][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-09.40.20:072][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.40.20:155][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.22-09.40.20:155][ 71]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.08.22-09.40.20:155][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.08.22-09.40.20:157][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.08.22-09.40.20:160][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.40.20:212][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.08.22-09.40.20:225][ 71]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.40.20:316][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.08.22-09.40.20:466][ 72]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.40.22:942][174]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.08.22-09.40.22:956][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-09.40.22:956][174]PIE: New page: SIE session: Island (22 Aug 2024, 13:40:22)
+[2024.08.22-09.40.22:956][174]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.40.23:539][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.582627s)
+[2024.08.22-09.40.23:539][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.582666s)
+[2024.08.22-09.40.23:554][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.08.22-09.40.23:561][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.40.23:561][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.40.23:561][174]LogAIModule: Creating AISystem for world Island
+[2024.08.22-09.40.23:562][174]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2024.08.22-09.40.23:562][174]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-09.40.23:562][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-09.40.23:562][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-09.40.23:563][174]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-09.40.23:563][174]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-09.40.23:563][174]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-09.40.23:565][174]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-09.40.23:578][174]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2024.08.22-09.40.23:579][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-09.40.23:579][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-09.40.23:579][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-09.40.23:580][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.08.22-09.40.23:580][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.08.22-09.40.23:580][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.08.22-09.40.23:580][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.08.22-09.40.23:580][174]LogInit: FAudioDevice initialized with ID 4.
+[2024.08.22-09.40.23:580][174]LogAudio: Display: Audio Device (ID: 4) registered with world 'Island'.
+[2024.08.22-09.40.23:580][174]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.08.22-09.40.23:583][174]LogLoad: Game class is 'DI_gameMode_C'
+[2024.08.22-09.40.23:803][174]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.08.22-09.40.23:805][174]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2024.08.22-11.40.23
+[2024.08.22-09.40.23:807][174]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.40.23:809][174]LogWorld: Bringing up level for play took: 0.224668
+[2024.08.22-09.40.23:811][174]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.08.22-09.40.23:812][174]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.40.23:820][174]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.08.22-09.40.23:820][174]PIE: Server logged in
+[2024.08.22-09.40.23:820][174]PIE: Play in editor total start time 0,864 seconds.
+[2024.08.22-09.40.24:247][175]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.40.25:863][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.40.25:863][224]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2024.08.22-09.40.25:866][224]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.40.25:916][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.40.25:923][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-09.40.25:934][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.40.25:996][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-09.40.26:015][224]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.08.22-09.40.26:015][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.08.22-09.40.26:017][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.08.22-09.40.26:073][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.08.22-09.40.26:085][224]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.08.22-09.40.26:165][225]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.08.22-09.40.26:181][225]LogViewport: Scene viewport resized to 416x281, mode Windowed.
+[2024.08.22-09.40.30:290][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.08.22-09.40.30:302][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.40.30:572][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/Island" FILE="E:/DeepInfection/The_Influence/DeepInfection/Content/_Level/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.22-09.40.30:598][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.22-09.40.33:408][451]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2024.08.22-09.40.33:408][451]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Island9D5690DB48B5E0EF2BF71A8A8EB7292C.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2024.08.22-09.40.33:450][451]LogFileHelpers: Saving map 'Island' took 2.885
+[2024.08.22-09.40.33:473][451]LogSavePackage: Moving output files for package: /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker
+[2024.08.22-09.40.33:473][451]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/CamSwitchWithTracker588DA7C84D46BF991B9EFD9F59EE8AF1.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.uasset'
+[2024.08.22-09.40.33:478][451]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1
+[2024.08.22-09.40.33:478][451]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFast_Animations_Attack142353060469DDC4EA083F38AC9741C02.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1.uasset'
+[2024.08.22-09.40.33:484][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.18 sec (total: 3.61 sec)
+[2024.08.22-09.40.33:517][451]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-09.40.33:517][451]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2024.08.22-09.40.33:517][451]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
+[2024.08.22-09.40.33:517][451]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Attack1.KronenFast_Animations_Attack1
+[2024.08.22-09.43.41:641][876]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.KronenFast_Animations_Idle1
+[2024.08.22-09.43.41:642][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.43.41:642][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.43.41:653][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.43.41:814][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.43.41:814][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.43.41:910][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.43.41:910][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.43.41:922][876]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.08.22-09.43.41:942][876]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.43.57:587][938]LogViewport: Scene viewport resized to 1141x531, mode Windowed.
+[2024.08.22-09.43.57:601][939]LogViewport: Scene viewport resized to 1141x530, mode Windowed.
+[2024.08.22-09.43.57:621][940]LogViewport: Scene viewport resized to 1141x523, mode Windowed.
+[2024.08.22-09.43.57:637][941]LogViewport: Scene viewport resized to 1141x518, mode Windowed.
+[2024.08.22-09.43.57:653][942]LogViewport: Scene viewport resized to 1141x512, mode Windowed.
+[2024.08.22-09.43.57:670][943]LogViewport: Scene viewport resized to 1141x504, mode Windowed.
+[2024.08.22-09.43.57:687][944]LogViewport: Scene viewport resized to 1141x496, mode Windowed.
+[2024.08.22-09.43.57:701][945]LogViewport: Scene viewport resized to 1141x488, mode Windowed.
+[2024.08.22-09.43.57:718][946]LogViewport: Scene viewport resized to 1141x480, mode Windowed.
+[2024.08.22-09.43.57:734][947]LogViewport: Scene viewport resized to 1141x469, mode Windowed.
+[2024.08.22-09.43.57:749][948]LogViewport: Scene viewport resized to 1141x460, mode Windowed.
+[2024.08.22-09.43.57:765][949]LogViewport: Scene viewport resized to 1141x450, mode Windowed.
+[2024.08.22-09.43.57:784][950]LogViewport: Scene viewport resized to 1141x438, mode Windowed.
+[2024.08.22-09.43.57:798][951]LogViewport: Scene viewport resized to 1141x427, mode Windowed.
+[2024.08.22-09.43.57:813][952]LogViewport: Scene viewport resized to 1141x418, mode Windowed.
+[2024.08.22-09.43.57:828][953]LogViewport: Scene viewport resized to 1141x407, mode Windowed.
+[2024.08.22-09.43.57:844][954]LogViewport: Scene viewport resized to 1141x393, mode Windowed.
+[2024.08.22-09.43.57:858][955]LogViewport: Scene viewport resized to 1141x384, mode Windowed.
+[2024.08.22-09.43.57:873][956]LogViewport: Scene viewport resized to 1141x374, mode Windowed.
+[2024.08.22-09.43.57:890][957]LogViewport: Scene viewport resized to 1141x363, mode Windowed.
+[2024.08.22-09.43.57:906][958]LogViewport: Scene viewport resized to 1141x355, mode Windowed.
+[2024.08.22-09.43.57:921][959]LogViewport: Scene viewport resized to 1141x346, mode Windowed.
+[2024.08.22-09.43.57:937][960]LogViewport: Scene viewport resized to 1141x340, mode Windowed.
+[2024.08.22-09.43.57:952][961]LogViewport: Scene viewport resized to 1141x331, mode Windowed.
+[2024.08.22-09.43.57:967][962]LogViewport: Scene viewport resized to 1141x323, mode Windowed.
+[2024.08.22-09.43.57:983][963]LogViewport: Scene viewport resized to 1141x318, mode Windowed.
+[2024.08.22-09.43.57:997][964]LogViewport: Scene viewport resized to 1141x312, mode Windowed.
+[2024.08.22-09.43.58:012][965]LogViewport: Scene viewport resized to 1141x307, mode Windowed.
+[2024.08.22-09.43.58:026][966]LogViewport: Scene viewport resized to 1141x303, mode Windowed.
+[2024.08.22-09.43.58:041][967]LogViewport: Scene viewport resized to 1141x299, mode Windowed.
+[2024.08.22-09.43.58:057][968]LogViewport: Scene viewport resized to 1141x295, mode Windowed.
+[2024.08.22-09.43.58:070][969]LogViewport: Scene viewport resized to 1141x294, mode Windowed.
+[2024.08.22-09.43.58:086][970]LogViewport: Scene viewport resized to 1141x293, mode Windowed.
+[2024.08.22-09.45.59:689][610]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt.Male_Zombie_Grunt
+[2024.08.22-09.46.46:742][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.46.46:772][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3
+[2024.08.22-09.46.46:773][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt_345287C804B2EB91B6F33AEBE1444262F.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3.uasset'
+[2024.08.22-09.46.46:778][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt
+[2024.08.22-09.46.46:778][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt7522CD1A4565D28EA79F05AE735B6170.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt.uasset'
+[2024.08.22-09.46.46:783][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2
+[2024.08.22-09.46.46:783][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt_2F4E747544DABA13E28E5BBB21B5375B8.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2.uasset'
+[2024.08.22-09.46.46:790][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3
+[2024.08.22-09.46.46:790][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt_3266B953841FB4BCB8E1E868CDC78C34E.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3.uasset'
+[2024.08.22-09.46.46:795][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt
+[2024.08.22-09.46.46:795][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt077F5B39488938EA4691FB91DDAACBAE.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt.uasset'
+[2024.08.22-09.46.46:800][778]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2
+[2024.08.22-09.46.46:800][778]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt_2AB857F0C41E49BE9724642981BF973CE.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2.uasset'
+[2024.08.22-09.46.46:806][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 3.67 sec)
+[2024.08.22-09.46.46:807][778]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3.Male_Zombie_Grunt_3
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt.Female_Zombie_Grunt
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2.Female_Zombie_Grunt_2
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3.Female_Zombie_Grunt_3
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt.Male_Zombie_Grunt
+[2024.08.22-09.46.46:807][778]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2.Male_Zombie_Grunt_2
+[2024.08.22-09.47.00:838][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.47.00:868][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3
+[2024.08.22-09.47.00:868][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt_3052609FE4695C94CEE683FA67900D7DB.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3.uasset'
+[2024.08.22-09.47.00:872][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt
+[2024.08.22-09.47.00:872][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt6FEBB2154EFBA4B8B94659A2320DF1B0.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt.uasset'
+[2024.08.22-09.47.00:875][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2
+[2024.08.22-09.47.00:875][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt_2D5B9DB21467BF37BC3F0309D49286B40.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2.uasset'
+[2024.08.22-09.47.00:881][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3
+[2024.08.22-09.47.00:881][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Female_Zombie_Grunt_3C12ED90D434923015930C3935502DFC0.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3.uasset'
+[2024.08.22-09.47.00:885][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt
+[2024.08.22-09.47.00:886][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt136AE0C54025D67D6D724A92DB036CC8.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt.uasset'
+[2024.08.22-09.47.00:888][175]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2
+[2024.08.22-09.47.00:888][175]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/Male_Zombie_Grunt_2527494914C87650D8F065494E9D946C3.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2.uasset'
+[2024.08.22-09.47.00:894][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 3.73 sec)
+[2024.08.22-09.47.00:895][175]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_3.Male_Zombie_Grunt_3
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt.Female_Zombie_Grunt
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_2.Female_Zombie_Grunt_2
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt_3.Female_Zombie_Grunt_3
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt.Male_Zombie_Grunt
+[2024.08.22-09.47.00:895][175]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/_Core/_Enemies/enemy_sounds/Male_Zombie_Grunt_2.Male_Zombie_Grunt_2
+[2024.08.22-09.47.28:043][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.08.22-09.47.28:052][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.47.28:096][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Core/_Enemies/_Animations/BS_KFast" FILE="E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/_Animations/BS_KFast.uasset" SILENT=true
+[2024.08.22-09.47.28:098][ 45]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/_Animations/BS_KFast
+[2024.08.22-09.47.28:098][ 45]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/BS_KFast0AEA8C6546CD4013B81818A9C07384B3.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/_Animations/BS_KFast.uasset'
+[2024.08.22-09.47.28:109][ 45]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1
+[2024.08.22-09.47.28:110][ 45]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFast_Animations_Idle1E8514AE942B60F87AFD0438D227A3D1C.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.uasset'
+[2024.08.22-09.47.28:116][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 3.79 sec)
+[2024.08.22-09.47.28:118][ 45]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-09.47.28:118][ 45]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/_Core/_Enemies/_Animations/BS_KFast.BS_KFast
+[2024.08.22-09.47.28:118][ 45]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.KronenFast_Animations_Idle1
+[2024.08.22-09.47.36:318][466]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.47.36:318][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.47.36:326][466]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.47.36:326][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.47.36:352][466]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.47.36:352][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.47.46:335][216]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.KronenFast_Animations_Idle1
+[2024.08.22-09.47.46:336][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.47.46:337][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.47.46:342][216]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.47.46:505][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.47.46:505][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.47.46:605][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.47.46:605][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.47.46:619][216]LogViewport: Scene viewport resized to 1141x293, mode Windowed.
+[2024.08.22-09.47.46:642][216]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.48.00:219][ 96]LogDerivedDataCache: C:/Users/bhdli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:48.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 24667 files in 25968 folders with total size 912 MiB.
+[2024.08.22-09.48.10:651][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.48.10:675][787]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1
+[2024.08.22-09.48.10:675][787]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFast_Animations_Idle1CAAB4307403F168C66A475B72ED3BA68.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.uasset'
+[2024.08.22-09.48.10:679][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 3.82 sec)
+[2024.08.22-09.48.10:680][787]AssetCheck: New page: Asset Save: KronenFast_Animations_Idle1
+[2024.08.22-09.48.10:680][787]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Fast/KronenFast_Animations_Idle1.KronenFast_Animations_Idle1
+[2024.08.22-09.48.11:870][882]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.11:870][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.11:879][882]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.11:879][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.11:905][882]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.11:905][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.15:221][178]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.15:221][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.25:851][727]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Idle1.KronenMale_Animations_Idle1
+[2024.08.22-09.48.25:852][727]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.25:852][727]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.25:882][727]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.48.26:037][727]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.26:037][727]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.26:123][727]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.26:123][727]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.26:135][727]LogViewport: Scene viewport resized to 1141x293, mode Windowed.
+[2024.08.22-09.48.26:156][727]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.48.31:903][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.48.31:945][160]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Idle1
+[2024.08.22-09.48.31:946][160]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenMale_Animations_Idle17922A1F049FFA44EDF773E94C0991749.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Idle1.uasset'
+[2024.08.22-09.48.31:952][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 3.87 sec)
+[2024.08.22-09.48.31:953][160]AssetCheck: New page: Asset Save: KronenMale_Animations_Idle1
+[2024.08.22-09.48.31:953][160]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Idle1.KronenMale_Animations_Idle1
+[2024.08.22-09.48.33:079][232]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.33:079][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.33:086][232]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.33:086][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.33:111][232]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-09.48.33:111][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-09.48.47:531][903]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1.KronenFemale_Animations_Idle1
+[2024.08.22-09.48.47:533][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.47:533][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.47:544][903]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.22-09.48.47:701][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.47:701][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.47:790][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-09.48.47:790][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-09.48.47:804][903]LogViewport: Scene viewport resized to 1141x293, mode Windowed.
+[2024.08.22-09.48.47:825][903]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.08.22-09.49.27:514][918]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.08.22-09.49.28:184][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.49.28:225][968]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1
+[2024.08.22-09.49.28:225][968]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFemale_Animations_Idle10BAEF86A4D0F1980B40661950D8D52C1.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1.uasset'
+[2024.08.22-09.49.28:232][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 3.92 sec)
+[2024.08.22-09.49.28:233][968]AssetCheck: New page: Asset Save: KronenFemale_Animations_Idle1
+[2024.08.22-09.49.28:233][968]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1.KronenFemale_Animations_Idle1
+[2024.08.22-09.49.34:636][356]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/_Core/_Enemies/enemy_sounds/Female_Zombie_Grunt.Female_Zombie_Grunt
+[2024.08.22-09.49.40:124][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-09.49.40:157][785]LogSavePackage: Moving output files for package: /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1
+[2024.08.22-09.49.40:157][785]LogSavePackage: Moving 'E:/DeepInfection/The_Influence/DeepInfection/Saved/KronenFemale_Animations_Idle14E4764804F4BFE619D6B52AF6478D63B.tmp' to 'E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1.uasset'
+[2024.08.22-09.49.40:161][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 3.96 sec)
+[2024.08.22-09.49.40:162][785]AssetCheck: New page: Asset Save: KronenFemale_Animations_Idle1
+[2024.08.22-09.49.40:162][785]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Idle1.KronenFemale_Animations_Idle1
+[2024.08.22-09.49.41:258][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
