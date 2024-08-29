@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Bar_White_Floor_Texture.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter_2.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter_Corner.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Sink.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Outside/Gate_Open.uasset",
 				"E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Bulky/Enemy_Kronen_Bulk_Idle_Anim.uasset",
 				"E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Female/KronenFemale_Animations_Attack1.uasset",
 				"E:/DeepInfection/The_Influence/DeepInfection/Content/_Core/_Enemies/Kronen_Male/KronenMale_Animations_Attack1.uasset",
@@ -36,13 +43,7 @@
 				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/Spasch_Screen.umap",
 				"D:/InfluenceGame/The_Influence/DeepInfection/Content/Ferry_Bobbing.uasset",
 				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/Ferry/Floating_ferry.uasset",
-				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_Blueprints/wood_BP.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Bar_White_Floor_Texture.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter_2.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Counter_Corner.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Furniture/Bar_Sink.uasset"
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_Blueprints/wood_BP.uasset"
 			]
 		}
 	]
