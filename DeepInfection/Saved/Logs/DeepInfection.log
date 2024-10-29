@@ -1138,3 +1138,93 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.29-13.08.19:312][  0]LogUProjectInfo: Found projects:
 [2024.10.29-13.08.19:316][  0]SourceControl: Revision control is disabled
 [2024.10.29-13.08.19:318][  0]SourceControl: Revision control is disabled
+[2024.10.29-13.08.19:574][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.10.29-13.08.19:595][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.29-13.08.19:595][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.29-13.08.19:706][  0]LogCollectionManager: Loaded 0 collections in 0.001496 seconds
+[2024.10.29-13.08.19:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Collections/' took 0.00s
+[2024.10.29-13.08.19:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/Developers/bhdli/Collections/' took 0.00s
+[2024.10.29-13.08.19:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/Collections/' took 0.00s
+[2024.10.29-13.08.19:963][  0]LogEngine: Initializing Engine...
+[2024.10.29-13.08.19:968][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.10.29-13.08.20:086][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.10.29-13.08.20:091][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.08.20:091][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.08.20:096][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.10.29-13.08.20:096][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.10.29-13.08.20:096][  0]LogInit: Texture streaming: Enabled
+[2024.10.29-13.08.20:106][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2024.10.29-13.08.20:111][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.10.29-13.08.20:118][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.10.29-13.08.20:118][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.10.29-13.08.20:118][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.08.20:119][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.08.20:119][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.08.20:120][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.08.20:120][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.08.20:120][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.08.20:123][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.08.20:148][  0]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2024.10.29-13.08.20:149][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.08.20:150][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.08.20:150][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.08.20:152][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.10.29-13.08.20:152][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.29-13.08.20:152][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.29-13.08.20:153][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.10.29-13.08.20:153][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.10.29-13.08.20:153][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.10.29-13.08.20:153][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.10.29-13.08.20:163][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.10.29-13.08.20:165][  0]LogInit: Undo buffer set to 32 MB
+[2024.10.29-13.08.20:165][  0]LogInit: Transaction tracking system initialized
+[2024.10.29-13.08.20:179][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2024.10.29-13.08.20:184][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.004655 seconds (Found 136 uncontrolled assets)
+[2024.10.29-13.08.20:185][  0]BlueprintLog: New page: Editor Load
+[2024.10.29-13.08.20:245][  0]LocalizationService: Localization service is disabled
+[2024.10.29-13.08.20:259][  0]TimingProfiler: Initialize
+[2024.10.29-13.08.20:260][  0]TimingProfiler: OnSessionChanged
+[2024.10.29-13.08.20:260][  0]LoadingProfiler: Initialize
+[2024.10.29-13.08.20:260][  0]LoadingProfiler: OnSessionChanged
+[2024.10.29-13.08.20:260][  0]NetworkingProfiler: Initialize
+[2024.10.29-13.08.20:260][  0]NetworkingProfiler: OnSessionChanged
+[2024.10.29-13.08.20:260][  0]MemoryProfiler: Initialize
+[2024.10.29-13.08.20:260][  0]MemoryProfiler: OnSessionChanged
+[2024.10.29-13.08.20:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/' took 0.01s
+[2024.10.29-13.08.20:495][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.10.29-13.08.20:548][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.10.29-13.08.20:555][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.10.29-13.08.20:557][  0]SourceControl: Revision control is disabled
+[2024.10.29-13.08.20:557][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.505
+[2024.10.29-13.08.20:557][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.08.20:557][  0]LightingResults: New page: Lighting Build
+[2024.10.29-13.08.20:559][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.08.20:559][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.08.20:559][  0]MapCheck: New page: Map Check
+[2024.10.29-13.08.20:559][  0]LightingResults: New page: Lighting Build
+[2024.10.29-13.08.20:562][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.08.20:566][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.10.29-13.08.21:168][  0]LogAssetRegistry: Display: Asset registry cache written as 41.7 MiB to ../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Intermediate/CachedAssetRegistry_*.bin
+[2024.10.29-13.08.21:483][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_90s_StylePack\Objects\ceiling_light_BP.uasset: Failed to load '/Engine/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01_Inst1': Can't find file.
+[2024.10.29-13.08.21:483][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_90s_StylePack\Objects\ceiling_light_BP.uasset: VerifyImport: Failed to load package for import object 'Package /Engine/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01_Inst1'
+[2024.10.29-13.08.21:490][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_Furniture\Ceiling_lamp_BP.uasset: Failed to load '/Engine/EngineVolumetrics/LightBeam/Materials/indoor_lighting_beam': Can't find file.
+[2024.10.29-13.08.21:490][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_Furniture\Ceiling_lamp_BP.uasset: VerifyImport: Failed to load package for import object 'Package /Engine/EngineVolumetrics/LightBeam/Materials/indoor_lighting_beam'
+[2024.10.29-13.08.21:505][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_Outside\LampBP.uasset: Failed to load '/Engine/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_yellow_01_Inst': Can't find file.
+[2024.10.29-13.08.21:505][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Props\_Outside\LampBP.uasset: VerifyImport: Failed to load package for import object 'Package /Engine/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_yellow_01_Inst'
+[2024.10.29-13.08.21:838][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Environment_Assets\doorway\Doorway_SM.uasset: Failed to load '/Game/_PlaceHolderts/influence/Env_Materials/Stucco_M': Can't find file.
+[2024.10.29-13.08.21:838][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Environment_Assets\doorway\Doorway_SM.uasset: VerifyImport: Failed to load package for import object 'Package /Game/_PlaceHolderts/influence/Env_Materials/Stucco_M'
+[2024.10.29-13.08.21:838][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Environment_Assets\doorway\Doorway_SM.uasset: Failed to load '/Game/_PlaceHolderts/influence/Env_Materials/WoodWall_M': Can't find file.
+[2024.10.29-13.08.21:838][  0]LogLinker: Warning: [AssetLog] C:\Users\bhdli\Documents\UnrealProjects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_Environment_Assets\doorway\Doorway_SM.uasset: VerifyImport: Failed to load package for import object 'Package /Game/_PlaceHolderts/influence/Env_Materials/WoodWall_M'
+[2024.10.29-13.08.23:120][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
