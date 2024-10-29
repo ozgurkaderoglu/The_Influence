@@ -1296,3 +1296,228 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.29-13.08.27:135][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.008051 secs
 [2024.10.29-13.08.27:146][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/' took 0.38s
 [2024.10.29-13.08.28:236][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2024.10.29-13.08.47:611][983]LogContentBrowser: Deferred new asset file creation: Island1
+[2024.10.29-13.08.47:690][983]LogContentBrowser: Creating deferred item: Island1
+[2024.10.29-13.08.47:706][984]LogContentBrowser: Renaming the item being created (Deferred Item: Island1).
+[2024.10.29-13.08.53:303][415]LogContentBrowser: Attempting asset rename: Island1 -> LVL_IslandMain
+[2024.10.29-13.10.34:418][415]LogDerivedDataCache: C:/Users/bhdli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:18.095 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9868 files in 11433 folders with total size 106 MiB.
+[2024.10.29-13.10.41:583][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.10.29-13.10.41:783][415]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.10.41:925][415]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.10.41:963][415]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.10.46:473][415]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.10.46:651][415]LogContentBrowser: End creating deferred item Island1
+[2024.10.29-13.15.37:911][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.15.37:979][393]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.15.38:259][393]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.15.38:379][393]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.15.38:409][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.10.29-13.15.38:423][393]LogPackageLocalizationCache: Processed 55 localized package path(s) for 1 prioritized culture(s) in 0.010458 seconds
+[2024.10.29-13.15.41:365][393]LogSavePackage: Moving output files for package: /Game/_Level/LVL_IslandMain
+[2024.10.29-13.15.41:365][393]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LVL_IslandMainCBC8E92A41E1D78DE0193DBF028AA26A.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/LVL_IslandMain.umap'
+[2024.10.29-13.15.41:627][393]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.15.41:649][393]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.15.41:652][393]LogFileHelpers: Saving map 'LVL_IslandMain' took 3.713
+[2024.10.29-13.15.41:663][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.75 sec
+[2024.10.29-13.15.41:666][393]AssetCheck: New page: Asset Save: LVL_IslandMain
+[2024.10.29-13.15.41:666][393]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/LVL_IslandMain.LVL_IslandMain
+[2024.10.29-13.15.46:667][804]LogMetaData: Removing '/Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.AmbientSound_4.Owls_hooting_sounds-higher_quality2_SoundCue.SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/_Level/LVL_IslandMain.PackageMetaData'
+[2024.10.29-13.15.46:667][804]LogMetaData: Removing '/Game/NewGameplayBuild/Level/LVL_IslandMain.SKEL_LVL_IslandMain_C' ref from Metadata '/Game/_Level/LVL_IslandMain.PackageMetaData'
+[2024.10.29-13.15.46:667][804]LogMetaData: Removing '/Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain_C' ref from Metadata '/Game/_Level/LVL_IslandMain.PackageMetaData'
+[2024.10.29-13.15.46:667][804]LogMetaData: Removing '/Game/NewGameplayBuild/Level/LVL_IslandMain.SKEL_LVL_IslandMain_C:ReceiveBeginPlay' ref from Metadata '/Game/_Level/LVL_IslandMain.PackageMetaData'
+[2024.10.29-13.15.46:667][804]LogMetaData: Removing '/Game/NewGameplayBuild/Level/LVL_IslandMain.SKEL_LVL_IslandMain_C:ReceiveTick' ref from Metadata '/Game/_Level/LVL_IslandMain.PackageMetaData'
+[2024.10.29-13.15.46:673][804]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.15.46:738][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.15.46:941][804]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.15.46:984][804]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.15.47:003][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.29-13.15.47:007][804]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/NewGameplayBuild/Level/LVL_IslandMain does not exist, will not scan.
+[2024.10.29-13.15.49:940][804]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/LVL_IslandMain
+[2024.10.29-13.15.49:940][804]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LVL_IslandMain2ED288644A7890AFFD3A75958B96D3E3.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap'
+[2024.10.29-13.15.50:201][804]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.15.50:223][804]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2024.10.29-13.15.50:226][804]LogFileHelpers: Saving map 'LVL_IslandMain' took 3.527
+[2024.10.29-13.15.50:240][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.56 sec (total: 7.31 sec)
+[2024.10.29-13.15.50:255][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.29-13.15.50:265][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.29-13.15.50:270][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.10.29-13.15.50:291][804]AssetCheck: New page: Asset Save: LVL_IslandMain
+[2024.10.29-13.15.50:291][804]LogContentValidation: Display: Validating /Script/Engine.World /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain
+[2024.10.29-13.15.52:992][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.29-13.15.53:001][ 50]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain
+[2024.10.29-13.15.53:002][ 50]Cmd: MAP LOAD FILE="../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.15.53:002][ 50]LightingResults: New page: Lighting Build
+[2024.10.29-13.15.53:002][ 50]LoadErrors: New page: Loading map: LVL_IslandMain.umap
+[2024.10.29-13.15.53:140][ 50]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.15.53:141][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.15.53:142][ 50]MapCheck: New page: Map Check
+[2024.10.29-13.15.53:142][ 50]LightingResults: New page: Lighting Build
+[2024.10.29-13.15.53:155][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.15.53:308][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.10.29-13.15.53:348][ 50]LogWorld: UWorld::CleanupWorld for LVL_IslandMain, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.15.53:385][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.15.53:531][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.10.29-13.15.53:546][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.10.29-13.15.54:535][ 50]LogAudio: Display: Audio Device (ID: 1) registered with world 'LVL_IslandMain'.
+[2024.10.29-13.15.54:535][ 50]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.15.54:535][ 50]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.15.54:535][ 50]LogAIModule: Creating AISystem for world LVL_IslandMain
+[2024.10.29-13.15.54:952][ 50]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2024.10.29-13.15.55:005][ 50]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.10.29-13.15.55:125][ 50]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.119271s
+[2024.10.29-13.15.55:713][ 50]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.29-13.15.55:833][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.29-13.15.55:837][ 50]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.29-13.15.55:837][ 50]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.252ms to complete.
+[2024.10.29-13.15.55:839][ 50]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.838416s (0.838416s overbudget)
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: ================================================
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: Total job queries 2,333, among them cache hits 1,650 (70.72%)
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: Tracking 683 distinct input hashes that result in 233 distinct outputs (34.11%)
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: RAM used: 14.33 MiB of 1.60 GiB budget. Usage: 0.87%
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.29-13.15.56:548][ 50]LogShaderCompilers: Display: ================================================
+[2024.10.29-13.16.54:540][305]LogViewport: Scene viewport resized to 1170x578, mode Windowed.
+[2024.10.29-13.17.18:237][954]LogStaticMesh: Display: Building static mesh Cafe_6578B27C...
+[2024.10.29-13.17.18:237][954]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.Cafe_6578B27C
+[2024.10.29-13.17.18:241][954]LogStaticMesh: Built static mesh [0.00s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.Cafe_6578B27C
+[2024.10.29-13.17.18:244][954]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.Cafe_6578B27C as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4171
+[2024.10.29-13.17.18:458][954]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2024.10.29-13.18.00:345][125]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.Factori_P1_F106D381
+[2024.10.29-13.18.00:345][125]LogStaticMesh: Display: Building static mesh Factori_P1_F106D381...
+[2024.10.29-13.18.00:350][125]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.Factori_P1_F106D381 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4634
+[2024.10.29-13.18.00:367][125]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381) ...
+[2024.10.29-13.18.00:370][125]LogStaticMesh: Built static mesh [0.03s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.Factori_P1_F106D381
+[2024.10.29-13.18.24:944][901]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.Factori_P2_B6BA258F
+[2024.10.29-13.18.24:944][901]LogStaticMesh: Display: Building static mesh Factori_P2_B6BA258F...
+[2024.10.29-13.18.24:948][901]LogStaticMesh: Built static mesh [0.00s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.Factori_P2_B6BA258F
+[2024.10.29-13.18.24:949][901]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.Factori_P2_B6BA258F as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4636
+[2024.10.29-13.18.31:737][436]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.29-13.19.19:796][600]Cmd: TRANSACTION UNDO
+[2024.10.29-13.19.19:796][600]LogEditorTransaction: Undo Move Elements
+[2024.10.29-13.19.42:116][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.Apps_P1_64789DD9
+[2024.10.29-13.19.42:117][759]LogStaticMesh: Display: Building static mesh Apps_P1_64789DD9...
+[2024.10.29-13.19.42:121][759]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.Apps_P1_64789DD9 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4689
+[2024.10.29-13.19.42:131][759]LogStaticMesh: Built static mesh [0.02s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.Apps_P1_64789DD9
+[2024.10.29-13.19.43:232][759]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x98 sparse distance field, 2.2Mb total, 0.0Mb always loaded, 86% occupied, 1248 triangles, Apps_P1_64789DD9
+[2024.10.29-13.19.44:470][795]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x98 sparse distance field, 2.2Mb total, 0.0Mb always loaded, 86% occupied, 1248 triangles, Apps_P1_64789DD9
+[2024.10.29-13.20.43:383][795]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.Appsp2_A54902D6
+[2024.10.29-13.20.43:383][795]LogStaticMesh: Display: Building static mesh Appsp2_A54902D6...
+[2024.10.29-13.20.43:387][795]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.Appsp2_A54902D6 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4698
+[2024.10.29-13.20.43:405][795]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6) ...
+[2024.10.29-13.20.43:457][795]LogStaticMesh: Built static mesh [0.08s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.Appsp2_A54902D6
+[2024.10.29-13.20.43:474][795]LogStaticMesh: Warning: Appsp2_A54902D6 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.10.29-13.20.43:474][795]LogStaticMesh: Warning: Appsp2_A54902D6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.29-13.20.45:225][795]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x105 sparse distance field, 2.7Mb total, 0.0Mb always loaded, 97% occupied, 4844 triangles, Appsp2_A54902D6
+[2024.10.29-13.20.45:244][795]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6) ...
+[2024.10.29-13.20.47:202][856]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x105 sparse distance field, 2.7Mb total, 0.0Mb always loaded, 97% occupied, 4844 triangles, Appsp2_A54902D6
+[2024.10.29-13.22.14:802][778]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.Inn_DAE93493
+[2024.10.29-13.22.14:802][778]LogStaticMesh: Display: Building static mesh Inn_DAE93493...
+[2024.10.29-13.22.14:806][778]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.Inn_DAE93493 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4719
+[2024.10.29-13.22.14:814][778]LogStaticMesh: Built static mesh [0.01s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.Inn_DAE93493
+[2024.10.29-13.22.15:894][778]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x105 sparse distance field, 2.3Mb total, 0.0Mb always loaded, 79% occupied, 1221 triangles, Inn_DAE93493
+[2024.10.29-13.22.17:124][817]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x105 sparse distance field, 2.3Mb total, 0.0Mb always loaded, 79% occupied, 1221 triangles, Inn_DAE93493
+[2024.10.29-13.22.42:586][710]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.Combined_1D840CCC
+[2024.10.29-13.22.42:586][710]LogStaticMesh: Display: Building static mesh Combined_1D840CCC...
+[2024.10.29-13.22.42:588][710]LogStaticMesh: Built static mesh [0.00s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.Combined_1D840CCC
+[2024.10.29-13.22.42:591][710]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.Combined_1D840CCC as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4723
+[2024.10.29-13.23.04:866][321]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.10.29-13.23.17:632][219]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.LightHOuse_3131A019
+[2024.10.29-13.23.17:633][219]LogStaticMesh: Display: Building static mesh LightHOuse_3131A019...
+[2024.10.29-13.23.17:636][219]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.LightHOuse_3131A019 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4726
+[2024.10.29-13.23.17:638][219]LogStaticMesh: Built static mesh [0.01s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.LightHOuse_3131A019
+[2024.10.29-13.24.31:251][529]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.Fences_Playground_AC992276
+[2024.10.29-13.24.31:251][529]LogStaticMesh: Display: Building static mesh Fences_Playground_AC992276...
+[2024.10.29-13.24.31:255][529]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.Fences_Playground_AC992276 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4728
+[2024.10.29-13.24.31:272][529]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276) ...
+[2024.10.29-13.24.31:348][529]LogStaticMesh: Built static mesh [0.10s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.Fences_Playground_AC992276
+[2024.10.29-13.25.13:391][397]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.Scool_buildings_B3580357
+[2024.10.29-13.25.13:391][397]LogStaticMesh: Display: Building static mesh Scool_buildings_B3580357...
+[2024.10.29-13.25.13:395][397]LogActorFactory: Actor Factory spawned StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.Scool_buildings_B3580357 as actor: StaticMeshActor /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain:PersistentLevel.StaticMeshActor_4739
+[2024.10.29-13.25.13:414][397]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357) ...
+[2024.10.29-13.25.13:416][397]LogStaticMesh: Built static mesh [0.02s] /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.Scool_buildings_B3580357
+[2024.10.29-13.25.13:424][397]LogStaticMesh: Warning: Scool_buildings_B3580357 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.10.29-13.25.13:424][397]LogStaticMesh: Warning: Scool_buildings_B3580357 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.29-13.26.39:104][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.29-13.26.41:956][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/LVL_IslandMain_Auto1
+[2024.10.29-13.26.41:956][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LVL_IslandMain_Auto13FA89CB3456A9023A556C2914E27AEFA.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/LVL_IslandMain_Auto1.umap'
+[2024.10.29-13.26.41:962][753]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/LVL_IslandMain_Auto1.umap is in the /Temp path, will not scan.
+[2024.10.29-13.26.41:962][753]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/NewGameplayBuild/Level/LVL_IslandMain_Auto1 is in the /Temp path, will not scan.
+[2024.10.29-13.26.41:962][753]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/NewGameplayBuild/Level/LVL_IslandMain_Auto1 is in the /Temp path, will not scan.
+[2024.10.29-13.26.41:964][753]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/NewGameplayBuild/Level/LVL_IslandMain' took 2.904
+[2024.10.29-13.26.41:964][753]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 2.904
+[2024.10.29-13.26.41:965][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C] ([1] browsable assets)...
+[2024.10.29-13.26.41:966][753]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.26.42:147][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.Cafe_6578B27C]
+[2024.10.29-13.26.42:147][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C]
+[2024.10.29-13.26.42:154][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C_Auto1
+[2024.10.29-13.26.42:154][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Cafe_6578B27C_Auto13716ECB74F6D6DFD01E3159EAC146EC7.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C_Auto1.uasset'
+[2024.10.29-13.26.42:154][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357] ([1] browsable assets)...
+[2024.10.29-13.26.42:185][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.Scool_buildings_B3580357]
+[2024.10.29-13.26.42:185][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357]
+[2024.10.29-13.26.42:201][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357_Auto1
+[2024.10.29-13.26.42:202][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Scool_buildings_B3580357_Auto1BBA89A664E7CCF0E9D0BD7AB054C24D2.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357_Auto1.uasset'
+[2024.10.29-13.26.42:202][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381] ([1] browsable assets)...
+[2024.10.29-13.26.42:227][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.Factori_P1_F106D381]
+[2024.10.29-13.26.42:227][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381]
+[2024.10.29-13.26.42:252][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381_Auto1
+[2024.10.29-13.26.42:252][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Factori_P1_F106D381_Auto1F897F70C44190EA33AEEE389D1AC7F56.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381_Auto1.uasset'
+[2024.10.29-13.26.42:253][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F] ([1] browsable assets)...
+[2024.10.29-13.26.42:286][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.Factori_P2_B6BA258F]
+[2024.10.29-13.26.42:286][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F]
+[2024.10.29-13.26.42:293][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F_Auto1
+[2024.10.29-13.26.42:293][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Factori_P2_B6BA258F_Auto1CB08414344D45280383E91BAB17572F1.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F_Auto1.uasset'
+[2024.10.29-13.26.42:293][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9] ([1] browsable assets)...
+[2024.10.29-13.26.42:316][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.Apps_P1_64789DD9]
+[2024.10.29-13.26.42:316][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9]
+[2024.10.29-13.26.42:334][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9_Auto1
+[2024.10.29-13.26.42:334][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Apps_P1_64789DD9_Auto1E59E702548163E2261EABF91E9847648.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9_Auto1.uasset'
+[2024.10.29-13.26.42:335][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6] ([1] browsable assets)...
+[2024.10.29-13.26.42:359][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.Appsp2_A54902D6]
+[2024.10.29-13.26.42:359][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6]
+[2024.10.29-13.26.42:405][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6_Auto1
+[2024.10.29-13.26.42:405][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Appsp2_A54902D6_Auto1737B8296490A1EEAFEBD758FB7C42610.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6_Auto1.uasset'
+[2024.10.29-13.26.42:406][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493] ([1] browsable assets)...
+[2024.10.29-13.26.42:428][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.Inn_DAE93493]
+[2024.10.29-13.26.42:428][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493]
+[2024.10.29-13.26.42:440][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493_Auto1
+[2024.10.29-13.26.42:440][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Inn_DAE93493_Auto130C5A22A4D3654C16E17F3AF4B92BB67.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493_Auto1.uasset'
+[2024.10.29-13.26.42:441][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC] ([1] browsable assets)...
+[2024.10.29-13.26.42:468][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.Combined_1D840CCC]
+[2024.10.29-13.26.42:468][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC]
+[2024.10.29-13.26.42:471][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC_Auto1
+[2024.10.29-13.26.42:471][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Combined_1D840CCC_Auto1FBB791E84CF1ACBADC4787BF4609EE52.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC_Auto1.uasset'
+[2024.10.29-13.26.42:472][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019] ([1] browsable assets)...
+[2024.10.29-13.26.42:489][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.LightHOuse_3131A019]
+[2024.10.29-13.26.42:489][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019]
+[2024.10.29-13.26.42:493][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019_Auto1
+[2024.10.29-13.26.42:493][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LightHOuse_3131A019_Auto17356AE46495EB3D5899C55958FA0BEEC.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019_Auto1.uasset'
+[2024.10.29-13.26.42:494][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276] ([1] browsable assets)...
+[2024.10.29-13.26.42:506][753]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.Fences_Playground_AC992276]
+[2024.10.29-13.26.42:506][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276]
+[2024.10.29-13.26.42:513][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276_Auto1
+[2024.10.29-13.26.42:513][753]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Fences_Playground_AC992276_Auto1C214518D4DD73034D904E9973C792370.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276_Auto1.uasset'
+[2024.10.29-13.26.42:514][753]LogFileHelpers: Auto-saving content packages took 0.549
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: ================================================
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Total job queries 2,647, among them cache hits 1,962 (74.12%)
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Tracking 684 distinct input hashes that result in 234 distinct outputs (34.21%)
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: RAM used: 14.37 MiB of 1.60 GiB budget. Usage: 0.88%
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Jobs assigned 1, completed 0 (0.00%)
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.11 s
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.29-13.26.42:523][753]LogShaderCompilers: Display: ================================================
+[2024.10.29-13.31.05:226][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.31.05:415][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.10.29-13.31.08:131][347]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/LVL_IslandMain
+[2024.10.29-13.31.08:131][347]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LVL_IslandMainB7BFD4F8410A5C0CA71093A362F855F5.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap'
+[2024.10.29-13.31.08:171][347]LogFileHelpers: Saving map 'LVL_IslandMain' took 2.782
+[2024.10.29-13.31.08:176][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.95 sec (total: 10.2 sec)
+[2024.10.29-13.31.08:206][347]AssetCheck: New page: Asset Save: LVL_IslandMain
+[2024.10.29-13.31.08:206][347]LogContentValidation: Display: Validating /Script/Engine.World /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain
