@@ -1521,3 +1521,113 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.29-13.31.08:176][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.95 sec (total: 10.2 sec)
 [2024.10.29-13.31.08:206][347]AssetCheck: New page: Asset Save: LVL_IslandMain
 [2024.10.29-13.31.08:206][347]LogContentValidation: Display: Validating /Script/Engine.World /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain
+[2024.10.29-13.31.45:807][891]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.29-13.31.45:824][891]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.29-13.31.45:842][892]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.29-13.31.59:622][711]LogContentBrowser: Attempting asset rename: NewFolder -> MapSettings
+[2024.10.29-13.31.59:622][711]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.29-13.32.03:290][996]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.29-13.32.03:307][996]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.29-13.32.03:364][998]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.29-13.32.11:232][555]LogContentBrowser: Attempting asset rename: NewFolder -> TheIsalnd
+[2024.10.29-13.32.11:232][555]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.29-13.32.24:852][580]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.29-13.32.24:859][580]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.29-13.32.24:874][580]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.29-13.32.24:906][582]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.29-13.32.30:644][918]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Island_Gamemode
+[2024.10.29-13.32.30:652][918]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.29-13.32.31:310][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.32.31:343][957]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode
+[2024.10.29-13.32.31:343][957]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/BP_Island_Gamemode7EFDB2E74F405E16CA841A816ACE1AEB.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.uasset'
+[2024.10.29-13.32.31:351][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 10.3 sec)
+[2024.10.29-13.32.31:352][957]AssetCheck: New page: Asset Save: BP_Island_Gamemode
+[2024.10.29-13.32.31:352][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.BP_Island_Gamemode
+[2024.10.29-13.32.32:190][ 14]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.10.29-13.32.33:757][ 86]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.29-13.32.33:763][ 86]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.29-13.32.33:779][ 86]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.29-13.32.33:795][ 87]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.29-13.32.45:702][802]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Isaland_PlayerController
+[2024.10.29-13.32.45:709][802]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.29-13.32.46:384][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.32.46:419][841]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Isaland_PlayerController
+[2024.10.29-13.32.46:419][841]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/BP_Isaland_PlayerController5C5AEB1F434970E37EBC16B698BEA543.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Isaland_PlayerController.uasset'
+[2024.10.29-13.32.46:426][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 10.3 sec)
+[2024.10.29-13.32.46:426][841]AssetCheck: New page: Asset Save: BP_Isaland_PlayerController
+[2024.10.29-13.32.46:426][841]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Isaland_PlayerController.BP_Isaland_PlayerController
+[2024.10.29-13.33.00:463][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.33.00:493][150]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode
+[2024.10.29-13.33.00:493][150]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/BP_Island_GamemodeFBBEF3DC4694A4584669C9920CE402CE.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.uasset'
+[2024.10.29-13.33.00:498][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 10.3 sec)
+[2024.10.29-13.33.00:499][150]AssetCheck: New page: Asset Save: BP_Island_Gamemode
+[2024.10.29-13.33.00:499][150]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.BP_Island_Gamemode
+[2024.10.29-13.33.07:788][811]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.29-13.33.07:804][811]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.29-13.33.07:821][812]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.29-13.33.11:436][ 21]LogContentBrowser: Attempting asset rename: NewFolder -> PlayerCharacters
+[2024.10.29-13.33.11:436][ 21]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.29-13.33.15:103][309]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.29-13.33.15:122][309]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.29-13.33.15:182][311]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.29-13.33.19:979][623]LogContentBrowser: Attempting asset rename: NewFolder -> TheIsland
+[2024.10.29-13.33.19:979][623]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.29-13.33.24:585][924]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.29-13.33.24:590][924]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.29-13.33.24:606][924]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.29-13.33.24:638][926]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.29-13.33.37:769][681]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_DI_Player
+[2024.10.29-13.33.37:774][681]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.29-13.33.38:506][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.33.38:539][722]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Player
+[2024.10.29-13.33.38:539][722]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/BP_DI_PlayerBDEFB5764F7740F3B0D3349E3B472BAA.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Player.uasset'
+[2024.10.29-13.33.38:545][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 10.4 sec)
+[2024.10.29-13.33.38:546][722]AssetCheck: New page: Asset Save: BP_DI_Player
+[2024.10.29-13.33.38:546][722]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Player.BP_DI_Player
+[2024.10.29-13.33.41:270][879]LogSlate: Took 0.004216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.10.29-13.33.46:037][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.33.46:086][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.29-13.33.48:844][314]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/LVL_IslandMain
+[2024.10.29-13.33.48:844][314]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LVL_IslandMain1E8F69DB4DBA041277C48BAC5FE6B73C.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap'
+[2024.10.29-13.33.48:880][314]LogFileHelpers: Saving map 'LVL_IslandMain' took 2.825
+[2024.10.29-13.33.48:887][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.85 sec (total: 13.2 sec)
+[2024.10.29-13.33.48:918][314]AssetCheck: New page: Asset Save: LVL_IslandMain
+[2024.10.29-13.33.48:918][314]LogContentValidation: Display: Validating /Script/Engine.World /Game/NewGameplayBuild/Level/LVL_IslandMain.LVL_IslandMain
+[2024.10.29-13.33.52:394][512]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.33.55:896][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.10.29-13.33.55:902][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.33.55:933][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C
+[2024.10.29-13.33.55:933][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Cafe_6578B27C8A062FC149CE20B4138324A1ABD61F49.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.uasset'
+[2024.10.29-13.33.55:951][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357
+[2024.10.29-13.33.55:951][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Scool_buildings_B3580357A13E5C484471C9B26E23CAB3A61DE24D.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.uasset'
+[2024.10.29-13.33.55:976][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381
+[2024.10.29-13.33.55:976][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Factori_P1_F106D3814276EC6740B51D38003FCAA8F676EF06.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.uasset'
+[2024.10.29-13.33.55:983][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F
+[2024.10.29-13.33.55:983][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Factori_P2_B6BA258F98A44F12409A3CA6220E3EB75BAE673A.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.uasset'
+[2024.10.29-13.33.56:001][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9
+[2024.10.29-13.33.56:001][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Apps_P1_64789DD9F4FD8E204F80ACF526F1A789A987A648.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.uasset'
+[2024.10.29-13.33.56:046][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6
+[2024.10.29-13.33.56:046][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Appsp2_A54902D62BB36FF24FA424806E1EE3AB5954EB24.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.uasset'
+[2024.10.29-13.33.56:057][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493
+[2024.10.29-13.33.56:057][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Inn_DAE9349350296F6148A83993D96973B6D5B90058.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.uasset'
+[2024.10.29-13.33.56:060][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC
+[2024.10.29-13.33.56:060][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Combined_1D840CCC313E4F47433DA1C3571FCB8F4B96B8AB.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.uasset'
+[2024.10.29-13.33.56:064][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019
+[2024.10.29-13.33.56:064][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/LightHOuse_3131A019CE9D3B9B4DA3C396F0634884B09C87BA.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.uasset'
+[2024.10.29-13.33.56:071][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276
+[2024.10.29-13.33.56:071][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/Fences_Playground_AC99227694A0EE34429905A298A3E89102D942ED.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.uasset'
+[2024.10.29-13.33.56:073][808]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode
+[2024.10.29-13.33.56:074][808]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/BP_Island_GamemodeECECADC54A6E461F12C61CA44983C54B.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.uasset'
+[2024.10.29-13.33.56:079][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 13.4 sec)
+[2024.10.29-13.33.56:082][808]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.Cafe_6578B27C
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.Scool_buildings_B3580357
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.Factori_P1_F106D381
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P2_B6BA258F.Factori_P2_B6BA258F
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Apps_P1_64789DD9.Apps_P1_64789DD9
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Appsp2_A54902D6.Appsp2_A54902D6
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Inn_DAE93493.Inn_DAE93493
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.Combined_1D840CCC
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.LightHOuse_3131A019
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.Fences_Playground_AC992276
+[2024.10.29-13.33.56:082][808]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.BP_Island_Gamemode
