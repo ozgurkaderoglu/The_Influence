@@ -5,20 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Mat.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Texture.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Emission_Texture.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Mat.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Texture.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_4_Mat.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_4_Texture.uasset",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap",
-				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Outside/Container_Handler.uasset",
-				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/LVL_IslandMain.umap",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Isaland_PlayerController.uasset",
-				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Player.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Cafe_6578B27C.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Scool_buildings_B3580357.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Factori_P1_F106D381.uasset",
@@ -29,7 +18,20 @@
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Combined_1D840CCC.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/LightHOuse_3131A019.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/_GENERATED/bhdli/Fences_Playground_AC992276.uasset",
-				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter.uasset"
+				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter.uasset",
+				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Mat.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Texture.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Emission_Texture.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Mat.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Texture.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_4_Mat.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_4_Texture.uasset",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Outside/Container_Handler.uasset",
+				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/LVL_IslandMain.umap",
+				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Player.uasset"
 			]
 		}
 	]
