@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP_Green.uasset",
+				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP_blue.uasset",
+				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP.uasset",
 				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Mat.uasset",
 				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_2_Texture.uasset",
 				"C:/Users/winsc/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Props/_Materials/Container_Handler_3_Emission_Texture.uasset",
