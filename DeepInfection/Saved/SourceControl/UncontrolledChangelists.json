@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_decals/whale_logo/Whale_Dam1.uasset",
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_decals/whale_logo/Whale_Dam3.uasset",
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_decals/whale_logo/Whale_Dam2.uasset",
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_decals/whale_logo/Whale_Dam4.uasset",
+				"D:/InfluenceGame/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_decals/whale_logo/Whale_ThumbsUp_V2.uasset",
 				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP_Green.uasset",
 				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP_blue.uasset",
 				"C:/Deep Infection/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_Environment_Assets/container/ContainerBP.uasset",
