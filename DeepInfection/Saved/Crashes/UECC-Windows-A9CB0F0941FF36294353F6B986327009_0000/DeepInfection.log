@@ -1367,23 +1367,3 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 
 
 [2024.11.29-14.48.59:649][112]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2024.11.29-14.49.00:541][114]LogWindows: Error: === Critical error: ===
-[2024.11.29-14.49.00:541][114]LogWindows: Error: 
-[2024.11.29-14.49.00:541][114]LogWindows: Error: Assertion failed: Tasks.OcclusionCull.IsCompleted() [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\SceneVisibilityPrivate.h] [Line: 317] 
-[2024.11.29-14.49.00:541][114]LogWindows: Error: 
-[2024.11.29-14.49.00:541][114]LogWindows: Error: 
-[2024.11.29-14.49.00:541][114]LogWindows: Error: 
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa96d097c9 UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa95f3987d UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa96cae34d UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa96c61f7a UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa96c840f9 UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffa96c8f9d8 UnrealEditor-Renderer.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007fface6e1c9f UnrealEditor-Core.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007fface6e22ae UnrealEditor-Core.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffad160697b UnrealEditor-RenderCore.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffad160e594 UnrealEditor-RenderCore.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffacecd4e32 UnrealEditor-Core.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffacecc8667 UnrealEditor-Core.dll!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: [Callstack] 0x00007ffc0d30259d KERNEL32.DLL!UnknownFunction []
-[2024.11.29-14.49.00:541][114]LogWindows: Error: 
