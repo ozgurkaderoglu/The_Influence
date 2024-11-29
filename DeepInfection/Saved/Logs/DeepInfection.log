@@ -1327,3 +1327,13 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.29-12.24.42:255][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.11.29-12.24.42:255][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2024.11.29-12.24.42:261][279]LogContentBrowser: End creating deferred item NewWorld
+[2024.11.29-12.25.03:362][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.29-12.25.03:374][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-12.25.03:412][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.11.29-12.25.03:423][704]LogPackageLocalizationCache: Processed 55 localized package path(s) for 1 prioritized culture(s) in 0.008811 seconds
+[2024.11.29-12.25.03:428][704]LogSavePackage: Moving output files for package: /Game/_Level/DevLevel
+[2024.11.29-12.25.03:428][704]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Saved/DevLevel1AB51CD644DDEEC5CC2B5FB5BB9A3C7A.tmp' to '../../../../../../Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/_Level/DevLevel.umap'
+[2024.11.29-12.25.03:434][704]LogFileHelpers: Saving map 'DevLevel' took 0.029
+[2024.11.29-12.25.03:441][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms
+[2024.11.29-12.25.03:443][704]AssetCheck: New page: Asset Save: DevLevel
+[2024.11.29-12.25.03:443][704]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/DevLevel.DevLevel
