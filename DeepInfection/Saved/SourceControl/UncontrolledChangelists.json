@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/_Level/_Blueprints/Gate_BP.uasset",
+				"C:/Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/Level/LVL_IslandMain.umap",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_Gamemode.uasset",
 				"C:/Users/bhdli/Documents/UnrealProjects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Isaland_PlayerController.uasset",
