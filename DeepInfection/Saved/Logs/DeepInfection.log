@@ -2517,3 +2517,68 @@ Script Stack (0 frames) :
 [2025.01.08-12.11.02:216][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2025.01.08-12.11.02:216][538]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
 [2025.01.08-12.11.02:216][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.11.40:757][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.01.08-12.11.40:764][541]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/DevLevel' took 0.018
+[2025.01.08-12.11.40:764][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameplayBuild/BFL/BPFL_D3Di] ([2] browsable assets)...
+[2025.01.08-12.11.40:764][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/BFL/BPFL_D3Di]
+[2025.01.08-12.11.40:769][541]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/BFL/BPFL_D3Di_Auto2
+[2025.01.08-12.11.40:769][541]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BPFL_D3Di_Auto28AB5D32A4E6DEAF4855BB4B3EACCCBF8.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/BFL/BPFL_D3Di_Auto2.uasset'
+[2025.01.08-12.11.40:770][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController] ([2] browsable assets)...
+[2025.01.08-12.11.40:770][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController]
+[2025.01.08-12.11.40:772][541]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController_Auto2
+[2025.01.08-12.11.40:772][541]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_Island_PlayerController_Auto28D6B3EB64134E78B7722BC8BF039541E.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController_Auto2.uasset'
+[2025.01.08-12.11.40:772][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter] ([2] browsable assets)...
+[2025.01.08-12.11.40:773][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter]
+[2025.01.08-12.11.40:779][541]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter_Auto2
+[2025.01.08-12.11.40:779][541]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_DI_Carpenter_Auto25EB9041F4D35E76736AC76AD58123E07.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter_Auto2.uasset'
+[2025.01.08-12.11.40:780][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_SubtitleSystem/BP_Subtitles] ([2] browsable assets)...
+[2025.01.08-12.11.40:780][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/_SubtitleSystem/BP_Subtitles]
+[2025.01.08-12.11.40:786][541]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_SubtitleSystem/BP_Subtitles_Auto2
+[2025.01.08-12.11.40:786][541]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_Subtitles_Auto2F1AE49BC4BBECB3BED7730ADE914FBA4.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/_SubtitleSystem/BP_Subtitles_Auto2.uasset'
+[2025.01.08-12.11.40:787][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew] ([2] browsable assets)...
+[2025.01.08-12.11.40:787][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew]
+[2025.01.08-12.11.40:794][541]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew_Auto2
+[2025.01.08-12.11.40:794][541]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_DI_CarpNew_Auto21F8F807B4A7AF385BFC51D901A3F4994.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/Autosaves/Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew_Auto2.uasset'
+[2025.01.08-12.11.40:794][541]LogFileHelpers: Auto-saving content packages took 0.031
+[2025.01.08-12.13.05:449][698]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1728.050781
+[2025.01.08-12.13.05:616][718]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.08-12.13.05:616][718]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1728.209229, Update Interval: 324.743805
+[2025.01.08-12.19.03:370][645]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2085.972412
+[2025.01.08-12.19.03:512][662]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.08-12.19.03:512][662]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2086.105957, Update Interval: 313.030182
+[2025.01.08-12.23.59:744][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.01.08-12.23.59:749][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.08-12.23.59:776][127]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/BFL/BPFL_D3Di
+[2025.01.08-12.23.59:776][127]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BPFL_D3Di504F7B28468D621646DF6FB271B35A2C.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/BFL/BPFL_D3Di.uasset'
+[2025.01.08-12.23.59:779][127]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController
+[2025.01.08-12.23.59:780][127]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_Island_PlayerController6A5BCFAF429DF81DD29428BD8FADAB24.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController.uasset'
+[2025.01.08-12.23.59:786][127]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter
+[2025.01.08-12.23.59:787][127]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_DI_Carpenter450ABAF24838CC4E79E5EFB96EE39521.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter.uasset'
+[2025.01.08-12.23.59:792][127]LogSavePackage: Moving output files for package: /Game/_SubtitleSystem/BP_Subtitles
+[2025.01.08-12.23.59:793][127]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_Subtitles0F46818A420A9345622C0FADBEA0AB2B.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/_SubtitleSystem/BP_Subtitles.uasset'
+[2025.01.08-12.23.59:800][127]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew
+[2025.01.08-12.23.59:801][127]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_DI_CarpNewA018E91A481D52D0E37097A507D5C6EE.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.uasset'
+[2025.01.08-12.23.59:806][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 294 ms)
+[2025.01.08-12.23.59:808][127]AssetCheck: New page: Asset Save: multiple assets
+[2025.01.08-12.23.59:808][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/BFL/BPFL_D3Di.BPFL_D3Di
+[2025.01.08-12.23.59:808][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/MapSettings/TheIsalnd/BP_Island_PlayerController.BP_Island_PlayerController
+[2025.01.08-12.23.59:808][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_Carpenter.BP_DI_Carpenter
+[2025.01.08-12.23.59:808][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_SubtitleSystem/BP_Subtitles.BP_Subtitles
+[2025.01.08-12.23.59:808][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.BP_DI_CarpNew
+[2025.01.08-12.24.00:957][263]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.BP_DI_CarpNew
+[2025.01.08-12.24.00:957][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.24.00:957][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.24.30:587][792]BlueprintLog: New page: Compile BP_DI_CarpNew
+[2025.01.08-12.24.30:608][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.01.08-12.24.47:319][747]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2429.951416
+[2025.01.08-12.24.47:445][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.08-12.24.47:445][762]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2430.068359, Update Interval: 338.619965
+[2025.01.08-12.24.50:036][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.08-12.24.50:055][ 72]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(754)].
+[2025.01.08-12.24.50:074][ 72]LogSavePackage: Moving output files for package: /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew
+[2025.01.08-12.24.50:074][ 72]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/BP_DI_CarpNew8C74016047DD40F24D5CF9A6B948FC93.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.uasset'
+[2025.01.08-12.24.50:078][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 336 ms)
+[2025.01.08-12.24.50:080][ 72]AssetCheck: New page: Asset Save: BP_DI_CarpNew
+[2025.01.08-12.24.50:080][ 72]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.BP_DI_CarpNew
+[2025.01.08-12.25.11:642][656]BlueprintLog: New page: Compile BP_DI_CarpNew
+[2025.01.08-12.25.11:665][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
