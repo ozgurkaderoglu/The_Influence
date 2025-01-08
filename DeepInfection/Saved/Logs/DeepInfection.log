@@ -1265,3 +1265,488 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.01.08-12.45.47:496][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2025.01.08-12.45.47:496][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2025.01.08-12.45.47:497][  0]LogAIModule: Creating AISystem for world Island
+[2025.01.08-12.45.47:895][  0]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.01.08-12.45.48:058][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.08-12.45.48:168][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.01.08-12.45.48:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.08-12.45.48:169][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,26ms to complete.
+[2025.01.08-12.45.48:176][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.345
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: ================================================
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: RAM used: 240,00 B of 1,60 GiB budget. Usage: 0.00%
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.01.08-12.45.48:176][  0]LogShaderCompilers: Display: ================================================
+[2025.01.08-12.45.48:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.45.48:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.45.48:269][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.45.48:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.45.48:362][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:362][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:362][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:362][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:363][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:363][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:363][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:363][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:363][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:363][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:365][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:365][  0]LogPakFile: Initializing PakPlatformFile
+[2025.01.08-12.45.48:365][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.01.08-12.45.48:462][  0]LogTurnkeySupport: Turnkey Device: Win64@D3DI: (Name=D3DI, Type=Computer, Status=Valid, MinAllowed=10.0.18362.0, MaxAllowed=, Current=10.0.22631.0, Flags="Device_InstallSoftwareValid")
+[2025.01.08-12.45.48:475][  0]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.01.08-12.45.48:477][  0]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.01.08-12.45.48:477][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.01.08-12.45.48:491][  0]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2025.01.08-12.45.49:466][  0]LogStall: Startup...
+[2025.01.08-12.45.49:467][  0]LogStall: Startup complete.
+[2025.01.08-12.45.49:478][  0]LogLoad: (Engine Initialization) Total time: 12.65 seconds
+[2025.01.08-12.45.49:479][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.01.08-12.45.49:490][  0]LogRawInputWindows: QueryConnectedDevices found 20 devices
+[2025.01.08-12.45.49:490][  0]LogRawInputWindows: QueryConnectedDevices found 20 devices
+[2025.01.08-12.45.49:490][  0]LogRawInputWindows: VendorID:046D ProductID:C262
+[2025.01.08-12.45.49:490][  0]LogRawInputWindows: Device was registered succesfully and is connected (Usage:4 UsagePage:1)
+[2025.01.08-12.45.49:533][  0]LogAssetRegistry: AssetRegistryGather time 0.1059s: AssetDataDiscovery 0.0245s, AssetDataGather 0.0281s, StoreResults 0.0532s.
+[2025.01.08-12.45.49:553][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2025.01.08-12.45.49:606][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.01.08-12.45.49:722][  0]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.01.08-12.45.49:750][  0]LogAutomationController: Ignoring very large delta of 16784133.54 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.01.08-12.45.49:767][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/Python/init_unreal.py': 0.015958 secs
+[2025.01.08-12.45.49:776][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.01.08-12.45.49:782][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.014519 secs
+[2025.01.08-12.45.49:790][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/' took 0.29s
+[2025.01.08-12.45.50:822][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2025.01.08-12.45.52:175][  3]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 9.542060
+[2025.01.08-12.45.52:176][  3]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.01.08-12.45.52:177][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10.257370
+[2025.01.08-12.45.55:023][  7]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.01.08-12.45.55:250][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 13.284812
+[2025.01.08-12.45.55:252][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 758315952
+[2025.01.08-12.45.55:252][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13.284812, Update Interval: 333.401276
+[2025.01.08-12.45.55:340][ 10]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.01.08-12.45.55:533][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.45.55:616][ 15]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: ae1...30f Access[Expires: 2025.01.08-14.45.56 Remaining: 7200.27] Refresh[Expires: 2025-07-07T11:11:14.741Z Remaining: 15546318.74] State: Valid
+[2025.01.08-12.45.55:646][ 16]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.01.08-12.45.55:907][ 23]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.01.08-12.45.55:907][ 23]LogFab: Display: User logged in
+[2025.01.08-12.45.55:907][ 23]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.01.08-12.45.56:071][ 28]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-3o2I76U_4UapPlfDiUGnXg-QK7GFcXQxUueiZ5AbxiIGA]
+[2025.01.08-12.45.56:669][ 33]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.08-12.45.56:724][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.45.56:793][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.45.56:866][ 38]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.45.59:983][252]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_Player/DI_Player.DI_Player
+[2025.01.08-12.45.59:983][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.45.59:984][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.45.59:990][252]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2025.01.08-12.46.00:015][252]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.01.08-12.46.00:082][252]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.067 s
+[2025.01.08-12.46.00:082][252]LogOutputDevice: Error: === Handled ensure: ===
+[2025.01.08-12.46.00:082][252]LogOutputDevice: Error: 
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: Ensure condition failed: !FindPin(FFunctionEntryHelper::GetWorldContextPinName())  [File:D:\build\++UE5\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_FunctionEntry.cpp] [Line: 404] 
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: 
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: Stack: 
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff9345cdd6f UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff934551cb9 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff934553e04 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff934553857 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93dca8094 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b24b8f7 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b249403 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94b841e30 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bb08dd2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bb0935b UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bb3048e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd5d3f5 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd5b918 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd5beb6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd716a1 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd8228c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94bd818e0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b3836d3 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b34776d UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b37f831 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b44d6bd UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93b44dd7e UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff8f56aaa4c UnrealEditor-EngineAssetDefinitions.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff9337e105e UnrealEditor-AssetTools.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e242bad UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e24212b UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e2421d4 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e244201 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e233483 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff93e1fa15f UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944caaeb0 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff94501e92d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944ff1b9b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944f3a5fa UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944f3df65 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944f5f3e8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944cb3b5a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944d1e365 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944d0b562 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff944cfe2fa UnrealEditor-Slate.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff979727dc6 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff97970b83f UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff97972ab29 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff9797032e3 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ffa71d983f1 USER32.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ffa71d97eb1 USER32.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff97972c226 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789de76f2 UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789e0d28c UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789e0d37a UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789e10854 UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789e26984 UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ff789e29d7a UnrealEditor.exe!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ffa7075259d KERNEL32.DLL!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: [Callstack] 0x00007ffa728caf38 ntdll.dll!UnknownFunction []
+[2025.01.08-12.46.00:083][252]LogOutputDevice: Error: 
+[2025.01.08-12.46.00:089][252]LogStats:                SubmitErrorReport -  0.000 s
+[2025.01.08-12.46.00:744][252]LogStats:                    SendNewReport -  0.656 s
+[2025.01.08-12.46.00:744][252]LogStats:             FDebug::EnsureFailed -  0.729 s
+[2025.01.08-12.46.00:779][252]LogBlueprintEditor: Perf: 0.8 total seconds to load all 9 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2025.01.08-12.46.00:779][252]LogBlueprintEditor: Perf: 0.7 seconds loading: /Game/NewGameplayBuild/BFL/BPFL_D3Di
+[2025.01.08-12.46.01:332][252]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/BPInterfaces/BPI_Player.BPI_Player
+[2025.01.08-12.46.01:333][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.01:333][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.01:421][252]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewGameplayBuild/PlayerCharacters/TheIsland/BP_DI_CarpNew.BP_DI_CarpNew
+[2025.01.08-12.46.01:421][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.01:421][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.01:487][252]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
+[2025.01.08-12.46.01:487][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.01:488][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.01:603][252]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.01.08-12.46.15:580][354]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.46.15:734][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.01.08-12.46.18:264][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.01.08-12.46.20:901][806]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.08-12.46.20:914][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.08-12.46.20:914][806]PIE: New page: PIE session: Island (8 Jan 2025, 14:46:20)
+[2025.01.08-12.46.20:917][806]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.01.08-12.46.20:917][806]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.01.08-12.46.20:917][806]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.01.08-12.46.21:544][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.626887s)
+[2025.01.08-12.46.21:544][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.626928s)
+[2025.01.08-12.46.21:556][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.01.08-12.46.21:559][806]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.21:559][806]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.21:559][806]LogAIModule: Creating AISystem for world Island
+[2025.01.08-12.46.21:560][806]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2025.01.08-12.46.21:560][806]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.08-12.46.21:560][806]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.08-12.46.21:560][806]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.08-12.46.21:560][806]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.08-12.46.21:560][806]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.08-12.46.21:560][806]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.08-12.46.21:562][806]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.08-12.46.21:577][806]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- G435 Bluetooth Gaming Headset)
+[2025.01.08-12.46.21:577][806]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.08-12.46.21:577][806]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.08-12.46.21:577][806]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.08-12.46.21:578][806]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.01.08-12.46.21:578][806]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.01.08-12.46.21:579][806]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.01.08-12.46.21:579][806]LogInit: FAudioDevice initialized with ID 2.
+[2025.01.08-12.46.21:579][806]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.01.08-12.46.21:579][806]LogAudio: Display: Audio Device (ID: 2) registered with world 'Island'.
+[2025.01.08-12.46.21:579][806]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.08-12.46.21:592][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.46.21:595][806]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.01.08-12.46.21:595][806]LogLoad: Game class is 'DI_gameMode_C'
+[2025.01.08-12.46.21:890][806]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.01.08-12.46.21:892][806]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.01.08-13.46.21
+[2025.01.08-12.46.21:894][806]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.01.08-12.46.21:907][806]LogWorld: Bringing up level for play took: 0.312027
+[2025.01.08-12.46.21:910][806]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.01.08-12.46.21:912][806]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.01.08-12.46.21:912][806]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.01.08-12.46.21:912][806]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.01.08-12.46.21:927][806]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2025.01.08-12.46.21:927][806]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.08-12.46.21:927][806]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.01.08-12.46.21:931][806]PIE: Server logged in
+[2025.01.08-12.46.21:932][806]PIE: Play in editor total start time 1,018 seconds.
+[2025.01.08-12.46.22:012][806]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.01.08-12.46.22:045][806]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2025.01.08-12.46.27:514][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.46.27:514][ 22]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.01.08-12.46.27:514][ 22]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.08-12.46.27:520][ 22]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.46.27:567][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.27:571][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.08-12.46.27:581][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.27:634][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.08-12.46.27:660][ 22]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.08-12.46.27:660][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.08-12.46.27:662][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.08-12.46.27:718][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2025.01.08-12.46.27:727][ 22]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.01.08-12.46.27:774][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.01.08-12.46.33:210][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.01.08-12.46.33:258][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.33:260][384]LogAssetEditorSubsystem: Opening Asset editor for World /Game/_Level/DevLevel.DevLevel
+[2025.01.08-12.46.33:260][384]Cmd: MAP LOAD FILE="../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/_Level/DevLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.08-12.46.33:260][384]LightingResults: New page: Lighting Build
+[2025.01.08-12.46.33:260][384]LoadErrors: New page: Loading map: DevLevel.umap
+[2025.01.08-12.46.33:342][384]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.46.33:343][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.33:344][384]MapCheck: New page: Map Check
+[2025.01.08-12.46.33:344][384]LightingResults: New page: Lighting Build
+[2025.01.08-12.46.33:361][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.08-12.46.33:503][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.01.08-12.46.33:547][384]LogWorld: UWorld::CleanupWorld for DevLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.46.33:547][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.33:559][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.08-12.46.33:572][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.08-12.46.33:575][384]LogAudio: Display: Audio Device (ID: 1) registered with world 'DevLevel'.
+[2025.01.08-12.46.33:575][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.33:576][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.33:576][384]LogAIModule: Creating AISystem for world DevLevel
+[2025.01.08-12.46.33:595][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.08-12.46.33:606][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.01.08-12.46.33:609][384]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.08-12.46.33:609][384]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,074ms to complete.
+[2025.01.08-12.46.36:065][667]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.08-12.46.36:068][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.08-12.46.36:068][667]PIE: New page: PIE session: DevLevel (8 Jan 2025, 14:46:36)
+[2025.01.08-12.46.36:068][667]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.46.36:070][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001679s)
+[2025.01.08-12.46.36:070][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/DevLevel.DevLevel to /Game/_Level/UEDPIE_0_DevLevel.DevLevel (0.001700s)
+[2025.01.08-12.46.36:079][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.01.08-12.46.36:082][667]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.46.36:082][667]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.46.36:082][667]LogAIModule: Creating AISystem for world DevLevel
+[2025.01.08-12.46.36:082][667]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2025.01.08-12.46.36:082][667]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.01.08-12.46.36:082][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.08-12.46.36:083][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.08-12.46.36:083][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.08-12.46.36:083][667]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.08-12.46.36:083][667]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.08-12.46.36:083][667]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.08-12.46.36:084][667]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.08-12.46.36:098][667]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- G435 Bluetooth Gaming Headset)
+[2025.01.08-12.46.36:099][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.08-12.46.36:099][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.08-12.46.36:099][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.08-12.46.36:099][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.01.08-12.46.36:099][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.01.08-12.46.36:100][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.01.08-12.46.36:100][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.01.08-12.46.36:100][667]LogInit: FAudioDevice initialized with ID 3.
+[2025.01.08-12.46.36:100][667]LogAudio: Display: Audio Device (ID: 3) registered with world 'DevLevel'.
+[2025.01.08-12.46.36:100][667]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.01.08-12.46.36:121][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.46.36:124][667]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.01.08-12.46.36:124][667]LogLoad: Game class is 'BP_Island_Gamemode_C'
+[2025.01.08-12.46.36:125][667]LogWorld: Bringing World /Game/_Level/UEDPIE_0_DevLevel.DevLevel up for play (max tick rate 0) at 2025.01.08-13.46.36
+[2025.01.08-12.46.36:125][667]LogWorld: Bringing up level for play took: 0.000766
+[2025.01.08-12.46.36:126][667]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.01.08-12.46.36:130][667]PIE: Server logged in
+[2025.01.08-12.46.36:132][667]PIE: Play in editor total start time 0,064 seconds.
+[2025.01.08-12.46.36:142][667]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2025.01.08-12.46.39:383][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.46.39:383][ 24]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.46.39:384][ 24]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.08-12.46.39:387][ 24]LogWorld: UWorld::CleanupWorld for DevLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.46.39:387][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.39:389][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.08-12.46.39:394][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.46.39:403][ 24]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.01.08-12.46.39:403][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.01.08-12.46.39:404][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.01.08-12.46.39:409][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.08-12.46.39:457][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.01.08-12.46.48:805][144]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2025.01.08-12.47.17:763][452]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.47.17:789][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.01.08-12.47.33:524][318]LogEditorTransaction: Undo Create Pin Link
+[2025.01.08-12.47.55:399][835]LogDerivedDataCache: C:/Users/D3DI WerkGedeelte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.095 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9189 files in 10730 folders with total size 95 MiB.
+[2025.01.08-12.48.51:153][309]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.48.51:182][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.08-12.48.55:412][801]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.48.55:441][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.01.08-12.49.56:030][858]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.49.56:036][858]LogBlueprint: Error: [AssetLog] C:\Users\D3DI WerkGedeelte\Documents\Unreal Projects\The_Influence\DeepInfection\Content\_Level\_LevelAssets\_CamSwitcher\CamSwitchWithTracker.uasset: [Compiler] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2025.01.08-12.49.56:059][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.01.08-12.50.07:655][232]LogEditorTransaction: Undo Delete current selection
+[2025.01.08-12.50.11:095][610]LogEditorTransaction: Undo Move Node
+[2025.01.08-12.50.11:510][652]LogEditorTransaction: Undo Create Pin Link
+[2025.01.08-12.50.11:948][674]LogEditorTransaction: Undo Move Node
+[2025.01.08-12.50.12:327][708]LogEditorTransaction: Undo Create Pin Link
+[2025.01.08-12.50.12:658][740]LogEditorTransaction: Undo Move Node
+[2025.01.08-12.50.13:002][773]LogEditorTransaction: Undo Create Pin Link
+[2025.01.08-12.50.13:250][795]LogEditorTransaction: Undo Paste clipboard contents
+[2025.01.08-12.50.13:429][809]LogEditorTransaction: Undo Break Pin Links
+[2025.01.08-12.50.13:629][825]LogEditorTransaction: Undo Create Pin Link
+[2025.01.08-12.50.41:029][ 62]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.50.41:061][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.01.08-12.50.53:200][501]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2025.01.08-12.50.53:200][501]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2025.01.08-12.51.12:091][731]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2025.01.08-12.51.28:615][713]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 346.696564
+[2025.01.08-12.51.28:756][730]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.08-12.51.28:756][730]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 346.831451, Update Interval: 309.067657
+[2025.01.08-12.51.40:621][136]LogEditorTransaction: Undo Paste clipboard contents
+[2025.01.08-12.52.24:779][273]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.52.24:807][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.01.08-12.52.27:503][588]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.08-12.52.27:507][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.08-12.52.27:507][588]PIE: New page: PIE session: DevLevel (8 Jan 2025, 14:52:27)
+[2025.01.08-12.52.27:507][588]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.52.27:509][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001799s)
+[2025.01.08-12.52.27:509][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/DevLevel.DevLevel to /Game/_Level/UEDPIE_0_DevLevel.DevLevel (0.001822s)
+[2025.01.08-12.52.27:520][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.01.08-12.52.27:525][588]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.52.27:525][588]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.52.27:525][588]LogAIModule: Creating AISystem for world DevLevel
+[2025.01.08-12.52.27:525][588]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2025.01.08-12.52.27:525][588]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.08-12.52.27:525][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.08-12.52.27:525][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.08-12.52.27:526][588]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.08-12.52.27:526][588]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.08-12.52.27:526][588]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.08-12.52.27:527][588]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.08-12.52.27:542][588]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- G435 Bluetooth Gaming Headset)
+[2025.01.08-12.52.27:542][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.08-12.52.27:542][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.08-12.52.27:542][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.08-12.52.27:543][588]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.01.08-12.52.27:543][588]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.01.08-12.52.27:544][588]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.01.08-12.52.27:544][588]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.01.08-12.52.27:544][588]LogInit: FAudioDevice initialized with ID 4.
+[2025.01.08-12.52.27:544][588]LogAudio: Display: Audio Device (ID: 4) registered with world 'DevLevel'.
+[2025.01.08-12.52.27:544][588]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.01.08-12.52.27:559][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.52.27:562][588]LogLoad: Game class is 'BP_Island_Gamemode_C'
+[2025.01.08-12.52.27:562][588]LogWorld: Bringing World /Game/_Level/UEDPIE_0_DevLevel.DevLevel up for play (max tick rate 0) at 2025.01.08-13.52.27
+[2025.01.08-12.52.27:563][588]LogWorld: Bringing up level for play took: 0.000776
+[2025.01.08-12.52.27:564][588]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.01.08-12.52.27:568][588]PIE: Server logged in
+[2025.01.08-12.52.27:569][588]PIE: Play in editor total start time 0,062 seconds.
+[2025.01.08-12.52.27:579][588]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2025.01.08-12.52.38:015][744]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2025.01.08-12.52.47:263][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.52.47:263][829]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.52.47:263][829]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.08-12.52.47:265][829]LogWorld: UWorld::CleanupWorld for DevLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.52.47:265][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.52.47:287][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.08-12.52.47:291][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.52.47:301][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.08-12.52.47:301][829]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.01.08-12.52.47:301][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.01.08-12.52.47:303][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.01.08-12.52.47:308][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.01.08-12.52.47:379][830]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.01.08-12.52.51:206][282]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.52.51:234][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.01.08-12.52.53:094][496]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.08-12.52.53:097][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.08-12.52.53:097][496]PIE: New page: PIE session: DevLevel (8 Jan 2025, 14:52:53)
+[2025.01.08-12.52.53:098][496]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.52.53:099][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001673s)
+[2025.01.08-12.52.53:099][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/DevLevel.DevLevel to /Game/_Level/UEDPIE_0_DevLevel.DevLevel (0.001693s)
+[2025.01.08-12.52.53:110][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.01.08-12.52.53:114][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.01.08-12.52.53:114][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.01.08-12.52.53:115][496]LogAIModule: Creating AISystem for world DevLevel
+[2025.01.08-12.52.53:115][496]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2025.01.08-12.52.53:115][496]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.08-12.52.53:115][496]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.08-12.52.53:115][496]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.08-12.52.53:115][496]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.08-12.52.53:115][496]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.08-12.52.53:115][496]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.08-12.52.53:117][496]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.08-12.52.53:130][496]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- G435 Bluetooth Gaming Headset)
+[2025.01.08-12.52.53:130][496]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.08-12.52.53:130][496]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.08-12.52.53:130][496]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.08-12.52.53:131][496]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.01.08-12.52.53:131][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.01.08-12.52.53:132][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.01.08-12.52.53:132][496]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.01.08-12.52.53:132][496]LogInit: FAudioDevice initialized with ID 5.
+[2025.01.08-12.52.53:132][496]LogAudio: Display: Audio Device (ID: 5) registered with world 'DevLevel'.
+[2025.01.08-12.52.53:132][496]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.01.08-12.52.53:151][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.52.53:154][496]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.01.08-12.52.53:154][496]LogLoad: Game class is 'BP_Island_Gamemode_C'
+[2025.01.08-12.52.53:154][496]LogWorld: Bringing World /Game/_Level/UEDPIE_0_DevLevel.DevLevel up for play (max tick rate 0) at 2025.01.08-13.52.53
+[2025.01.08-12.52.53:155][496]LogWorld: Bringing up level for play took: 0.000663
+[2025.01.08-12.52.53:156][496]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.01.08-12.52.53:161][496]PIE: Server logged in
+[2025.01.08-12.52.53:162][496]PIE: Play in editor total start time 0,064 seconds.
+[2025.01.08-12.52.53:171][496]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2025.01.08-12.52.55:407][745]LogScript: Warning: Accessed None trying to read property As DI Player
+	CamSwitchWithTracker_C /Game/_Level/UEDPIE_0_DevLevel.DevLevel:PersistentLevel.CamSwitchWithTracker_C_1
+	Function /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker_C:ExecuteUbergraph_CamSwitchWithTracker:0B04
+[2025.01.08-12.52.55:407][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As DI Player". Node:  Set Is not Tankrotation Graph:  Cam Tracker Function:  Execute Ubergraph Cam Switch with Tracker Blueprint:  CamSwitchWithTracker
+[2025.01.08-12.52.57:463][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.08-12.52.57:463][986]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_DevLevel
+[2025.01.08-12.52.57:464][986]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.08-12.52.57:467][986]LogWorld: UWorld::CleanupWorld for DevLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.08-12.52.57:467][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.52.57:480][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.08-12.52.57:485][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.08-12.52.57:494][986]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.08-12.52.57:494][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.01.08-12.52.57:494][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.01.08-12.52.57:495][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.01.08-12.52.57:500][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.01.08-12.52.57:607][987]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.01.08-12.52.58:982][131]LogSlate: Window 'Message Log' being destroyed
+[2025.01.08-12.52.58:986][131]LogSlate: Window 'Message Log' being destroyed
+[2025.01.08-12.53.13:595][860]BlueprintLog: New page: Compile CamSwitchWithTracker
+[2025.01.08-12.53.13:623][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.01.08-12.53.16:472][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.01.08-12.53.16:478][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.08-12.53.16:512][183]LogPackageLocalizationCache: Processed 56 localized package path(s) for 1 prioritized culture(s) in 0.008984 seconds
+[2025.01.08-12.53.16:531][183]LogSavePackage: Moving output files for package: /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker
+[2025.01.08-12.53.16:531][183]LogSavePackage: Moving '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Saved/CamSwitchWithTrackerEC3C254947C012CCAAB09EB88BE6C5B7.tmp' to '../../../../../../Users/D3DI WerkGedeelte/Documents/Unreal Projects/The_Influence/DeepInfection/Content/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.uasset'
+[2025.01.08-12.53.16:538][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms
+[2025.01.08-12.53.16:539][183]AssetCheck: New page: Asset Save: CamSwitchWithTracker
+[2025.01.08-12.53.16:539][183]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Level/_LevelAssets/_CamSwitcher/CamSwitchWithTracker.CamSwitchWithTracker
