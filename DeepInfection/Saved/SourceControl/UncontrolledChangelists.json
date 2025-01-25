@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Level/Island.umap",
+				"C:/Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Core/_Enemies/_Ennemy_Spawner/EnnemySpawner.uasset",
+				"C:/Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Core/_Player/_Widgets/_Widgets/WGP_MainMenu.uasset",
+				"C:/Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Level/DevLevel.umap",
+				"C:/Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Core/_Player/DI_Player.uasset"
+			]
+		}
+	]
+}
