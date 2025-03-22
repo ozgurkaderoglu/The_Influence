@@ -1468,3 +1468,63 @@ Script Stack (0 frames) :
 [2025.03.22-17.47.32:895][824]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 355.524963
 [2025.03.22-17.47.33:895][827]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.22-17.47.33:895][827]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 356.192566, Update Interval: 302.944427
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: ================================================
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Total job queries 2,323, among them cache hits 1,641 (70.64%)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Tracking 682 distinct input hashes that result in 239 distinct outputs (35.04%)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: RAM used: 14.17 MiB of 1.60 GiB budget. Usage: 0.87%
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Shaders Compiled: 236
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Jobs assigned 236, completed 236 (100%)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Time job spent in pending queue: average 2.75 s, longest 4.30 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Job execution time: average 0.25 s, max 0.73 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Job life time (pending + execution): average 3.00 s, max 4.55
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Shader code size: average 33.121 KiB, min 4.008 KiB, max 85.324 KiB
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.69 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Jobs were issued in 236 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Average processing rate: 30.67 jobs/sec
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Total thread time: 32.815 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Total thread preprocess time: 3.931 s
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Percentage time preprocessing: 11.98%
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Effective parallelization: 4.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   38 times, average 0.20 sec, max 0.40 sec, min 0.14 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   39 times, average 0.18 sec, max 0.33 sec, min 0.12 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   38 times, average 0.16 sec, max 0.21 sec, min 0.13 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.72% of total time (compiled   38 times, average 0.20 sec, max 0.40 sec, min 0.14 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.14% of total time (compiled   39 times, average 0.18 sec, max 0.33 sec, min 0.12 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.36% of total time (compiled   38 times, average 0.16 sec, max 0.21 sec, min 0.13 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 16.98% of total time (compiled   38 times, average 0.15 sec, max 0.17 sec, min 0.12 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.47% of total time (compiled   38 times, average 0.08 sec, max 0.14 sec, min 0.06 sec)
+[2025.03.22-17.49.18:313][285]LogShaderCompilers: Display: ================================================
+[2025.03.22-17.49.29:742][395]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.03.22-17.49.29:807][395]LogContentBrowser: Creating deferred item: NewFolder
+[2025.03.22-17.49.29:817][396]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.03.22-17.49.39:886][604]LogContentBrowser: Attempting asset rename: NewFolder -> GameModeOverides
+[2025.03.22-17.49.39:887][604]LogContentBrowser: End creating deferred item NewFolder
+[2025.03.22-17.49.48:222][179]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.03.22-17.49.48:228][179]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.03.22-17.49.48:239][179]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.03.22-17.49.48:256][181]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.03.22-17.49.56:695][192]LogContentBrowser: Attempting asset rename: NewBlueprint -> DI_BP_Gamemode
+[2025.03.22-17.49.56:699][192]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.03.22-17.49.57:310][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.22-17.49.57:338][264]LogSavePackage: Moving output files for package: /Game/FInalGameBuild/GameModeOverides/DI_BP_Gamemode
+[2025.03.22-17.49.57:338][264]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Saved/DI_BP_Gamemode5D84FCB541882ACC7A003F8E87ED166F.tmp' to '../../../../../../Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/FInalGameBuild/GameModeOverides/DI_BP_Gamemode.uasset'
+[2025.03.22-17.49.57:346][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 97 ms)
+[2025.03.22-17.49.57:347][264]AssetCheck: New page: Asset Save: DI_BP_Gamemode
+[2025.03.22-17.49.57:347][264]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FInalGameBuild/GameModeOverides/DI_BP_Gamemode.DI_BP_Gamemode
+[2025.03.22-17.50.01:985][814]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2025.03.22-17.50.05:608][232]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.22-17.50.05:800][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.03.22-17.50.08:926][232]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2025.03.22-17.50.08:927][232]LogSavePackage: Moving '../../../../../../Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Saved/Island3908792F456D0B2F930ACA9EC2A4D5F1.tmp' to '../../../../../../Users/Public/Documents/Public Unreal Projects/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2025.03.22-17.50.08:968][232]LogFileHelpers: Saving map 'Island' took 3.191
+[2025.03.22-17.50.08:975][232]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.36 sec (total: 3.46 sec)
+[2025.03.22-17.50.09:010][232]AssetCheck: New page: Asset Save: Island
+[2025.03.22-17.50.09:010][232]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2025.03.22-17.50.11:042][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
