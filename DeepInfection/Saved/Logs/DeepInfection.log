@@ -5891,3 +5891,7 @@ Script Stack (0 frames) :
 [2025.05.29-12.14.59:488][376]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 15.3 sec)
 [2025.05.29-12.14.59:491][376]AssetCheck: New page: Asset Save: BP_Player_DI
 [2025.05.29-12.14.59:491][376]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI
+[2025.05.29-12.15.13:090][674]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2025.05.29-12.15.13:090][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.29-12.15.16:927][978]BlueprintLog: New page: Compile BP_Player_DI
+[2025.05.29-12.15.16:987][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
