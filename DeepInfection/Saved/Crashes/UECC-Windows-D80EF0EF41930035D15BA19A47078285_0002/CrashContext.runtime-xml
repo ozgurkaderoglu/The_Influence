@@ -29,7 +29,7 @@
 		<DeploymentName>UE_5.3</DeploymentName>
 		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
 		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
-		<CommandLine>C:/Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/DeepInfection.uproject -AUTH_LOGIN=unused -AUTH_PASSWORD=a3ab90471a5547e5a905574c7e7c8758 -AUTH_TYPE=exchangecode -epicapp=UE_5.3 -epicenv=Prod -EpicPortal -epicusername=TTV_Killercknleu -epicuserid=ae1e6669c13b426882bf0bce021b630f -epiclocale=en -epicsandboxid=ue</CommandLine>
+		<CommandLine>CommandLineRemoved</CommandLine>
 		<LanguageLCID>0</LanguageLCID>
 		<AppDefaultLocale>en-GB</AppDefaultLocale>
 		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
