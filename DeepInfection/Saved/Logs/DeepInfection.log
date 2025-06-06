@@ -1352,3 +1352,80 @@ Script Stack (0 frames) :
 [2025.06.06-14.03.45:450][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2025.06.06-14.03.45:450][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2025.06.06-14.03.45:451][  0]LogAIModule: Creating AISystem for world Island
+[2025.06.06-14.03.45:902][  0]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.06-14.03.46:072][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.06.06-14.03.46:196][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.06.06-14.03.46:197][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.06.06-14.03.46:198][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.39ms to complete.
+[2025.06.06-14.03.46:205][  0]LogUnrealEdMisc: Total Editor Startup Time, took 35.483
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: ================================================
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 1.60 GiB budget. Usage: 0.00%
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.06.06-14.03.46:205][  0]LogShaderCompilers: Display: ================================================
+[2025.06.06-14.03.46:330][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.06-14.03.46:340][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.06-14.03.46:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.06-14.03.46:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.06-14.03.46:418][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:423][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:424][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:431][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:431][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:437][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:437][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:443][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:444][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:449][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:449][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:454][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:454][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:459][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:459][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:465][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:465][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:470][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:471][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.06-14.03.46:475][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.06.06-14.03.46:881][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.06.06-14.03.46:885][  0]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.06.06-14.03.46:891][  0]LogSlate: Took 0.004643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.06.06-14.03.46:892][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.06.06-14.03.46:907][  0]LogViewport: Scene viewport resized to 1366x494, mode Windowed.
+[2025.06.06-14.03.46:982][  0]LogSlate: Took 0.000700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.06.06-14.03.49:121][  0]LogStall: Startup...
+[2025.06.06-14.03.49:122][  0]LogStall: Startup complete.
+[2025.06.06-14.03.49:137][  0]LogLoad: (Engine Initialization) Total time: 38.41 seconds
+[2025.06.06-14.03.49:137][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.06.06-14.03.49:149][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.06.06-14.03.49:149][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.06.06-14.03.49:149][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.06.06-14.03.49:149][  0]LogRawInputWindows: VendorID:054C ProductID:0CE6
+[2025.06.06-14.03.49:149][  0]LogRawInputWindows: Device was registered succesfully and is connected (Usage:5 UsagePage:1)
+[2025.06.06-14.03.49:203][  0]LogAssetRegistry: AssetRegistryGather time 0.1293s: AssetDataDiscovery 0.0326s, AssetDataGather 0.0411s, StoreResults 0.0556s.
+[2025.06.06-14.03.49:231][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2025.06.06-14.03.49:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.06.06-14.03.49:484][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/Python/init_unreal.py': 0.022063 secs
+[2025.06.06-14.03.49:492][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.06.06-14.03.49:499][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.015018 secs
+[2025.06.06-14.03.49:511][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/' took 0.34s
+[2025.06.06-14.03.50:912][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2025.06.06-14.03.53:044][  4]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 34.984085
+[2025.06.06-14.03.53:044][  4]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.06.06-14.03.53:045][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36.395615
+[2025.06.06-14.03.55:159][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.06.06-14.03.55:361][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 38.656322
+[2025.06.06-14.03.55:362][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -295577320
+[2025.06.06-14.03.55:363][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38.656322, Update Interval: 322.769867
+[2025.06.06-14.03.56:135][ 14]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: ae1...30f Access[Expires: 2025.06.06-16.03.58 Remaining: 7200.74] Refresh[Expires: 2025-12-03T14:03:58.746Z Remaining: 15552000.75] State: Valid
+[2025.06.06-14.03.56:478][ 15]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.06.06-14.03.57:484][ 18]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.06.06-14.03.57:484][ 18]LogFab: Display: User logged in
+[2025.06.06-14.03.57:484][ 18]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.06.06-14.03.58:117][ 20]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-rhZEYia0REyYDqk6yJpelQ-ogGjqPzyAkqmq9aMSQurpg]
