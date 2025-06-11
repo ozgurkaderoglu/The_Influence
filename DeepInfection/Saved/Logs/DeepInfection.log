@@ -2268,3 +2268,434 @@ Script Stack (0 frames) :
 [2025.06.11-19.27.58:119][475]AssetCheck: New page: Asset Save: CutceneLoaderChar
 [2025.06.11-19.27.58:119][475]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_GameCore/Cutcene/CutceneLoaderChar.CutceneLoaderChar
 [2025.06.11-19.28.06:603][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.06.11-19.28.31:126][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 998.884949
+[2025.06.11-19.28.31:287][705]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.11-19.28.31:287][705]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 999.037842, Update Interval: 306.954559
+[2025.06.11-19.28.46:253][414]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI.BP_CutceneSave_DI
+[2025.06.11-19.28.46:253][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.28.46:253][414]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.29.03:647][472]LogSlate: Took 0.005699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.06.11-19.29.09:680][193]BlueprintLog: New page: Compile BP_CutceneSave_DI
+[2025.06.11-19.29.09:692][193]LogBlueprint: Warning: [AssetLog] C:\Users\bhdli\Documents\GitHub\The_Influence\DeepInfection\Content\_Core\_AdriaanNewShit\SaveSystems\CutceneSaveSystem\BP_CutceneSave_DI.uasset: [Compiler] Can't parse default value 'False' for  . Property: Location.
+[2025.06.11-19.29.09:708][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.06.11-19.29.40:471][583]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.06.11-19.29.40:484][584]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.40:551][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: ================================================
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Total job queries 3,065, among them cache hits 2,330 (76.02%)
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Tracking 732 distinct input hashes that result in 265 distinct outputs (36.20%)
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: RAM used: 15.44 MiB of 1.60 GiB budget. Usage: 0.94%
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.22 s
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Job life time (pending + execution): average 0.26 s, max 0.26
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Shader code size: average 29.676 KiB, min 29.676 KiB, max 29.676 KiB
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.26 s
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Average processing rate: 3.83 jobs/sec
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Total thread time: 0.071 s
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Total thread preprocess time: 0.014 s
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Percentage time preprocessing: 19.24%
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Effective parallelization: 0.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.07 sec, max 0.07 sec, min 0.07 sec)
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.07 sec, max 0.07 sec, min 0.07 sec)
+[2025.06.11-19.29.40:826][616]LogShaderCompilers: Display: ================================================
+[2025.06.11-19.29.41:010][635]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/_Level/Island.Island:PersistentLevel.Island
+[2025.06.11-19.29.41:010][635]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:010][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.29.41:150][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:193][637]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:213][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:536][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:624][668]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:643][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:648][669]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_0, they are designed to work with AAIControllers!
+[2025.06.11-19.29.41:662][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:683][671]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:702][672]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:723][673]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:744][674]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:750][674]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2025.06.11-19.29.41:776][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.29.41:783][675]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2025.06.11-19.29.41:823][677]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.30.03:157][170]BlueprintLog: New page: Compile Island
+[2025.06.11-19.30.03:484][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.11-19.30.41:881][497]BlueprintLog: New page: Compile Island
+[2025.06.11-19.30.42:063][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.06.11-19.31.00:327][644]BlueprintLog: New page: Compile Island
+[2025.06.11-19.31.00:508][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.06.11-19.32.57:727][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.06.11-19.33.00:944][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Level/Island_Auto1
+[2025.06.11-19.33.00:945][751]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Island_Auto1268F031E410399AFC0253E8D6E8B2365.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Autosaves/Game/_Level/Island_Auto1.umap'
+[2025.06.11-19.33.00:951][751]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Autosaves/Game/_Level/Island_Auto1.umap is in the /Temp path, will not scan.
+[2025.06.11-19.33.00:953][751]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 3.242
+[2025.06.11-19.33.00:953][751]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 3.242
+[2025.06.11-19.33.00:954][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI] ([2] browsable assets)...
+[2025.06.11-19.33.00:954][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI]
+[2025.06.11-19.33.00:955][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI_Auto1
+[2025.06.11-19.33.00:955][751]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/BP_CutceneSave_DI_Auto1D3A880934FEE7489EB0FECB44FA8F4E9.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI_Auto1.uasset'
+[2025.06.11-19.33.00:956][751]LogFileHelpers: Auto-saving content packages took 0.002
+[2025.06.11-19.33.26:216][655]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.33.26:266][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.11-19.33.52:967][715]LogViewport: Scene viewport resized to 880x685, mode Windowed.
+[2025.06.11-19.33.53:125][724]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1320.884644
+[2025.06.11-19.33.53:302][741]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.11-19.33.53:302][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1321.051392, Update Interval: 351.404755
+[2025.06.11-19.33.54:363][848]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.33.54:452][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.11-19.34.24:776][937]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.34.24:825][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.06.11-19.35.36:763][ 42]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.35.36:811][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.06.11-19.36.07:503][567]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.36.07:551][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.06.11-19.36.32:659][392]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.36.32:709][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.06.11-19.36.40:613][240]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.36.40:660][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.06.11-19.36.44:165][623]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.36.44:215][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.06.11-19.36.51:931][507]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Core/_AdriaanNewShit/Actors/SaveGameSys/BP_PlayerStart_DI.BP_PlayerStart_DI
+[2025.06.11-19.36.51:931][507]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.36.51:931][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.37.21:002][827]BlueprintLog: New page: Compile BP_PlayerStart_DI
+[2025.06.11-19.37.21:029][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.06.11-19.37.50:069][164]BlueprintLog: New page: Compile BP_PlayerStart_DI
+[2025.06.11-19.37.50:096][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.06.11-19.38.26:750][309]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.38.26:800][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.06.11-19.38.40:033][872]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.38.40:083][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.06.11-19.38.42:839][177]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.06.11-19.38.42:850][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.11-19.38.42:850][177]PIE: New page: PIE session: Island (11 Jun 2025, 23:38:42)
+[2025.06.11-19.38.42:850][177]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2025.06.11-19.38.42:851][177]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.06.11-19.38.42:874][178]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.38.43:499][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.625308s)
+[2025.06.11-19.38.43:499][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.625347s)
+[2025.06.11-19.38.43:516][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.11-19.38.43:520][178]LogBlueprintUserMessages: [BP_Gameinst_DI_C_5] Started Gane ubstbna
+[2025.06.11-19.38.43:520][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.38.43:522][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.38.43:522][178]LogAIModule: Creating AISystem for world Island
+[2025.06.11-19.38.43:523][178]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2025.06.11-19.38.43:523][178]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.11-19.38.43:523][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.11-19.38.43:523][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.11-19.38.43:523][178]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.11-19.38.43:523][178]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.11-19.38.43:523][178]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.11-19.38.43:525][178]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.11-19.38.43:545][178]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core (Wireless) – PS)
+[2025.06.11-19.38.43:545][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.11-19.38.43:545][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.11-19.38.43:545][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.11-19.38.43:546][178]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.06.11-19.38.43:546][178]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.06.11-19.38.43:547][178]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.06.11-19.38.43:547][178]LogInit: FAudioDevice initialized with ID 7.
+[2025.06.11-19.38.43:547][178]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.06.11-19.38.43:547][178]LogAudio: Display: Audio Device (ID: 7) registered with world 'Island'.
+[2025.06.11-19.38.43:547][178]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.06.11-19.38.43:570][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.38.43:574][178]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.06.11-19.38.43:574][178]LogLoad: Game class is 'BP_Gamemode_DI_C'
+[2025.06.11-19.38.43:812][178]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.38.43:814][178]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.06.11-21.38.43
+[2025.06.11-19.38.43:816][178]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.38.43:817][178]LogWorld: Bringing up level for play took: 0.243410
+[2025.06.11-19.38.43:827][178]LogBlueprintUserMessages: [BP_Player_DI_C_0] Location Set New Game
+[2025.06.11-19.38.43:832][178]PIE: Server logged in
+[2025.06.11-19.38.43:835][178]PIE: Play in editor total start time 0.985 seconds.
+[2025.06.11-19.38.43:957][178]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2025.06.11-19.38.52:013][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.38.52:013][632]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.38.52:013][632]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.11-19.38.52:023][632]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.38.52:077][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.38.52:092][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.11-19.38.52:105][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.38.52:187][632]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.38.52:189][632]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.06.11-19.38.52:189][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.06.11-19.38.52:190][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.06.11-19.38.52:249][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2025.06.11-19.38.52:261][632]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.38.52:337][633]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.06.11-19.39.51:916][154]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.39.51:963][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.11-19.39.54:986][486]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.06.11-19.39.54:996][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.11-19.39.54:996][486]PIE: New page: PIE session: Island (11 Jun 2025, 23:39:54)
+[2025.06.11-19.39.54:996][486]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2025.06.11-19.39.54:998][486]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.06.11-19.39.55:022][487]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.39.55:707][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.684667s)
+[2025.06.11-19.39.55:707][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.684706s)
+[2025.06.11-19.39.55:723][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.11-19.39.55:727][487]LogBlueprintUserMessages: [BP_Gameinst_DI_C_6] Started Gane ubstbna
+[2025.06.11-19.39.55:727][487]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.39.55:727][487]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.39.55:727][487]LogAIModule: Creating AISystem for world Island
+[2025.06.11-19.39.55:728][487]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2025.06.11-19.39.55:728][487]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.11-19.39.55:728][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.11-19.39.55:728][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.11-19.39.55:728][487]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.11-19.39.55:728][487]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.11-19.39.55:728][487]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.11-19.39.55:731][487]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.11-19.39.55:750][487]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core (Wireless) – PS)
+[2025.06.11-19.39.55:750][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.11-19.39.55:750][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.11-19.39.55:750][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.11-19.39.55:751][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.06.11-19.39.55:751][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.06.11-19.39.55:752][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.06.11-19.39.55:752][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.06.11-19.39.55:752][487]LogInit: FAudioDevice initialized with ID 8.
+[2025.06.11-19.39.55:752][487]LogAudio: Display: Audio Device (ID: 8) registered with world 'Island'.
+[2025.06.11-19.39.55:752][487]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.06.11-19.39.55:772][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.39.55:775][487]LogLoad: Game class is 'BP_Gamemode_DI_C'
+[2025.06.11-19.39.56:000][487]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.39.56:002][487]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.06.11-21.39.56
+[2025.06.11-19.39.56:003][487]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.39.56:005][487]LogWorld: Bringing up level for play took: 0.229505
+[2025.06.11-19.39.56:014][487]LogBlueprintUserMessages: [BP_Player_DI_C_0] Location Set New Game
+[2025.06.11-19.39.56:018][487]PIE: Server logged in
+[2025.06.11-19.39.56:022][487]PIE: Play in editor total start time 1.026 seconds.
+[2025.06.11-19.39.56:143][487]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2025.06.11-19.39.59:074][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.39.59:074][646]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.39.59:074][646]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.11-19.39.59:085][646]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.39.59:136][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.39.59:152][646]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.11-19.39.59:165][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.39.59:238][646]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.39.59:240][646]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.06.11-19.39.59:240][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.06.11-19.39.59:242][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.06.11-19.39.59:309][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2025.06.11-19.39.59:322][646]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.39.59:398][647]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.06.11-19.40.00:128][724]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.06.11-19.40.00:138][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.11-19.40.00:138][724]PIE: New page: PIE session: Island (11 Jun 2025, 23:40:00)
+[2025.06.11-19.40.00:138][724]LogPlayLevel: Display: Creating online subsystem for client :Context_34
+[2025.06.11-19.40.00:141][724]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.06.11-19.40.00:165][725]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.40.00:781][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.616738s)
+[2025.06.11-19.40.00:781][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.616779s)
+[2025.06.11-19.40.00:793][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.06.11-19.40.00:798][725]LogBlueprintUserMessages: [BP_Gameinst_DI_C_7] Started Gane ubstbna
+[2025.06.11-19.40.00:798][725]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.40.00:798][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.40.00:798][725]LogAIModule: Creating AISystem for world Island
+[2025.06.11-19.40.00:800][725]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2025.06.11-19.40.00:800][725]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.11-19.40.00:800][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.11-19.40.00:800][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.11-19.40.00:800][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.11-19.40.00:800][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.11-19.40.00:800][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.11-19.40.00:802][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.11-19.40.00:820][725]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core (Wireless) – PS)
+[2025.06.11-19.40.00:821][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.11-19.40.00:821][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.11-19.40.00:821][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.11-19.40.00:821][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.06.11-19.40.00:821][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.06.11-19.40.00:822][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.06.11-19.40.00:822][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.06.11-19.40.00:822][725]LogInit: FAudioDevice initialized with ID 9.
+[2025.06.11-19.40.00:822][725]LogAudio: Display: Audio Device (ID: 9) registered with world 'Island'.
+[2025.06.11-19.40.00:822][725]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.06.11-19.40.00:842][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.40.00:845][725]LogConsoleVariablesEditor: Display: FConsoleVariablesEditorModule::SendMultiUserConsoleVariableChange: Play In Editor is about to start or has started; Multi-User Cvar sync is suspended during PIE.
+[2025.06.11-19.40.00:845][725]LogLoad: Game class is 'BP_Gamemode_DI_C'
+[2025.06.11-19.40.01:073][725]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.01:075][725]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.06.11-21.40.01
+[2025.06.11-19.40.01:077][725]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.40.01:078][725]LogWorld: Bringing up level for play took: 0.232420
+[2025.06.11-19.40.01:088][725]LogBlueprintUserMessages: [BP_Player_DI_C_0] Location Set New Game
+[2025.06.11-19.40.01:093][725]PIE: Server logged in
+[2025.06.11-19.40.01:096][725]PIE: Play in editor total start time 0.958 seconds.
+[2025.06.11-19.40.01:224][725]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2025.06.11-19.40.10:835][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_0, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:837][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:840][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_2, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:842][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_3, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:843][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_0, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:844][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_4, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:845][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:846][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFemale_C_5, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:846][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_2, they are designed to work with AAIControllers!
+[2025.06.11-19.40.10:847][239]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_KronenFast_C_3, they are designed to work with AAIControllers!
+[2025.06.11-19.40.12:398][309]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1700.154785
+[2025.06.11-19.40.12:534][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.40.12:534][313]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.40.12:535][313]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.11-19.40.12:545][313]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.40.12:598][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.40.12:614][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.11-19.40.12:627][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.40.12:694][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.40.12:696][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.06.11-19.40.12:696][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.06.11-19.40.12:698][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.06.11-19.40.12:778][313]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2025.06.11-19.40.12:789][313]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.40.12:866][314]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.06.11-19.40.12:909][315]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.11-19.40.12:909][315]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1700.608521, Update Interval: 315.359344
+[2025.06.11-19.40.13:643][396]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.06.11-19.40.13:652][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.11-19.40.13:652][396]PIE: New page: PIE session: Island (11 Jun 2025, 23:40:13)
+[2025.06.11-19.40.13:652][396]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2025.06.11-19.40.13:654][396]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.06.11-19.40.13:677][397]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.40.14:308][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.631527s)
+[2025.06.11-19.40.14:308][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.631569s)
+[2025.06.11-19.40.14:323][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.11-19.40.14:328][397]LogBlueprintUserMessages: [BP_Gameinst_DI_C_8] Started Gane ubstbna
+[2025.06.11-19.40.14:328][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.40.14:328][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.40.14:328][397]LogAIModule: Creating AISystem for world Island
+[2025.06.11-19.40.14:330][397]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2025.06.11-19.40.14:330][397]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.11-19.40.14:330][397]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.11-19.40.14:330][397]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.11-19.40.14:330][397]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.11-19.40.14:330][397]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.11-19.40.14:330][397]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.11-19.40.14:332][397]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.11-19.40.14:351][397]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core (Wireless) – PS)
+[2025.06.11-19.40.14:351][397]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.11-19.40.14:351][397]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.11-19.40.14:351][397]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.11-19.40.14:351][397]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.06.11-19.40.14:351][397]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.06.11-19.40.14:352][397]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.06.11-19.40.14:353][397]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.06.11-19.40.14:353][397]LogInit: FAudioDevice initialized with ID 10.
+[2025.06.11-19.40.14:353][397]LogAudio: Display: Audio Device (ID: 10) registered with world 'Island'.
+[2025.06.11-19.40.14:353][397]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.06.11-19.40.14:374][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.40.14:377][397]LogLoad: Game class is 'BP_Gamemode_DI_C'
+[2025.06.11-19.40.14:610][397]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.14:612][397]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.06.11-21.40.14
+[2025.06.11-19.40.14:614][397]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.40.14:615][397]LogWorld: Bringing up level for play took: 0.237695
+[2025.06.11-19.40.14:625][397]LogBlueprintUserMessages: [BP_Player_DI_C_0] Location Set New Game
+[2025.06.11-19.40.14:630][397]PIE: Server logged in
+[2025.06.11-19.40.14:631][397]PIE: Play in editor total start time 0.979 seconds.
+[2025.06.11-19.40.14:752][397]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2025.06.11-19.40.18:235][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.40.18:235][591]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.40.18:235][591]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.11-19.40.18:246][591]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.40.18:296][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.40.18:312][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.11-19.40.18:326][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.40.18:407][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.40.18:408][591]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.06.11-19.40.18:408][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.06.11-19.40.18:411][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.06.11-19.40.18:475][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.06.11-19.40.18:487][591]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.40.18:567][592]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.06.11-19.40.56:483][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.40.56:622][638]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.56:723][638]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Warning: SymLoadModuleExW. Error: 6
+[2025.06.11-19.40.57:596][638]LogWindows: Error: === Critical error: ===
+[2025.06.11-19.40.57:596][638]LogWindows: Error: 
+[2025.06.11-19.40.57:596][638]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000010
+[2025.06.11-19.40.57:596][638]LogWindows: Error: 
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa009e1804 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9a38e6fe6 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9a38e6db3 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9a39531c0 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffd01803 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffd06ff1 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffd683fb UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9a39d0ece UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffc3fc2d UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffc98a7c UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff9ffc8bfcf UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa104a79f1 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa1048b83f UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa104aab29 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa104832e3 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa56f6e83a UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa56f8ccb2 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa104ac226 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff7681e76f2 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff76820d28c UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff76820d37a UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff768210854 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff768226984 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ff768229d7a UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: [Callstack] 0x00007ffa5649e8d7 UnknownFunction []
+[2025.06.11-19.40.57:596][638]LogWindows: Error: 
+[2025.06.11-19.40.57:605][638]LogExit: Executing StaticShutdownAfterError
+[2025.06.11-19.40.57:609][638]LogWindows: FPlatformMisc::RequestExit(1, LaunchWindowsStartup.ExceptionHandler)
+[2025.06.11-19.40.57:609][638]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, LaunchWindowsStartup.ExceptionHandler)
+[2025.06.11-19.40.57:609][638]LogCore: Engine exit requested (reason: Win RequestExit)
