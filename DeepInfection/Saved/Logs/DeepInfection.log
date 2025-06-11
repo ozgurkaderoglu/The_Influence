@@ -2152,3 +2152,119 @@ Script Stack (0 frames) :
 [2025.06.11-19.22.17:149][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 236 ms)
 [2025.06.11-19.22.17:151][868]AssetCheck: New page: Asset Save: CutceneLoaderChar
 [2025.06.11-19.22.17:151][868]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_GameCore/Cutcene/CutceneLoaderChar.CutceneLoaderChar
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: ================================================
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: Total job queries 3,048, among them cache hits 2,317 (76.02%)
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: Tracking 731 distinct input hashes that result in 264 distinct outputs (36.11%)
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: RAM used: 15.42 MiB of 1.60 GiB budget. Usage: 0.94%
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.06.11-19.22.55:605][ 56]LogShaderCompilers: Display: ================================================
+[2025.06.11-19.23.04:218][753]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.978027
+[2025.06.11-19.23.04:387][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.11-19.23.04:387][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 672.138367, Update Interval: 322.528137
+[2025.06.11-19.25.53:132][468]BlueprintLog: New page: Compile BP_Player_DI
+[2025.06.11-19.25.53:181][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.06.11-19.25.54:293][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.11-19.25.54:385][581]LogSavePackage: Moving output files for package: /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI
+[2025.06.11-19.25.54:386][581]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/BP_Player_DI682AE3B2409B4AB9B97F80911BD42CC2.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Core/_AdriaanNewShit/Player/BP_Player_DI.uasset'
+[2025.06.11-19.25.54:397][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 341 ms)
+[2025.06.11-19.25.54:401][581]AssetCheck: New page: Asset Save: BP_Player_DI
+[2025.06.11-19.25.54:401][581]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI
+[2025.06.11-19.26.56:217][764]BlueprintLog: New page: Compile CutceneLoaderChar
+[2025.06.11-19.26.56:242][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.06.11-19.27.08:342][191]BlueprintLog: New page: Compile CutceneLoaderChar
+[2025.06.11-19.27.08:367][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.11-19.27.09:937][364]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.06.11-19.27.09:947][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.11-19.27.09:947][364]PIE: New page: PIE session: Island (11 Jun 2025, 23:27:09)
+[2025.06.11-19.27.09:947][364]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2025.06.11-19.27.09:949][364]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.06.11-19.27.09:973][365]LogPlayLevel: Creating play world package: /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.27.10:620][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.647270s)
+[2025.06.11-19.27.10:620][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Level/Island.Island to /Game/_Level/UEDPIE_0_Island.Island (0.647306s)
+[2025.06.11-19.27.10:636][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.06.11-19.27.10:640][365]LogBlueprintUserMessages: [BP_Gameinst_DI_C_4] Started Gane ubstbna
+[2025.06.11-19.27.10:640][365]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.27.10:640][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.27.10:640][365]LogAIModule: Creating AISystem for world Island
+[2025.06.11-19.27.10:642][365]LogPlayLevel: PIE: World Init took: (0.001563s)
+[2025.06.11-19.27.10:643][365]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.11-19.27.10:643][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.11-19.27.10:643][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.11-19.27.10:643][365]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.11-19.27.10:643][365]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.11-19.27.10:643][365]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.11-19.27.10:645][365]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.11-19.27.10:665][365]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core (Wireless) – PS)
+[2025.06.11-19.27.10:665][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.11-19.27.10:665][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.11-19.27.10:665][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.11-19.27.10:666][365]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.06.11-19.27.10:666][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.06.11-19.27.10:667][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.06.11-19.27.10:667][365]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.06.11-19.27.10:667][365]LogInit: FAudioDevice initialized with ID 6.
+[2025.06.11-19.27.10:667][365]LogAudio: Display: Audio Device (ID: 6) registered with world 'Island'.
+[2025.06.11-19.27.10:667][365]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.06.11-19.27.10:688][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.27.10:693][365]LogLoad: Game class is 'BP_Gamemode_DI_C'
+[2025.06.11-19.27.10:932][365]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.27.10:933][365]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2025.06.11-21.27.10
+[2025.06.11-19.27.10:935][365]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.27.10:936][365]LogWorld: Bringing up level for play took: 0.243550
+[2025.06.11-19.27.10:950][365]PIE: Server logged in
+[2025.06.11-19.27.10:954][365]PIE: Play in editor total start time 1.006 seconds.
+[2025.06.11-19.27.11:073][365]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2025.06.11-19.27.17:482][719]LogNet: Browse: /Game/_Level/Cutscenes
+[2025.06.11-19.27.17:482][719]LogLoad: LoadMap: /Game/_Level/Cutscenes
+[2025.06.11-19.27.17:482][719]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Island
+[2025.06.11-19.27.17:485][719]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.27.17:537][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.27.17:597][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.27.17:728][719]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2025.06.11-19.27.19:185][719]LogAudio: Display: Audio Device (ID: 6) registered with world 'Cutscenes'.
+[2025.06.11-19.27.19:185][719]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.11-19.27.19:185][719]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.11-19.27.19:185][719]LogAIModule: Creating AISystem for world Cutscenes
+[2025.06.11-19.27.19:186][719]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2025.06.11-19.27.19:186][719]LogLoad: Game class is 'Demo_C'
+[2025.06.11-19.27.19:513][719]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.27.19:809][719]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_Charger_C_1, they are designed to work with AAIControllers!
+[2025.06.11-19.27.19:811][719]LogWorld: Bringing World /Game/_Level/UEDPIE_0_Cutscenes.Cutscenes up for play (max tick rate 0) at 2025.06.11-21.27.19
+[2025.06.11-19.27.19:814][719]LogWorld: Bringing up level for play took: 0.626986
+[2025.06.11-19.27.19:823][719]LogBlueprintUserMessages: [CutceneLoaderChar_C_0] Hello
+[2025.06.11-19.27.19:824][719]LogLevelSequence: Starting new camera cut: 'Cine_Camera_Actor_1'
+[2025.06.11-19.27.19:833][719]LogBlueprintUserMessages: [CutceneLoaderChar_C_0] false
+[2025.06.11-19.27.19:833][719]LogLoad: Took 2.350183 seconds to LoadMap(/Game/_Level/Cutscenes)
+[2025.06.11-19.27.32:608][506]LogLevelSequence: Starting new camera cut: 'Cine_Camera_Actor_(2)_3'
+[2025.06.11-19.27.48:193][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.11-19.27.48:193][350]LogWorld: BeginTearingDown for /Game/_Level/UEDPIE_0_Cutscenes
+[2025.06.11-19.27.48:193][350]LogSlate: Window 'Deep Infection Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.11-19.27.48:203][350]LogWorld: UWorld::CleanupWorld for Cutscenes, bSessionEnded=true, bCleanupResources=true
+[2025.06.11-19.27.48:253][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.27.48:260][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.11-19.27.48:272][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.11-19.27.48:338][350]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.11-19.27.48:346][350]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.06.11-19.27.48:346][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.06.11-19.27.48:348][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.06.11-19.27.48:444][350]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2025.06.11-19.27.48:464][350]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
+[2025.06.11-19.27.48:493][351]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.06.11-19.27.58:058][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.11-19.27.58:067][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.11-19.27.58:107][475]LogSavePackage: Moving output files for package: /Game/_Core/_GameCore/Cutcene/CutceneLoaderChar
+[2025.06.11-19.27.58:107][475]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/CutceneLoaderChar2DD69B6D4D895F606890DB92155C72C2.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Core/_GameCore/Cutcene/CutceneLoaderChar.uasset'
+[2025.06.11-19.27.58:115][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 390 ms)
+[2025.06.11-19.27.58:119][475]AssetCheck: New page: Asset Save: CutceneLoaderChar
+[2025.06.11-19.27.58:119][475]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_GameCore/Cutcene/CutceneLoaderChar.CutceneLoaderChar
+[2025.06.11-19.28.06:603][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
