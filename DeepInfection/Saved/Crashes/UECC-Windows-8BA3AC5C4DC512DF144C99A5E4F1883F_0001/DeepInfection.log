@@ -1575,27 +1575,3 @@ Make sure 'BP_CutceneSave_DI_C' has been compiled for  Set Struct_Save
 [2025.06.11-19.05.25:898][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.06.11-19.05.26:279][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
 [2025.06.11-19.05.26:298][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2025.06.11-19.05.27:537][ 58]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
-[2025.06.11-19.05.27:661][ 58]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.124084s
-[2025.06.11-19.05.27:938][ 58]LogAudio: Display: Audio Device (ID: 1) registered with world 'Cutscenes'.
-[2025.06.11-19.05.27:938][ 58]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
-[2025.06.11-19.05.27:938][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2025.06.11-19.05.27:939][ 58]LogAIModule: Creating AISystem for world Cutscenes
-[2025.06.11-19.05.28:853][ 58]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2025.06.11-19.05.28:973][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
-[2025.06.11-19.05.28:985][ 58]Cmd: MAP CHECKDEP NOCLEARLOG
-[2025.06.11-19.05.28:985][ 58]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.297ms to complete.
-[2025.06.11-19.05.28:991][ 58]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 3.460756s (1.460756s overbudget)
-[2025.06.11-19.05.28:995][ 58]AssetCheck: New page: Asset Save: multiple assets
-[2025.06.11-19.05.28:995][ 58]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/SaveSystems/CutceneSaveSystem/BP_CutceneSave_DI.BP_CutceneSave_DI
-[2025.06.11-19.05.28:995][ 58]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: ================================================
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: === FShaderJobCache stats ===
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: Total job queries 3,006, among them cache hits 2,305 (76.68%)
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: Tracking 701 distinct input hashes that result in 243 distinct outputs (34.66%)
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: RAM used: 14.69 MiB of 1.60 GiB budget. Usage: 0.90%
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: === Shader Compilation stats ===
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: Shaders Compiled: 0
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
-[2025.06.11-19.05.29:599][ 58]LogShaderCompilers: Display: ================================================
