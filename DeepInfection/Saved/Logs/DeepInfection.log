@@ -1632,3 +1632,65 @@ Script Stack (0 frames) :
 [2025.06.22-12.05.29:306][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
 [2025.06.22-12.05.37:320][429]BlueprintLog: New page: Compile SaveLocationPoint
 [2025.06.22-12.05.37:342][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.06.22-12.09.06:142][165]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8989.179688
+[2025.06.22-12.09.06:283][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.09.06:283][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8989.315430, Update Interval: 352.038330
+[2025.06.22-12.14.39:578][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.22-12.14.39:583][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Level/Island' took 0.019
+[2025.06.22-12.14.39:584][123]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Core/_AdriaanNewShit/Player/BP_Player_DI] ([2] browsable assets)...
+[2025.06.22-12.14.39:622][123]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI]
+[2025.06.22-12.14.39:622][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_AdriaanNewShit/Player/BP_Player_DI]
+[2025.06.22-12.14.39:654][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_AdriaanNewShit/Player/BP_Player_DI_Auto1
+[2025.06.22-12.14.39:654][123]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/BP_Player_DI_Auto1BDD0D713497727E57600D4B272B71CAF.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_AdriaanNewShit/Player/BP_Player_DI_Auto1.uasset'
+[2025.06.22-12.14.39:655][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint] ([2] browsable assets)...
+[2025.06.22-12.14.39:656][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint]
+[2025.06.22-12.14.39:658][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint_Auto1
+[2025.06.22-12.14.39:658][123]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/SaveLocationPoint_Auto1C1591A5F4C5CD67C368603ADC56DFE05.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Autosaves/Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint_Auto1.uasset'
+[2025.06.22-12.14.39:660][123]LogFileHelpers: Auto-saving content packages took 0.076
+[2025.06.22-12.15.50:960][675]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9394.208984
+[2025.06.22-12.15.51:091][691]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.15.51:091][691]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9394.333984, Update Interval: 311.308929
+[2025.06.22-12.21.50:140][765]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9753.542969
+[2025.06.22-12.21.50:290][783]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.21.50:290][783]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9753.683594, Update Interval: 346.160461
+[2025.06.22-12.28.28:026][498]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10151.418945
+[2025.06.22-12.28.28:169][515]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.28.28:169][515]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10151.552734, Update Interval: 349.275177
+[2025.06.22-12.34.58:394][327]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10541.960938
+[2025.06.22-12.34.58:526][343]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.34.58:526][343]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10542.084961, Update Interval: 313.502625
+[2025.06.22-12.41.05:520][366]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10908.998047
+[2025.06.22-12.41.05:888][410]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.41.05:888][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10909.357422, Update Interval: 357.996765
+[2025.06.22-12.41.32:505][602]LogDerivedDataCache: C:/Users/bhdli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.063 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9916 files in 11477 folders with total size 101 MiB.
+[2025.06.22-12.47.47:593][598]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11311.151367
+[2025.06.22-12.47.47:718][613]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.47.47:718][613]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11311.268555, Update Interval: 341.273224
+[2025.06.22-12.54.19:737][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11703.440430
+[2025.06.22-12.54.20:736][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-12.54.20:736][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11704.107422, Update Interval: 320.620148
+[2025.06.22-13.00.40:793][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12084.483398
+[2025.06.22-13.00.41:792][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.22-13.00.41:792][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12085.150391, Update Interval: 322.150940
+[2025.06.22-13.02.54:157][749]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PG27F15RS1A (NVIDIA High Definition Audio), InstanceID=1
+[2025.06.22-13.02.54:480][749]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24948
+[2025.06.22-13.02.54:816][750]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f81fd97f-b7ba-4adc-a469-3957ea05892a}, Name=PG27F15RS1A (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=11.86
+[2025.06.22-13.02.54:816][750]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.06.22-13.02.54:817][750]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.22-13.05.14:730][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.06.22-13.05.14:735][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.22-13.05.14:792][273]LogSavePackage: Moving output files for package: /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI
+[2025.06.22-13.05.14:793][273]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/BP_Player_DI006B937242BC7574A0FB7D98B1788727.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Core/_AdriaanNewShit/Player/BP_Player_DI.uasset'
+[2025.06.22-13.05.14:797][273]LogSavePackage: Moving output files for package: /Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint
+[2025.06.22-13.05.14:797][273]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/SaveLocationPoint39808C184F5FD94280909BAA3A983ED3.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint.uasset'
+[2025.06.22-13.05.14:803][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 244 ms)
+[2025.06.22-13.05.14:805][273]AssetCheck: New page: Asset Save: multiple assets
+[2025.06.22-13.05.14:805][273]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI
+[2025.06.22-13.05.14:806][273]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint.SaveLocationPoint
+[2025.06.22-13.05.16:246][438]LogSlate: Window 'BP_Player_DI' being destroyed
+[2025.06.22-13.05.16:251][438]LogSlate: Window 'BP_Player_DI' being destroyed
+[2025.06.22-13.05.16:255][438]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.06.22-13.05.16:255][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.22-13.05.16:277][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.06.22-13.05.16:277][438]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.06.22-13.05.16:277][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
