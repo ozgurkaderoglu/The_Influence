@@ -1628,3 +1628,7 @@ Script Stack (0 frames) :
 [2025.06.22-12.04.34:390][734]AssetCheck: New page: Asset Save: multiple assets
 [2025.06.22-12.04.34:390][734]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/Player/BP_Player_DI.BP_Player_DI
 [2025.06.22-12.04.34:391][734]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Core/_AdriaanNewShit/SaveSystems/SaveSystem/SaveLocationPoint.SaveLocationPoint
+[2025.06.22-12.05.29:285][501]BlueprintLog: New page: Compile SaveLocationPoint
+[2025.06.22-12.05.29:306][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.06.22-12.05.37:320][429]BlueprintLog: New page: Compile SaveLocationPoint
+[2025.06.22-12.05.37:342][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
