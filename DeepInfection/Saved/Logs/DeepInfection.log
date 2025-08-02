@@ -6231,3 +6231,76 @@ Script Stack (0 frames) :
 [2025.08.01-17.43.17:650][560]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
 [2025.08.01-17.43.17:667][560]LogAudio: Warning: 'Can Play Multiple Instances' disabled: Sound 'Owls_hooting_sounds-higher_quality2_SoundCue' set to looping
 [2025.08.01-17.43.17:749][561]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.08.01-17.44.07:268][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2025.08.01-17.44.08:980][ 46]LogSlate: Window 'Save Content' being destroyed
+[2025.08.01-17.44.09:015][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.44.09:286][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Level/Island" FILE="../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.01-17.44.09:325][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.08.01-17.44.13:340][ 46]LogSavePackage: Moving output files for package: /Game/_Level/Island
+[2025.08.01-17.44.13:341][ 46]LogSavePackage: Moving '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Saved/Island508E37ED429CDE5D57EFE1A6F49D88D6.tmp' to '../../../../../../Users/bhdli/Documents/GitHub/The_Influence/DeepInfection/Content/_Level/Island.umap'
+[2025.08.01-17.44.13:402][ 46]LogFileHelpers: Saving map 'Island' took 4.123
+[2025.08.01-17.44.13:406][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.39 sec (total: 4.54 sec)
+[2025.08.01-17.44.13:406][ 46]LogStall: Shutdown...
+[2025.08.01-17.44.13:412][ 46]LogStall: Shutdown complete.
+[2025.08.01-17.44.13:442][ 46]LogSlate: Window 'CutceneLoaderChar' being destroyed
+[2025.08.01-17.44.13:490][ 46]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.44.13:490][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.44.13:542][ 46]LogSlate: Window 'Content Browser 2' being destroyed
+[2025.08.01-17.44.13:558][ 46]LogSlate: Window 'DeepInfection - Unreal Editor' being destroyed
+[2025.08.01-17.44.13:558][ 46]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.08.01-17.44.13:658][ 46]AssetCheck: New page: Asset Save: Island
+[2025.08.01-17.44.13:658][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Level/Island.Island
+[2025.08.01-17.44.13:668][ 46]LogAutomationController: Ignoring very large delta of 6.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.01-17.44.13:672][ 47]Cmd: QUIT_EDITOR
+[2025.08.01-17.44.13:672][ 47]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.08.01-17.44.13:680][ 47]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.01-17.44.13:681][ 47]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.01-17.44.13:681][ 47]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.01-17.44.13:780][ 47]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.44.13:783][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.44.13:801][ 47]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.08.01-17.44.14:826][ 47]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.01-17.44.14:826][ 47]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.01-17.44.14:827][ 47]LogAudio: Display: Audio Device unregistered from world 'Island'.
+[2025.08.01-17.44.14:827][ 47]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2025.08.01-17.44.14:827][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.08.01-17.44.14:828][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.08.01-17.44.14:832][ 47]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.01-17.44.14:843][ 47]LogExit: Preparing to exit.
+[2025.08.01-17.44.14:885][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.14:903][ 47]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.44.15:311][ 47]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.44.15:314][ 47]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.44.15:566][ 47]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.01-17.44.15:599][ 47]LogExit: Editor shut down
+[2025.08.01-17.44.15:602][ 47]LogExit: Transaction tracking system shut down
+[2025.08.01-17.44.15:720][ 47]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2025.08.01-17.44.17:997][ 47]LogWindows: Error: === Critical error: ===
+[2025.08.01-17.44.17:997][ 47]LogWindows: Error: 
+[2025.08.01-17.44.17:997][ 47]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x0000000000000000
+[2025.08.01-17.44.17:997][ 47]LogWindows: Error: 
+[2025.08.01-17.44.17:997][ 47]LogWindows: Error: 
+[2025.08.01-17.44.18:009][ 47]LogExit: Executing StaticShutdownAfterError
+[2025.08.01-17.44.18:011][ 47]LogWindows: FPlatformMisc::RequestExit(1, LaunchWindowsStartup.ExceptionHandler)
+[2025.08.01-17.44.18:011][ 47]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, LaunchWindowsStartup.ExceptionHandler)
+[2025.08.01-17.44.18:011][ 47]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
